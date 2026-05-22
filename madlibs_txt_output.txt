@@ -1,0 +1,2 @@
+The test panda walked to the a and then b. A nearby c was
+unaffected by these events.
