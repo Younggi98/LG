@@ -295,7 +295,8 @@ def process_batch(models_batch):
 
 def main():
     CHUNK_SIZE = 30
-
+    start_time = time.perf_counter()
+    
     for i, batch in enumerate(chunk_list(MODELS, CHUNK_SIZE)):
         print(f"\n--- Session {i+1} ---\n")
 
@@ -310,6 +311,10 @@ def main():
         df = pd.DataFrame(SCRAPED_DATA)
         df.to_excel(writer, index=False)
     print(f"\n📂 Scraping completed: {scraped_file}")
+
+    end_time = time.perf_counter()
+    duration = end_time - start_time
+    print(f"{model} took {duration:.2f} seconds")
 
 #run the main function
 if __name__ == "__main__":
