@@ -16,38 +16,6 @@ from selenium_stealth import stealth
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-def get_browser(user_agent = None):
-    options = Options()
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("useAutomationExtension", False)
-    
-    # Set the user agent if provided (rotation)
-    if user_agent:
-        options.add_argument(f"--user-agent={user_agent}")
-    
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options) #Opens Chrome
-
-    # make it slient so that it won't show "Chrome is being controlled by automated test software"
-    stealth(
-        driver,
-        user_agent = user_agent or "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-        languages= ["nl-NL", "nl"], 
-        vendor="Google Inc.",
-        platform="Win32",
-        webgl_vendor="Intel Inc.",
-        renderer="Intel Iris OpenGL Engine",
-        fix_hairline=True,
-        run_on_insecure_origins= False,
-    )
-
-    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-        "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    })
-
-    return driver
-
 # List of example User-Agents for rotation (add more as needed)
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
@@ -147,7 +115,50 @@ SCRAPED_DATA = []
 
 cool_blue_url = 'https://www.coolblue.nl'
 
-# random scroll function to mimic human behavior
+""" 
+Functions setup the browser with stealth settings to avoid detection
+"""
+
+def get_browser(user_agent = None):
+    options = Options()
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("useAutomationExtension", False)
+    
+    # Set the user agent if provided (rotation)
+    if user_agent:
+        options.add_argument(f"--user-agent={user_agent}")
+    
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options) #Opens Chrome
+
+    # make it slient so that it won't show "Chrome is being controlled by automated test software"
+    stealth(
+        driver,
+        user_agent = user_agent or "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        languages= ["nl-NL", "nl"], 
+        vendor="Google Inc.",
+        platform="Win32",
+        webgl_vendor="Intel Inc.",
+        renderer="Intel Iris OpenGL Engine",
+        fix_hairline=True,
+        run_on_insecure_origins= False,
+    )
+
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+        "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    })
+
+    return driver
+
+""" 
+Functions to mimic human behavior and interaction patterns
+- random scrolling
+- human typing
+- retry logic
+- cookie acceptance handling
+"""
+# random  function to mimic human behavior
 def random_scroll(driver):
     # perform a few short scrolls to mimic reading
     for _ in range(random.randint(2, 5)):
@@ -206,6 +217,8 @@ def find_with_retries(find_func, attempts=3, delay=2):
             time.sleep(delay * (attempt + 1))
     raise last_exc
 
+
+
 # utility function to chunk the list of models into batches for processing
 def chunk_list (data, chunk_size):
     """Yield successive chunk_size chunks from data."""
@@ -215,13 +228,13 @@ def chunk_list (data, chunk_size):
 # scrap models function
 def scrape_model(driver, models,scraped_data):
      
-    model_url = f'https://www.coolblue.nl/zoeken?query={models}'
+    #model_url = f'https://www.coolblue.nl/zoeken?query={models}'
     # print(f"Searching: {models}\n")
     # print(f"Model: {models} | URL: {model_url}")
     #driver.get(model_url)
 
-    product_id = "Unknown"
-    price = "Unknown"
+    #product_id = " "
+    price = " "
 
     time.sleep(1)
     search_model(driver, models)
@@ -246,7 +259,7 @@ def scrape_model(driver, models,scraped_data):
         else:
             if data_str and data_str.strip():
                 product_data = json.loads(data_str)
-                price = product_data.get("price", "Unknown")
+                price = product_data.get("price", " ")
 
     except NoSuchElementException:
         print("Element not found on page \n")
@@ -256,9 +269,10 @@ def scrape_model(driver, models,scraped_data):
         scraped_data.append({
             "model": models,
             "price": price,
-            "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
         })
 
+#starting the scraping process with batch processing and session management
 def process_batch(models_batch):    
     # Choose a random UA and recreate the browser with it
     chosen_ua = random.choice(USER_AGENTS)
@@ -268,9 +282,10 @@ def process_batch(models_batch):
     for attempt in range(3):
         try:
             driver.get("https://www.google.com")  # Start with a neutral page to establish session
-            time.sleep(random.uniform(1.5, 2))  # Random delay to mimic human behavior
+            time.sleep(random.uniform(1.5, 2))  
+
             driver.get(cool_blue_url)
-            time.sleep(random.uniform(2, 3))  # Random delay to mimic human behavior
+            time.sleep(random.uniform(2, 3))  
             accept_cookies(driver)
 
             # Randomly scroll 
@@ -285,7 +300,9 @@ def process_batch(models_batch):
     try:
         for model in models_batch:
             start_time = time.perf_counter()
+
             scrape_model(driver, model, SCRAPED_DATA)
+
             end_time = time.perf_counter()
             duration = end_time - start_time
             print(f"{model} took {duration:.2f} seconds")
@@ -314,7 +331,7 @@ def main():
 
     end_time = time.perf_counter()
     duration = end_time - start_time
-    print(f"{model} took {duration:.2f} seconds")
+    print(f"Total scraping time: {duration:.2f} seconds")
 
 #run the main function
 if __name__ == "__main__":
