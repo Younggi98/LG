@@ -1,0 +1,51 @@
+1. Cookie accpet 
+- location of the cookie accept button
+
+2. process batch
+- URLs
+
+3. search model
+- location of the search box
+
+4. scrape_model
+- Logic
+
+- identify no product  
+- identify correct product
+- title
+- price
+
+
+Coolblue :
+1. driver.find_element(By.CSS_SELECTOR, "button[name='accept_cookie']").click()
+2. 'https://www.coolblue.nl'
+3. driver.find_element(By.NAME, "query")
+4. 
+Logic -
+Check if there is serached item, 
+yes -> match name -> yes -> output
+                     no -> skip
+No -> return no such element
+
+price = driver.find_element(By.CSS_SELECTOR, "[data-atc-product-data]")
+title = driver.find_element(By.CSS_SELECTOR, ".product-card__title a.link[title]")
+
+Mediamarkt :
+1. driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()
+2. "https://www.mediamarkt.nl/"
+3. driver.find_element(By.ID, "search-form") #- media markt
+4. 
+Logic - 
+search item -> Found? 
+check if it contain assertive
+yes -> skip
+else -> match name -> yes -> output 
+                     no -> skip
+
+title = product.find_element(By.CSS_SELECTOR, '[data-test="product-title"]').text
+price = product.find_element(By.CSS_SELECTOR, '[data-test="mms-price"] span').text
+
+
+Expert :
+has bot detection
+
