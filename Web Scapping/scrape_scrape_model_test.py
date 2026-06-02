@@ -1,3 +1,5 @@
+from asyncio import wait
+from email.mime import text
 from itertools import product
 import json
 from pyexpat import model
@@ -16,7 +18,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium_stealth import stealth
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
+import re
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -36,7 +38,8 @@ MODELS = [
    
     "GBG5160CEV"
 ]
-bol_url = "https://www.bol.com/nl"
+obs_url = "https://www.lg.com/nl/"
+obs_search_url = "https://www.lg.com/nl/search/?tab=product"
 
 
 def human_typing(element, text):
@@ -99,7 +102,9 @@ def search_model(driver, model):
         #search_box = driver.find_element(By.NAME, "query") - Coolblue
         #search_box = driver.find_element(By.ID, "search-form") #- media markt
         #search_box = driver.find_element(By.NAME, "query") # - expert.com
-        search_box = driver.find_element(By.ID, "searchfor") #- bol.com
+        #search_box = driver.find_element(By.ID, "searchfor") #- bol.com
+
+        search_box = driver.find_element(By.ID, "searchbox") #- lg.com
 
         # click into it
         search_box.click()
@@ -130,62 +135,55 @@ def scrape_model(driver, models):
     # if driver.find_elements(By.CSS_SELECTOR, '[aria-live = "assertive"]'):
     #     print(f"No results found for model {models} \n")
     #     return
-    
-    try:
-        #product_data_div = driver.find_element(By.CSS_SELECTOR, "[data-atc-product-data]")
-        #title_link = driver.find_element(By.CSS_SELECTOR, ".product-card__title a.link[title]")
-        #data_str = product_data_div.get_attribute("data-atc-product-data")
-        #product_title = title_link.get_attribute("title")
+    wait = WebDriverWait(driver, 10)
+    results = []
+    try :
+        products = wait.until(EC.presence_of_all_elements_located(
+            (By.CSS_SELECTOR, "li.c-product-list__item")
+        ))
+
+        for product in products:
+            try :
+                title = product.find_element(By.CSS_SELECTOR, ".c-product_item_sku-copy").text
+                price = product.find_element(By.CSS_SELECTOR, ".cell-price").text
+                results.append((title, price))
+                print(f"Add - Product: {title} | Price: {price}")
+            except:
+                print("Price or title not found for a product, skipping...")
+                continue
+
+        for r in results:
+            print(f"Product: {r[0]} | Price: {r[1]}")
+
+    # try:
+
+    #     # title = driver.find_element(By.XPATH, "//h2").text
+    #     # price_element = wait.until(EC.presence_of_element_located(
+    #     #     (By.XPATH, "//span[contains(text(),'De prijs van dit product')]")
+    #     # ))
+    #     # price_text = price_element.get_attribute("textContent")
+    #     # price = price_text.split("'")[1] + "." + price_text.split("'")[3]
+
+
+    #     # # if title doesnt match with model, flag it and skip to next model
+    #     # if models.lower() not in title.lower():
+    #     #     print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
+    #     # else:
+    #     #     print(f"Product: {title} | Price: {price}")
         
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '[data-bltgh*="ProductList"]'))
-        )   
-
-        products = driver.find_elements(By.CSS_SELECTOR, '[data-bltgh*="ProductList"]')
-        print(f"Found {len(products)} products for the search query.") 
-
-        print(len(driver.find_elements(By.CSS_SELECTOR, ".promo-price")))
-        print(len(driver.find_elements(By.TAG_NAME, "h2")))
-        
-        if products:
-            first_product = products[0]
-            try:
-                #title = first_product.find_element(By.CSS_SELECTOR, ".product__name__holder").text
-                title = driver.find_element(By.XPATH, "//h2").text
-                price = driver.find_element(By.XPATH, "//span[@aria-hidden='true' and normalize-space(text())!='']").text
-
-                # if title doesnt match with model, flag it and skip to next model
-                if models.lower() not in title.lower():
-                    print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
-                else:
-                    print(f"Product: {title} | Price: {price}")
-
-            
-            except Exception as e:
-                print("Error extracting:", e)
-
-
-        # for product in products:
-            
-        #     title = product.find_element(By.CSS_SELECTOR, "h2").text
-        #     price = product.find_element(By.CSS_SELECTOR, ".promo-price").text
-
-        #     # if title doesnt match with model, flag it and skip to next model
-        #     if models.lower() not in title.lower():
-        #         print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
-        #     else:
-        #         print(f"Product: {title} | Price: {price}")
                 
-
     except NoSuchElementException:
         print("Element not found on page \n")
 
 
 driver = get_browser()
-driver.get(bol_url)
+driver.get(obs_url)
 time.sleep(2)
 accept_cookies(driver)
-time.sleep(2.5)
+time.sleep(3)
+driver.get(obs_search_url)  # Start with a neutral page to establish session
+time.sleep(2)
+
 
 for model in MODELS:
     search_model(driver, model)

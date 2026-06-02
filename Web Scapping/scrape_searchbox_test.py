@@ -36,8 +36,8 @@ MODELS = [
     "GBBS726AEV",
     "GBG5160CEV"
 ]
-bol_url = "https://www.bol.com/nl"
-
+obs_url = "https://www.lg.com/nl/"
+obs_search_url = "https://www.lg.com/nl/search/?tab=product"
 
 def human_typing(element, text):
     for char in text:
@@ -99,7 +99,13 @@ def search_model(driver, model):
         #search_box = driver.find_element(By.NAME, "query") - Coolblue
         #search_box = driver.find_element(By.ID, "search-form") #- media markt
         #search_box = driver.find_element(By.NAME, "query") # - expert.com
-        search_box = driver.find_element(By.ID, "searchfor") #- bol.com
+        #search_box = driver.find_element(By.ID, "searchfor") #- bol.com
+
+        # search_button = driver.find_element(By.CSS_SELECTOR, "a.icon-search") # - lg.com
+        # search_button.click()
+        # time.sleep(random.uniform(1, 1.5))
+
+        search_box = driver.find_element(By.ID, "searchbox") #- lg.com
 
         # click into it
         search_box.click()
@@ -110,7 +116,6 @@ def search_model(driver, model):
 
         # type model like human
         human_typing(search_box, model)
-
         time.sleep(random.uniform(1, 2))
 
         # press Enter
@@ -123,10 +128,12 @@ def search_model(driver, model):
         print(f"Search failed: {e}")
 
 driver = get_browser()
-driver.get(bol_url)
+driver.get(obs_url)
 time.sleep(2)
 accept_cookies(driver)
-time.sleep(2.5)
+time.sleep(3)
+driver.get(obs_search_url)  # Start with a neutral page to establish session
+time.sleep(2)
 
 for model in MODELS:
     search_model(driver, model)

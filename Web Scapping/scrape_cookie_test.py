@@ -29,7 +29,7 @@ MODELS = [
     "GBBS726AEV",
     "GBG5160CEV"
 ]
-bol_url = "https://www.bol.com/nl"
+obs_url = "https://www.lg.com/nl/"
 
 def get_browser(user_agent = None):
     options = Options()
@@ -68,6 +68,7 @@ def accept_cookies(driver):
         #driver.find_element(By.CSS_SELECTOR, "button[name='accept_cookie']").click()  - Coolblue
         #driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()     #- media markt
         #driver.find_element(By.ID, "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll").click()
+        #driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
         driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
 
         print("✅ Cookies accepted")
@@ -77,7 +78,7 @@ def accept_cookies(driver):
 
 driver = get_browser()
 
-driver.get(bol_url)
+driver.get(obs_url)
 time.sleep(3)
 accept_cookies(driver)
 time.sleep(2)
