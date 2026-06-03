@@ -26,10 +26,10 @@ USER_AGENTS = [
 ]
 
 # List of models to scrape
+# List of models to scrape, wrap all in quotes and separate by comma
 MODELS = [
-    "GBBW322AEV",
-    "GBBS726AEV",
-    "GBG5160CEV"
+    "GBBSJ10ESW", "GBBSJ10DSW", "F4X5009TWB", "F4DR9537S2W", "GC3R709S1",
+    "F4WR7011SYB"
 ]
 
 SCRAPED_DATA = []
@@ -100,9 +100,6 @@ def search_model(driver, model):
 
     try:
         # find search box 
-        #search_box = driver.find_element(By.NAME, "query")
-        #search_box = driver.find_element(By.ID, "search-form")
-        #search_box = driver.find_element(By.NAME, "query")
         search_box = driver.find_element(By.ID, "searchfor") #- bol.com
 
         # click into it
@@ -128,9 +125,6 @@ def search_model(driver, model):
 
 def accept_cookies(driver):
     try:
-        #driver.find_element(By.CSS_SELECTOR, "button[name='accept_cookie']").click()
-        #driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()
-        #driver.find_element(By.ID, "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll").click()
         driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
         print("✅ Cookies accepted")
         time.sleep(1)
@@ -179,19 +173,18 @@ def scrape_model(driver, models,scraped_data):
         # if title doesnt match with model, flag it and skip to next model
         if models.lower() not in title.lower():
             print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
+            price = " "
         else:
             print(f"Product: {title} | Price: {price}")
 
     except NoSuchElementException:
         print("Element not found on page \n")
-
-    
-    # if not any(d['model'] == models for d in scraped_data):
-    #     scraped_data.append({
-    #         "model": models,
-    #         "price": price,
-    #         "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
-    #     })
+   
+    scraped_data.append({
+        "model": models,
+        "price": price,
+        "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+    })
 
 #starting the scraping process with batch processing and session management
 def process_batch(models_batch):    
@@ -245,12 +238,12 @@ def main():
         # cooldown between sessions
         time.sleep(random.uniform(15, 30))
 
-    # Save scraped data to excel file
-    # scraped_file = "MediaMarkt_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
-    # with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
-    #     df = pd.DataFrame(SCRAPED_DATA)
-    #     df.to_excel(writer, index=False)
-    # print(f"\n📂 Scraping completed: {scraped_file}")
+    #Save scraped data to excel file
+    scraped_file = "BOL_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
+    with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
+        df = pd.DataFrame(SCRAPED_DATA)
+        df.to_excel(writer, index=False)
+    print(f"\n📂 Scraping completed: {scraped_file}")
 
     end_time = time.perf_counter()
     duration = end_time - start_time

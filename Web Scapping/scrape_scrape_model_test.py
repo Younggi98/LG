@@ -36,7 +36,8 @@ USER_AGENTS = [
 # List of models to scrape
 MODELS = [
    
-    "GBG5160CEV"
+    "GBBS726AEV", "GBBS322AEV", "GBBS322APY", "GBBS312BEV", "GBV7280CEV"
+
 ]
 obs_url = "https://www.lg.com/nl/"
 obs_search_url = "https://www.lg.com/nl/search/?tab=product"
@@ -128,6 +129,16 @@ def search_model(driver, model):
         print(f"Search failed: {e}")
 
 
+def get_product_info(product_text, model):
+    pattern = rf'(?<![A-Za-z0-9]){re.escape(model.upper())}(?![A-Za-z0-9.])'
+    if not re.search(pattern, product_text.upper()):
+        return None
+
+    title = next((line.strip() for line in product_text.splitlines() if line.strip().upper() == model.upper()), model)
+    price = next((line.strip() for line in product_text.splitlines() if re.fullmatch(r'€\s*\d[\d.,]*', line.strip())), " ")
+
+    return title, price
+
 def scrape_model(driver, models):
      
     price = " "
@@ -143,17 +154,32 @@ def scrape_model(driver, models):
         ))
 
         for product in products:
-            try :
-                title = product.find_element(By.CSS_SELECTOR, ".c-product_item_sku-copy").text
-                price = product.find_element(By.CSS_SELECTOR, ".cell-price").text
-                results.append((title, price))
-                print(f"Add - Product: {title} | Price: {price}")
-            except:
-                print("Price or title not found for a product, skipping...")
+            product_text = product.text.strip()
+            product_info = get_product_info(product_text, models)
+
+            if not product_info:
                 continue
 
-        for r in results:
-            print(f"Product: {r[0]} | Price: {r[1]}")
+            title, price = product_info
+            if title and price:
+                results.append((title, price))
+                print(f"Matched product: {title} | Price: {price}")
+
+            # try:
+            #         title_elem = product.find_element(By.CSS_SELECTOR, ".c-product_item_sku-copy")
+            #         price_elem = product.find_element(By.CSS_SELECTOR, ".cell-price")
+
+            #         title = title_elem.text.strip()
+            #         price = price_elem.text.strip()
+
+            #         if title and price:
+            #             print(title, price)
+
+            # except:
+            #     print("Skipping...")
+        
+        # print(driver.find_elements(By.CSS_SELECTOR, ".c-product_item_sku-copy"))
+
 
     # try:
 

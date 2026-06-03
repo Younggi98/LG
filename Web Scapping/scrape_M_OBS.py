@@ -1,7 +1,6 @@
 import json
 from pyexpat import model
 import random
-from turtle import title
 import pandas as pd
 from xml.parsers.expat import model
 import time
@@ -18,6 +17,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import re
 
 # List of example User-Agents for rotation (add more as needed)
 USER_AGENTS = [
@@ -26,38 +26,17 @@ USER_AGENTS = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15",
 ]
 
-# List of models to scrape, wrap all in quotes and separate by comma
+# List of models to scrape
 MODELS = [
-"GBBS525CPY",
-"GBBS322CEV",
-"GBBS322CPY",
-"F4WX801YB",
-"F4X5509THB",
-"F4WX801Y",
-"F4WX859Y",
-"F4WX809Y",
-"F4X5009THB",
-"F4X5011TWB",
-"F4X5009TWB",
-"GC3R709S1",
-"F4WR7011SYB",
-"F4WR3011S3W",
-"F4X1009NWB",
-"F4X1009NWK",
-"RT90X8",
-"RHX5010THB",
-"RHX5009THB",
-"RHX5009TWB",
-"RH18U8AVCW",
-"RH90V9ZVEN",
-"MJ3965ACS",
-"MJ3965BIB",
-"MJ3965BPS"
+    "GBBW322AEV",
+    "GBBS726AEV",
+    "GBG5160CEV"
 ]
 
 SCRAPED_DATA = []
 
-media_markt_url = "https://www.mediamarkt.nl/nl/"
+obs_url = "https://www.lg.com/nl/"
+obs_search_url = "https://www.lg.com/nl/search/?tab=product"
 
 """ 
 Functions setup the browser with stealth settings to avoid detection
@@ -102,13 +81,41 @@ Functions to mimic human behavior and interaction patterns
 - retry logic
 - cookie acceptance handling
 """
-# random  function to mimic human behavior
+# # random  function to mimic human behavior
+# def random_scroll(driver):
+#     # perform a few short scrolls to mimic reading
+#     for _ in range(random.randint(2, 5)):
+#         amount = random.randint(200, 800)
+#         driver.execute_script("window.scrollBy(0, arguments[0]);", amount)
+#         time.sleep(random.uniform(0.3, 1.0))
+
 def random_scroll(driver):
-    # perform a few short scrolls to mimic reading
+    # ✅ Step 1: scroll down gradually
     for _ in range(random.randint(2, 5)):
-        amount = random.randint(200, 800)
-        driver.execute_script("window.scrollBy(0, arguments[0]);", amount)
-        time.sleep(random.uniform(0.3, 1.0))
+        down_amount = random.randint(300, 900)
+        driver.execute_script("window.scrollBy(0, arguments[0]);", down_amount)
+        time.sleep(random.uniform(0.4, 1.2))
+
+    # ✅ Step 2: small pause (reading behavior)
+    time.sleep(random.uniform(0.8, 2.0))
+
+    # ✅ Step 3: scroll back up slightly (not full reset)
+    up_amount = random.randint(200, 600)
+    driver.execute_script("window.scrollBy(0, -arguments[0]);", up_amount)
+
+    time.sleep(random.uniform(0.5, 1.2))
+
+    # ✅ Step 4: tiny correction scroll (very human-like)
+    micro_adjust = random.randint(-100, 100)
+    driver.execute_script("window.scrollBy(0, arguments[0]);", micro_adjust)
+
+   # ✅ Step 3: scroll back to TOP (critical for clickability)
+    driver.execute_script("window.scrollTo(0, 0);")
+
+    # ✅ Step 4: small human pause
+    time.sleep(random.uniform(0.8, 1.5))
+
+
 
 def human_typing(element, text):
     for char in text:
@@ -123,8 +130,7 @@ def search_model(driver, model):
 
     try:
         # find search box 
-        #search_box = driver.find_element(By.NAME, "query")
-        search_box = driver.find_element(By.ID, "search-form") 
+        search_box = driver.find_element(By.ID, "searchbox") #- lg.com
 
         # click into it
         search_box.click()
@@ -149,8 +155,7 @@ def search_model(driver, model):
 
 def accept_cookies(driver):
     try:
-        #driver.find_element(By.CSS_SELECTOR, "button[name='accept_cookie']").click()
-        driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()
+        driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
 
         print("✅ Cookies accepted")
         time.sleep(1)
@@ -168,12 +173,22 @@ def find_with_retries(find_func, attempts=3, delay=2):
             time.sleep(delay * (attempt + 1))
     raise last_exc
 
-
 # utility function to chunk the list of models into batches for processing
 def chunk_list (data, chunk_size):
     """Yield successive chunk_size chunks from data."""
     for i in range(0, len(data), chunk_size):
         yield data[i:i + chunk_size]
+
+
+def get_product_info(product_text, model):
+    pattern = rf'(?<![A-Za-z0-9]){re.escape(model.upper())}(?![A-Za-z0-9.])'
+    if not re.search(pattern, product_text.upper()):
+        return None
+
+    title = next((line.strip() for line in product_text.splitlines() if line.strip().upper() == model.upper()), model)
+    price = next((line.strip() for line in product_text.splitlines() if re.fullmatch(r'€\s*\d[\d.,]*', line.strip())), " ")
+
+    return title, price
 
 # scrap models function
 def scrape_model(driver, models,scraped_data):
@@ -185,68 +200,38 @@ def scrape_model(driver, models,scraped_data):
         random_scroll(driver)
 
     price = " "
-    time.sleep(2)
-
-    #if driver.find_elements(By.CSS_SELECTOR, '[aria-live = "assertive"]'): then it means no results found, so we can skip to next model
-    if driver.find_elements(By.CSS_SELECTOR, '[aria-live = "assertive"]'):
-        print(f"No results found for model {models} \n")
-        scraped_data.append({
-                    "model": models,
-                    "price": price,
-                    "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                })
-        return
     
-    try:
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '[data-test="mms-product-card"]'))
-        )  
-        # Find element with retries
-        # product_data_div = find_with_retries(lambda: driver.find_element(By.CSS_SELECTOR, "[data-atc-product-data]"), attempts=1, delay=0)
-        # title_link = find_with_retries(lambda: driver.find_element(By.CSS_SELECTOR, ".product-card__title a.link[title]"), attempts=3, delay=1)
-    
-        # data_str = product_data_div.get_attribute("data-atc-product-data")
-        # product_title = title_link.get_attribute("title")
+    wait = WebDriverWait(driver, 10)
 
-        products = find_with_retries(lambda: driver.find_elements(By.CSS_SELECTOR, '[data-test="mms-product-card"]'), attempts=1, delay=0)
+    results = []
+
+    try :
+        products = wait.until(EC.presence_of_all_elements_located(
+            (By.CSS_SELECTOR, "li.c-product-list__item")
+        ))
 
         for product in products:
-            # print(product.text)
-            title = product.find_element(By.CSS_SELECTOR, '[data-test="product-title"]').text
-            
-            price = product.find_element(By.CSS_SELECTOR, '[data-test="mms-price"] span[aria-hidden="true"]').text
+            product_text = product.text.strip()
+            product_info = get_product_info(product_text, models)
 
-            
-            if models.lower() not in title.lower():
-                print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
-            else:
-                print(f"Product: {title} | Price: {price}")
-                break
+            if not product_info:
+                continue
 
-        # if title doesnt match with model, flag it and skip to next model
-        # if models.lower() not in product_title.lower():
-        #     print(f"Warning: Product title '{product_title}' does not match expected model '{models}' \n")
-        # else:
-        #     if data_str and data_str.strip():
-        #         product_data = json.loads(data_str)
-        #         price = product_data.get("price", " ")
-
-        scraped_data.append({
-                    "model": models,
-                    "price": price,
-                    "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                })
+            title, price = product_info
+            if title and price:
+                results.append((title, price))
+                print(f"Matched product: {title} | Price: {price}")
 
     except NoSuchElementException:
         print("Element not found on page \n")
 
     
-    if not any(d['model'] == models for d in scraped_data):
-        scraped_data.append({
-            "model": models,
-            "price": price,
-            "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        })
+    # if not any(d['model'] == models for d in scraped_data):
+    #     scraped_data.append({
+    #         "model": models,
+    #         "price": price,
+    #         "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+    #     })
 
 #starting the scraping process with batch processing and session management
 def process_batch(models_batch):    
@@ -261,14 +246,18 @@ def process_batch(models_batch):
             driver.get("https://www.google.com")  # Start with a neutral page to establish session
             time.sleep(random.uniform(1.5, 2))  
             
-            print("Opening media markt page...")
-            driver.get(media_markt_url)
+            print("Opening obs page...")
+            driver.get(obs_url)
             time.sleep(random.uniform(2, 3))  
             accept_cookies(driver)
-
             # Randomly scroll 
-            if random.random() < 0.5:
+            if random.random() < 0.35:
                 random_scroll(driver)
+            
+
+            driver.get(obs_search_url)  # Start with a neutral page to establish session
+            time.sleep(1)
+
             break
 
         except WebDriverException as e:
@@ -289,7 +278,7 @@ def process_batch(models_batch):
 
 
 def main():
-    CHUNK_SIZE = 20
+    CHUNK_SIZE = 30
     start_time = time.perf_counter()
     
     for i, batch in enumerate(chunk_list(MODELS, CHUNK_SIZE)):
@@ -300,12 +289,12 @@ def main():
         # cooldown between sessions
         time.sleep(random.uniform(15, 30))
 
-    scraped_file = "MediaMarkt_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
-
-    with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
-        df = pd.DataFrame(SCRAPED_DATA)
-        df.to_excel(writer, index=False)
-    print(f"\n📂 Scraping completed: {scraped_file}")
+    # Save scraped data to excel file
+    # scraped_file = "MediaMarkt_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
+    # with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
+    #     df = pd.DataFrame(SCRAPED_DATA)
+    #     df.to_excel(writer, index=False)
+    # print(f"\n📂 Scraping completed: {scraped_file}")
 
     end_time = time.perf_counter()
     duration = end_time - start_time
