@@ -18,6 +18,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import re
 
 # List of example User-Agents for rotation (add more as needed)
 USER_AGENTS = [
@@ -29,28 +30,11 @@ USER_AGENTS = [
 # List of models to scrape, wrap all in quotes and separate by comma
 MODELS = [
 "GBBS525CPY",
-"GBBS322CEV",
-"GBBS322CPY",
+
 "F4WX801YB",
 "F4X5509THB",
 "F4WX801Y",
 "F4WX859Y",
-"F4WX809Y",
-"F4X5009THB",
-"F4X5011TWB",
-"F4X5009TWB",
-"GC3R709S1",
-"F4WR7011SYB",
-"F4WR3011S3W",
-"F4X1009NWB",
-"F4X1009NWK",
-"RT90X8",
-"RHX5010THB",
-"RHX5009THB",
-"RHX5009TWB",
-"RH18U8AVCW",
-"RH90V9ZVEN",
-"MJ3965ACS",
 "MJ3965BIB",
 "MJ3965BPS"
 ]
@@ -175,6 +159,44 @@ def chunk_list (data, chunk_size):
     for i in range(0, len(data), chunk_size):
         yield data[i:i + chunk_size]
 
+def get_product_info(product_text, model):
+    model_code = model.upper().strip()
+    pattern = rf'(?<![A-Za-z0-9]){re.escape(model_code)}(?![A-Za-z0-9])'
+
+    if not re.search(pattern, product_text.upper()):
+        return None
+        
+
+    lines = [line.strip() for line in product_text.splitlines() if line.strip()]
+    title = next((line for line in lines if re.search(pattern, line.upper())), model_code)
+
+    promo_words = r'cashback|korting|promo|actie|besparing|save|voordeel'
+    price_candidates = []
+
+    for line in lines:
+        if re.search(promo_words, line, flags=re.IGNORECASE):
+            continue
+
+        for match in re.finditer(r'€\s*\d[\d.,–-]*', line):
+            price_candidates.append((line, match.group(0)))
+
+    def normalize_price(text):
+        cleaned = text.replace('€', '', 1)
+        cleaned = cleaned.replace('.', '').replace(',', '.').replace('–', '').replace('-', '').strip()
+        return float(cleaned) if cleaned else float('inf')
+
+    discounted_candidates = [(line, price) for (line, price) in price_candidates if re.search(r'\bnu\b', line, flags=re.IGNORECASE)]
+
+    if discounted_candidates:
+        _, price = min(discounted_candidates, key=lambda item: normalize_price(item[1]))
+    elif price_candidates:
+        _, price = max(price_candidates, key=lambda item: normalize_price(item[1]))
+    else:
+        price = " "
+
+    return title, price
+
+
 # scrap models function
 def scrape_model(driver, models,scraped_data):
 
@@ -184,7 +206,7 @@ def scrape_model(driver, models,scraped_data):
     if random.random() < 0.5:
         random_scroll(driver)
 
-    price = " "
+    matched_price = " "
     time.sleep(2)
 
     #if driver.find_elements(By.CSS_SELECTOR, '[aria-live = "assertive"]'): then it means no results found, so we can skip to next model
@@ -192,7 +214,7 @@ def scrape_model(driver, models,scraped_data):
         print(f"No results found for model {models} \n")
         scraped_data.append({
                     "model": models,
-                    "price": price,
+                    "price": matched_price,
                     "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 })
         return
@@ -211,17 +233,23 @@ def scrape_model(driver, models,scraped_data):
         products = find_with_retries(lambda: driver.find_elements(By.CSS_SELECTOR, '[data-test="mms-product-card"]'), attempts=1, delay=0)
 
         for product in products:
-            # print(product.text)
-            title = product.find_element(By.CSS_SELECTOR, '[data-test="product-title"]').text
+            print(product.text)
+            product_text = product.text.strip()
+            product_info = get_product_info(product_text, models)
             
-            price = product.find_element(By.CSS_SELECTOR, '[data-test="mms-price"] span[aria-hidden="true"]').text
-
-            
-            if models.lower() not in title.lower():
-                print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
-            else:
-                print(f"Product: {title} | Price: {price}")
+            if product_info:
+                title, price = product_info
+                matched_price = price
+                print(f"Matched product found -> Product: {title} | Price: {price}")
                 break
+            else:
+                print(f"No matching product found for model '{models}' in the following text:\n{product_text}\n")
+
+            # if models.lower() not in title.lower():
+            #     print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
+            # else:
+            #     print(f"Product: {title} | Price: {price}")
+            #     break
 
         # if title doesnt match with model, flag it and skip to next model
         # if models.lower() not in product_title.lower():
@@ -233,7 +261,7 @@ def scrape_model(driver, models,scraped_data):
 
         scraped_data.append({
                     "model": models,
-                    "price": price,
+                    "price": matched_price,
                     "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 })
 
@@ -244,7 +272,7 @@ def scrape_model(driver, models,scraped_data):
     if not any(d['model'] == models for d in scraped_data):
         scraped_data.append({
             "model": models,
-            "price": price,
+            "price": matched_price,
             "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         })
 

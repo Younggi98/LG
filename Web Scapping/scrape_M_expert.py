@@ -27,11 +27,32 @@ USER_AGENTS = [
 
 # List of models to scrape
 MODELS = [
-    "GBBW322AEV",
-    "GBBS726AEV",
-    "GBG5160CEV"
+"GBBS525CPY",
+"GBBS322CEV",
+"GBBS322CPY",
+"F4WX801YB",
+"F4X5509THB",
+"F4WX801Y",
+"F4WX859Y",
+"F4WX809Y",
+"F4X5009THB",
+"F4X5011TWB",
+"F4X5009TWB",
+"GC3R709S1",
+"F4WR7011SYB",
+"F4WR3011S3W",
+"F4X1009NWB",
+"F4X1009NWK",
+"RT90X8",
+"RHX5010THB",
+"RHX5009THB",
+"RHX5009TWB",
+"RH18U8AVCW",
+"RH90V9ZVEN",
+"MJ3965ACS",
+"MJ3965BIB",
+"MJ3965BPS"
 ]
-
 SCRAPED_DATA = []
 
 expert_url = "https://www.expert.nl/"
@@ -186,18 +207,16 @@ def scrape_model(driver, models,scraped_data):
             if models.lower() not in title.lower():
                 print(f"Warning: Product title '{title}' does not match expected model '{models}' \n")
             else:
-                print(f"Product: {title} | Price: {price}")
+                print(f"Matched product found -> Product: {title} | Price: {price}")
 
     except NoSuchElementException:
         print("Element not found on page \n")
-
     
-    # if not any(d['model'] == models for d in scraped_data):
-    #     scraped_data.append({
-    #         "model": models,
-    #         "price": price,
-    #         "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
-    #     })
+    scraped_data.append({
+        "model": models,
+        "price": price,
+        "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+    })
 
 #starting the scraping process with batch processing and session management
 def process_batch(models_batch):    
@@ -240,7 +259,7 @@ def process_batch(models_batch):
 
 
 def main():
-    CHUNK_SIZE = 30
+    CHUNK_SIZE = 20
     start_time = time.perf_counter()
     
     for i, batch in enumerate(chunk_list(MODELS, CHUNK_SIZE)):
@@ -252,11 +271,11 @@ def main():
         time.sleep(random.uniform(15, 30))
 
     # Save scraped data to excel file
-    # scraped_file = "MediaMarkt_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
-    # with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
-    #     df = pd.DataFrame(SCRAPED_DATA)
-    #     df.to_excel(writer, index=False)
-    # print(f"\n📂 Scraping completed: {scraped_file}")
+    scraped_file = "Expert_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
+    with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
+        df = pd.DataFrame(SCRAPED_DATA)
+        df.to_excel(writer, index=False)
+    print(f"\n📂 Scraping completed: {scraped_file}")
 
     end_time = time.perf_counter()
     duration = end_time - start_time

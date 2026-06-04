@@ -36,8 +36,7 @@ MODELS = [
     "GBBS726AEV",
     "GBG5160CEV"
 ]
-obs_url = "https://www.lg.com/nl/"
-obs_search_url = "https://www.lg.com/nl/search/?tab=product"
+B_K = "https://www.bemmelenkroon.nl/"
 
 def human_typing(element, text):
     for char in text:
@@ -86,7 +85,7 @@ def accept_cookies(driver):
         #driver.find_element(By.CSS_SELECTOR, "button[name='accept_cookie']").click()  - Coolblue
         #driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()     #- media markt
         #driver.find_element(By.ID, "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll").click()
-        driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
+        driver.find_element(By.CSS_SELECTOR,"div.CookiebotConsent-actions button").click()
 
         print("✅ Cookies accepted")
         time.sleep(1)
@@ -104,8 +103,10 @@ def search_model(driver, model):
         # search_button = driver.find_element(By.CSS_SELECTOR, "a.icon-search") # - lg.com
         # search_button.click()
         # time.sleep(random.uniform(1, 1.5))
-
-        search_box = driver.find_element(By.ID, "searchbox") #- lg.com
+        
+        search_box = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, "siteSearch-input"))
+        )
 
         # click into it
         search_box.click()
@@ -128,12 +129,10 @@ def search_model(driver, model):
         print(f"Search failed: {e}")
 
 driver = get_browser()
-driver.get(obs_url)
+driver.get(B_K)
 time.sleep(2)
 accept_cookies(driver)
 time.sleep(3)
-driver.get(obs_search_url)  # Start with a neutral page to establish session
-time.sleep(2)
 
 for model in MODELS:
     search_model(driver, model)

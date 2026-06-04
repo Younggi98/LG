@@ -39,8 +39,7 @@ MODELS = [
     "GBBS726AEV", "GBBS322AEV", "GBBS322APY", "GBBS312BEV", "GBV7280CEV"
 
 ]
-obs_url = "https://www.lg.com/nl/"
-obs_search_url = "https://www.lg.com/nl/search/?tab=product"
+B_K = "https://www.bemmelenkroon.nl/"
 
 
 def human_typing(element, text):
@@ -90,7 +89,7 @@ def accept_cookies(driver):
         #driver.find_element(By.CSS_SELECTOR, "button[name='accept_cookie']").click()  - Coolblue
         #driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()     #- media markt
         #driver.find_element(By.ID, "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll").click()
-        driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
+        driver.find_element(By.CSS_SELECTOR,"div.CookiebotConsent-actions button").click()
 
         print("✅ Cookies accepted")
         time.sleep(1)
@@ -105,7 +104,9 @@ def search_model(driver, model):
         #search_box = driver.find_element(By.NAME, "query") # - expert.com
         #search_box = driver.find_element(By.ID, "searchfor") #- bol.com
 
-        search_box = driver.find_element(By.ID, "searchbox") #- lg.com
+        search_box = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, "siteSearch-input"))
+        )
 
         # click into it
         search_box.click()
@@ -150,35 +151,18 @@ def scrape_model(driver, models):
     results = []
     try :
         products = wait.until(EC.presence_of_all_elements_located(
-            (By.CSS_SELECTOR, "li.c-product-list__item")
+            (By.XPATH, "//a[contains(@href, '/merken/')]")
         ))
-
+        
         for product in products:
-            product_text = product.text.strip()
-            product_info = get_product_info(product_text, models)
+            print(product.text)
+            title = product.find_element(By.CSS_SELECTOR, "a.ProductCardSmall-productNameLink").text
+            price = product.find_element(By.CSS_SELECTOR, "div[class*='price']").text
 
-            if not product_info:
-                continue
-
-            title, price = product_info
             if title and price:
                 results.append((title, price))
                 print(f"Matched product: {title} | Price: {price}")
 
-            # try:
-            #         title_elem = product.find_element(By.CSS_SELECTOR, ".c-product_item_sku-copy")
-            #         price_elem = product.find_element(By.CSS_SELECTOR, ".cell-price")
-
-            #         title = title_elem.text.strip()
-            #         price = price_elem.text.strip()
-
-            #         if title and price:
-            #             print(title, price)
-
-            # except:
-            #     print("Skipping...")
-        
-        # print(driver.find_elements(By.CSS_SELECTOR, ".c-product_item_sku-copy"))
 
 
     # try:
@@ -203,12 +187,10 @@ def scrape_model(driver, models):
 
 
 driver = get_browser()
-driver.get(obs_url)
+driver.get(B_K)
 time.sleep(2)
 accept_cookies(driver)
 time.sleep(3)
-driver.get(obs_search_url)  # Start with a neutral page to establish session
-time.sleep(2)
 
 
 for model in MODELS:

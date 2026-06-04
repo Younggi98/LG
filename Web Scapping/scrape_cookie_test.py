@@ -1,3 +1,4 @@
+from concurrent.futures import wait
 import json
 from pyexpat import model
 import random
@@ -29,7 +30,8 @@ MODELS = [
     "GBBS726AEV",
     "GBG5160CEV"
 ]
-obs_url = "https://www.lg.com/nl/"
+
+B_K = "https://www.bemmelenkroon.nl/"
 
 def get_browser(user_agent = None):
     options = Options()
@@ -69,7 +71,7 @@ def accept_cookies(driver):
         #driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()     #- media markt
         #driver.find_element(By.ID, "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll").click()
         #driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
-        driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
+        driver.find_element(By.CSS_SELECTOR,"div.CookiebotConsent-actions button").click()
 
         print("✅ Cookies accepted")
         time.sleep(1)
@@ -78,8 +80,8 @@ def accept_cookies(driver):
 
 driver = get_browser()
 
-driver.get(obs_url)
-time.sleep(3)
+driver.get(B_K)
+time.sleep(5)
 accept_cookies(driver)
 time.sleep(2)
 driver.close()

@@ -29,36 +29,14 @@ USER_AGENTS = [
 # List of models to scrape
 MODELS = [
 "GBBS525CPY",
-"GBBS322CEV",
-"GBBS322CPY",
-"F4WX801YB",
-"F4X5509THB",
-"F4WX801Y",
 "F4WX859Y",
-"F4WX809Y",
-"F4X5009THB",
-"F4X5011TWB",
-"F4X5009TWB",
-"GC3R709S1",
-"F4WR7011SYB",
-"F4WR3011S3W",
-"F4X1009NWB",
-"F4X1009NWK",
-"RT90X8",
-"RHX5010THB",
-"RHX5009THB",
-"RHX5009TWB",
-"RH18U8AVCW",
-"RH90V9ZVEN",
-"MJ3965ACS",
 "MJ3965BIB",
 "MJ3965BPS"
 ]
 
 SCRAPED_DATA = []
 
-obs_url = "https://www.lg.com/nl/"
-obs_search_url = "https://www.lg.com/nl/search/?tab=product"
+B_K = "https://www.bemmelenkroon.nl/"
 
 """ 
 Functions setup the browser with stealth settings to avoid detection
@@ -152,7 +130,9 @@ def search_model(driver, model):
 
     try:
         # find search box 
-        search_box = driver.find_element(By.ID, "searchbox") #- lg.com
+        search_box = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, "siteSearch-input"))
+        )
 
         # click into it
         search_box.click()
@@ -177,7 +157,7 @@ def search_model(driver, model):
 
 def accept_cookies(driver):
     try:
-        driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
+        driver.find_element(By.CSS_SELECTOR,"div.CookiebotConsent-actions button").click()
 
         print("✅ Cookies accepted")
         time.sleep(1)
@@ -228,19 +208,17 @@ def scrape_model(driver, models,scraped_data):
     results = []
 
     try :
+
         products = wait.until(EC.presence_of_all_elements_located(
-            (By.CSS_SELECTOR, "li.c-product-list__item")
+            (By.CSS_SELECTOR, "div.ProductCardSmall-root")
         ))
+        
 
         for product in products:
-            product_text = product.text.strip()
-            product_info = get_product_info(product_text, models)
+            print(product.text)
+            title = product.find_element(By.CSS_SELECTOR, "a.ProductCardSmall-productNameLink").text
+            price = product.find_element(By.CSS_SELECTOR, "div[class*='price']").text
 
-            if not product_info:
-                #print(f"Warning: No matching product found for model '{models}' in the following text:\n{product_text}\n")
-                continue
-
-            title, price = product_info
             if title and price:
                 results.append((title, price))
                 print(f"Matched product: {title} | Price: {price}")
@@ -248,11 +226,11 @@ def scrape_model(driver, models,scraped_data):
     except NoSuchElementException:
         print("Element not found on page \n")
     
-    scraped_data.append({
-        "model": models,
-        "price": price,
-        "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
-    })
+    # scraped_data.append({
+    #     "model": models,
+    #     "price": price,
+    #     "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+    # })
 
 #starting the scraping process with batch processing and session management
 def process_batch(models_batch):    
@@ -268,16 +246,13 @@ def process_batch(models_batch):
             time.sleep(random.uniform(1.5, 2))  
             
             print("Opening obs page...")
-            driver.get(obs_url)
+            driver.get(B_K)
             time.sleep(random.uniform(2, 3))  
             accept_cookies(driver)
             # Randomly scroll 
             if random.random() < 0.35:
                 random_scroll(driver)
-            
-
-            driver.get(obs_search_url)  # Start with a neutral page to establish session
-            time.sleep(1)
+    
 
             break
 
@@ -311,11 +286,11 @@ def main():
         time.sleep(random.uniform(15, 30))
 
     # Save scraped data to excel file
-    scraped_file = "MediaMarkt_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
-    with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
-        df = pd.DataFrame(SCRAPED_DATA)
-        df.to_excel(writer, index=False)
-    print(f"\n📂 Scraping completed: {scraped_file}")
+    # scraped_file = "MediaMarkt_Scraped_Data_" + datetime.datetime.now().strftime('%Y-%m-%d') + ".xlsx"
+    # with pd.ExcelWriter(scraped_file, engine='openpyxl') as writer:
+    #     df = pd.DataFrame(SCRAPED_DATA)
+    #     df.to_excel(writer, index=False)
+    # print(f"\n📂 Scraping completed: {scraped_file}")
 
     end_time = time.perf_counter()
     duration = end_time - start_time
