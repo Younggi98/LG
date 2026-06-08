@@ -4,7 +4,7 @@ from core.result_handler import ResultHandler
 
 # ✅ import your sites
 from sites.coolblue import site_coolblue
-# from sites.site_mediamarkt import MediaMarktSite
+from sites.mediamarkt import site_mediamarkt
 # from sites.site_bol import BolSite
 
 
@@ -15,11 +15,11 @@ from sites.coolblue import site_coolblue
 def create_sites():
     sites = []
 
-    if "CoolBlue" in ENABLED_SITES:
-        sites.append(site_coolblue(PRODUCTS))
+    # if "CoolBlue" in ENABLED_SITES:
+    #     sites.append(site_coolblue(PRODUCTS))
 
-    # if "MediaMarkt" in ENABLED_SITES:
-    #     sites.append(MediaMarktSite(PRODUCTS))
+    if "MediaMarkt" in ENABLED_SITES:
+        sites.append(site_mediamarkt(PRODUCTS))
 
     # if "Bol" in ENABLED_SITES:
     #     sites.append(BolSite(PRODUCTS))

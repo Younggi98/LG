@@ -86,6 +86,7 @@ class site_coolblue(BaseSite):
                     price = " "
 
                 if data_str:
+                    print(f"[{self.name}] Product found for {model}")
                     product_data = json.loads(data_str)
                     price = product_data.get("price")
 

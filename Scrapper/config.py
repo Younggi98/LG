@@ -44,7 +44,8 @@ OUTPUT_FILE = "scraped_results.xlsx"
 # ============================
 
 ENABLED_SITES = [
-    "CoolBlue"
+    "CoolBlue",
+    "MediaMarkt"
 ]
 
 MAX_RETRIES = 3

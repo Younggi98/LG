@@ -1,5 +1,6 @@
 import time
 import random
+from selenium.webdriver.common.keys import Keys
 
 # ===========================
 # WAIT (basic building block)
@@ -86,3 +87,10 @@ def random_action_pause(probability=0.3):
     """
     if random.random() < probability:
         time.sleep(random.uniform(1, 3))
+
+# ===========================
+# Clear Words manually
+# ===========================
+def clear_words(element):
+    element.send_keys(Keys.CONTROL + "a")  # Select all text
+    element.send_keys(Keys.DELETE)          # Delete selected text
