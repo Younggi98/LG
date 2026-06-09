@@ -30,10 +30,18 @@ class site_coolblue(BaseSite):
     def search_model(self, driver, model):
         
         try:
-            search_box = driver.find_element(By.NAME, "query")
+            search_box = find_with_retries(
+                            lambda: driver.find_element(By.NAME, "query"),
+                            attempts=3
+                        )
 
             search_box.click()
             random_wait(0.5, 1.5)
+            
+            search_box = find_with_retries(
+                            lambda: driver.find_element(By.NAME, "query"),
+                            attempts=3
+                        )
 
             search_box.clear()
             human_typing(search_box, model)
@@ -49,7 +57,7 @@ class site_coolblue(BaseSite):
         try:
             if not self.initialized:
                 driver.get(self.base_url)
-                random_wait(1,2)
+                random_wait(2,3)
                 self.accept_cookies(driver)
                 
                 self.initialized = True

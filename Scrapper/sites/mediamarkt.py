@@ -48,6 +48,10 @@ class site_mediamarkt(BaseSite):
             search_box.send_keys(Keys.CONTROL + "a")
             search_box.send_keys(Keys.DELETE)
 
+            search_box = find_with_retries(
+                            lambda: driver.find_element(By.ID, "search-form"),
+                            attempts=3
+                        )
             human_typing(search_box, model)
 
             random_wait(1, 2)
@@ -64,29 +68,42 @@ class site_mediamarkt(BaseSite):
     # ==========================
     # PARSE PRODUCT
     # ==========================
-    def get_product_info(self, text, model):
+
+    def get_product_info(self, product_text, model):
         model_code = model.upper().strip()
         pattern = rf'(?<![A-Za-z0-9]){re.escape(model_code)}(?![A-Za-z0-9])'
 
-        if not re.search(pattern, text.upper()):
+        if not re.search(pattern, product_text.upper()):
             return None
 
-        lines = [l.strip() for l in text.splitlines() if l.strip()]
+        lines = [line.strip() for line in product_text.splitlines() if line.strip()]
+        title = next((line for line in lines if re.search(pattern, line.upper())), model_code)
 
+        promo_words = r'cashback|korting|promo|actie|besparing|save|voordeel'
         price_candidates = []
 
         for line in lines:
+            if re.search(promo_words, line, flags=re.IGNORECASE):
+                continue
+
             for match in re.finditer(r'€\s*\d[\d.,–-]*', line):
-                price_candidates.append(match.group(0))
+                price_candidates.append((line, match.group(0)))
 
-        def clean_price(p):
-            p = p.replace('€', '').replace('.', '').replace(',', '.')
-            return float(re.sub(r'[^\d.]', '', p)) if p else None
+        def normalize_price(text):
+            cleaned = text.replace('€', '', 1)
+            cleaned = cleaned.replace('.', '').replace(',', '.').replace('–', '').replace('-', '').strip()
+            return float(cleaned) if cleaned else float('inf')
 
-        if price_candidates:
-            return clean_price(price_candidates[0])
+        discounted_candidates = [(line, price) for (line, price) in price_candidates if re.search(r'\bnu\b', line, flags=re.IGNORECASE)]
 
-        return None
+        if discounted_candidates:
+            _, price = min(discounted_candidates, key=lambda item: normalize_price(item[1]))
+        elif price_candidates:
+            _, price = max(price_candidates, key=lambda item: normalize_price(item[1]))
+        else:
+            price = " "
+
+        return title, price
 
     # ==========================
     # MAIN FUNCTION (REQUIRED)
@@ -107,7 +124,7 @@ class site_mediamarkt(BaseSite):
 
             # ✅ search
             self.search_model(driver, model)
-
+            random_wait(1.5,2.5)
             matched_price = None
 
             # ✅ no result check
@@ -115,19 +132,29 @@ class site_mediamarkt(BaseSite):
                 print(f"[{self.name}] No results for {model}")
 
             else:
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, '[data-test="mms-product-card"]'))
+                )  
+
                 products = find_with_retries(
                     lambda: driver.find_elements(By.CSS_SELECTOR, '[data-test="mms-product-card"]'),
                     attempts=2
                 )
 
+
                 for product in products:
-                    text = product.text.strip()
+                    product_text = product.text.strip()
 
-                    price = self.get_product_info(text, model)
+                    product_info = self.get_product_info(product_text, model)
 
-                    if price:
+                    if product_info:
+                        title, price = product_info
                         matched_price = price
+                        print(f"Matched product found -> Product: {title} | Price: {price}")
                         break
+                    
+                if matched_price is None:
+                    print(f"[{self.name}] No matching product found for {model}")
 
             return {
                 "site": self.name,

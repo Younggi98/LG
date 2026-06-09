@@ -52,6 +52,8 @@ class SessionManager:
 
         print(f"Running site: {site.name}")
 
+        site.initialized = False
+        
         batch_size = random.randint(
             SESSION_MIN_ITEMS,
             SESSION_MAX_ITEMS

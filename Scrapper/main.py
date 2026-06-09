@@ -15,11 +15,11 @@ from sites.mediamarkt import site_mediamarkt
 def create_sites():
     sites = []
 
-    # if "CoolBlue" in ENABLED_SITES:
-    #     sites.append(site_coolblue(PRODUCTS))
+    if "CoolBlue" in ENABLED_SITES:
+        sites.append(site_coolblue(PRODUCTS))
 
-    if "MediaMarkt" in ENABLED_SITES:
-        sites.append(site_mediamarkt(PRODUCTS))
+    # if "MediaMarkt" in ENABLED_SITES:
+    #     sites.append(site_mediamarkt(PRODUCTS))
 
     # if "Bol" in ENABLED_SITES:
     #     sites.append(BolSite(PRODUCTS))
