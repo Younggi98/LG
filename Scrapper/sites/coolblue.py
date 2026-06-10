@@ -73,15 +73,6 @@ class site_coolblue(BaseSite):
             product_title = None
 
             try:
-                # product_data_div = find_with_retries(
-                #     lambda: driver.find_element(By.CSS_SELECTOR, "[data-atc-product-data]"),
-                #     attempts=1, delay=0
-                # )
-
-                # title_link = find_with_retries(
-                #     lambda: driver.find_element(By.CSS_SELECTOR, ".product-card__title a.link[title]"),
-                #     attempts=3, delay=1
-                # )
 
                 product_data_div = driver.find_element(By.CSS_SELECTOR, "[data-atc-product-data]")
                 title_link = driver.find_element(By.CSS_SELECTOR, ".product-card__title a.link[title]")
@@ -108,8 +99,7 @@ class site_coolblue(BaseSite):
             result = {
                 "site": self.name,
                 "model": model,
-                "price": price,
-                "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+                "price": price
             }
 
             return result

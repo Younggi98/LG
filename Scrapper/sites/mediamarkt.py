@@ -159,8 +159,7 @@ class site_mediamarkt(BaseSite):
             return {
                 "site": self.name,
                 "model": model,
-                "price": matched_price,
-                "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+                "price": matched_price
             }
 
         except Exception as e:
@@ -169,6 +168,5 @@ class site_mediamarkt(BaseSite):
             return {
                 "site": self.name,
                 "model": model,
-                "price": None,
-                "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+                "price": " "
             }
