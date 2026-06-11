@@ -65,39 +65,32 @@ class site_bk(BaseSite):
                 "price": " "
             }
 
-        target_model = None
-        price = " "
-
         cleaned_lines = [l.strip() for l in product_text if l.strip()]
 
-        # 2. Find model (must contain your target)
-        for line in cleaned_lines:
-            if model in line:
-                target_model = model   # normalize it
-                break
+        if not any(model.casefold() in line.casefold() for line in cleaned_lines):
+            print(f"Model {model} not found in product text")
+            return None
 
-        if not target_model:
-                print(f"Model {model} not found in product text")
-                return {
-                    "model": model,
-                    "price": " "
-                }
+        price = " "
+        price_pattern = r'€?\s*\d[\d.\s]*(?:,\d{2}|,-)'
 
-        # 3. Find correct price
         for i, line in enumerate(cleaned_lines):
+            lowered = line.lower()
 
-            # skip unwanted price types
-            if any(x in line.lower() for x in ["cashback", "adviesprijs", "meestal"]):
+            if any(x in lowered for x in ["cashback", "adviesprijs", "meestal"]):
                 continue
 
-            # valid price like "749,-"
-            if ",-" in line and line.replace(",-", "").isdigit():
-                
-                # skip cashback price AFTER it appears
-                if i > 0 and "cashback" in cleaned_lines[i-1].lower():
-                    continue
+            price_match = re.search(price_pattern, line)
+            if not price_match:
+                continue
 
-                price = line
+            candidate = price_match.group(0).replace("€", "").replace(" ", "").strip()
+
+            if i > 0 and "cashback" in cleaned_lines[i - 1].lower():
+                continue
+
+            if candidate and candidate != "":
+                price = candidate
 
         return {
             "model": model,
@@ -140,11 +133,10 @@ class site_bk(BaseSite):
                         "price": " ",
                     }
                 
-
                 # ✅ Extract info
                 result = self.get_product_info(product_text, model)
-
-                if result:
+                
+                if result is not None:
                     found = True
                     matched_price = result.get("price", " ")
 

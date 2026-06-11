@@ -17,6 +17,8 @@ class SessionManager:
         self.sites = sites
         self.result_handler = result_handler
         self.site_index = 0  # track rotation
+        self.total_products = sum(len(site.product_list) for site in sites)
+        self.processed_products = 0
 
     # =================================
     # MAIN LOOP CONTROLLER
@@ -76,12 +78,17 @@ class SessionManager:
 
                 result = site.search_product(driver, product)
 
+                self.processed_products += 1
+
                 if result:
                     self.result_handler.add(result)
                     site.mark_completed(product)
+                    status = "OK"
+                else:
+                    status = "retrying..."
 
                 duration = time.perf_counter() - start_time
-                print(f"{product} took {duration:.2f}s")
+                print(f"[{self.processed_products}/{self.total_products}] {site.name} | {status} | {product} | {duration:.2f}s")
 
         finally:
             driver.quit()

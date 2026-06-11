@@ -53,6 +53,9 @@ def create_sites():
     if "B&K" in ENABLED_SITES:
         sites.append(site_bk(PRODUCTS))
 
+    # if "Expert" in ENABLED_SITES:
+    #     sites.append(site_bk(PRODUCTS))
+
     return sites
 
 
@@ -64,7 +67,8 @@ def main():
     # ✅ Start timer
     start_time = time.time()
 
-    print("\n🚀 Starting scraping system...\n")
+    print("\n🚀 Starting scraping...\n")
+    print("📌 Progress will be shown live in this console window.\n")
 
     # ✅ create site instances
     sites = create_sites()

@@ -80,11 +80,15 @@ class site_coolblue(BaseSite):
                 data_str = product_data_div.get_attribute("data-atc-product-data")
                 product_title = title_link.get_attribute("title")
 
-                if product_title and model.lower() not in product_title.lower():
+                print(f"[{product_title} | {model} | ")
+
+                is_mismatch = bool(product_title and model.casefold() not in product_title.casefold())
+
+                if is_mismatch:
                     print(f"[{self.name}] Mismatch: {model} vs {product_title}")
                     price = " "
 
-                if data_str:
+                elif data_str:
                     print(f"[{self.name}] Product found for {model}")
                     product_data = json.loads(data_str)
                     price = product_data.get("price")

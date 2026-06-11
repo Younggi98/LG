@@ -74,7 +74,7 @@ class site_obs(BaseSite):
                 driver.get(self.search_url)
                 random_wait(2, 3)
                 self.accept_cookies(driver)
-                random_wait(2, 3)
+                random_wait(3,4)
                 self.initialized = True
 
             # ✅ optional scroll
@@ -83,7 +83,7 @@ class site_obs(BaseSite):
 
              # ✅ search
             self.search_model(driver, model)
-            random_wait(1.5,2.5)
+            random_wait(2,3)
             matched_price = None
 
             products = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located(
