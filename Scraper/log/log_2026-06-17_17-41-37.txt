@@ -1,0 +1,99 @@
+📝 Logging to file: d:\0_YG Project\0_Python Practice\Scraper\log\log_2026-06-17_17-41-37.txt
+
+🚀 Starting scraping...
+
+📌 Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: CoolBlue
+✅ Cookies accepted
+[CoolBlue] No results for GBBSJ11DEP
+[1/25] CoolBlue | OK | GBBSJ11DEP | 15.10s
+[CoolBlue] No results for F4WX809Y
+[2/25] CoolBlue | OK | F4WX809Y | 19.04s
+[CoolBlue] Matched product found -> Product: W4X1095NWB | Price: 629
+[3/25] CoolBlue | OK | W4X1095NWB | 5.15s
+[CoolBlue] No results for RHX5009THB
+[4/25] CoolBlue | OK | RHX5009THB | 6.95s
+[CoolBlue] No results for MJ3965BPS
+[5/25] CoolBlue | OK | MJ3965BPS | 4.55s
+Cooldown: 7s
+
+
+===== SESSION 2 =====
+
+Running site: MediaMarkt
+[MediaMarkt] No results for GBBSJ11DEP
+[6/25] MediaMarkt | OK | GBBSJ11DEP | 26.88s
+[MediaMarkt] No results for F4WX809Y
+[7/25] MediaMarkt | OK | F4WX809Y | 5.88s
+[MediaMarkt] No results for W4X1095NWB
+[8/25] MediaMarkt | OK | W4X1095NWB | 15.51s
+[MediaMarkt] Matched product found -> Product: RHX5009THB | Price: € 799,–
+[9/25] MediaMarkt | OK | RHX5009THB | 6.99s
+[MediaMarkt] Matched product found -> Product: MJ3965BPS | Price: € 350,96
+[10/25] MediaMarkt | OK | MJ3965BPS | 5.67s
+Cooldown: 11s
+
+
+===== SESSION 3 =====
+
+Running site: OBS
+✅ Cookies accepted
+[OBS] Matched product found -> Product: GBBSJ11DEP | Price: €549.00
+[11/25] OBS | OK | GBBSJ11DEP | 13.51s
+[OBS] Matched product found -> Product: F4WX809Y | Price: €649.00
+[12/25] OBS | OK | F4WX809Y | 7.55s
+[OBS] Matched product found -> Product: W4X1095NWB | Price: €579.00
+[13/25] OBS | OK | W4X1095NWB | 6.83s
+[OBS] Matched product found -> Product: RHX5009THB | Price: €699.00
+[14/25] OBS | OK | RHX5009THB | 6.46s
+[OBS] No matching product found for MJ3965BPS
+[15/25] OBS | OK | MJ3965BPS | 6.21s
+Cooldown: 12s
+
+
+===== SESSION 4 =====
+
+Running site: BK
+✅ Cookies accepted
+[BK] Matched product found -> Product: GBBSJ11DEP | Price: 469,-
+[16/25] BK | OK | GBBSJ11DEP | 5.72s
+[BK] Matched product found -> Product: F4WX809Y | Price: 799,-
+[17/25] BK | OK | F4WX809Y | 4.87s
+[BK] Matched product found -> Product: W4X1095NWB | Price: 569,-
+[18/25] BK | OK | W4X1095NWB | 3.97s
+[BK] No results found for RHX5009THB
+[19/25] BK | OK | RHX5009THB | 18.65s
+[BK] No results found for MJ3965BPS
+[20/25] BK | OK | MJ3965BPS | 3.31s
+Cooldown: 13s
+
+
+===== SESSION 5 =====
+
+Running site: BOL
+✅ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: GBBSJ11DEP | Price: 571
+[21/25] BOL | OK | GBBSJ11DEP | 10.79s
+[BOL] Matched product found -> Product: F4WX809Y | Price: 659
+[22/25] BOL | OK | F4WX809Y | 3.76s
+[BOL] Matched product found -> Product: W4X1095NWB | Price: 598
+[23/25] BOL | OK | W4X1095NWB | 4.32s
+[BOL] No matching product found for RHX5009THB
+[24/25] BOL | OK | RHX5009THB | 3.46s
+[BOL] Matched product found -> Product: MJ3965BPS | Price: 222
+[25/25] BOL | OK | MJ3965BPS | 14.16s
+Cooldown: 12s
+
+
+Saved results: d:\0_YG Project\0_Python Practice\Scraper\result\HS Price Tracker_2026-06-17_v2.xlsx
+
+✅ Scraping completed.
+
+
+⏱ Total execution time: 0:04:59
+

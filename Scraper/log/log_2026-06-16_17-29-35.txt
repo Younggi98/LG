@@ -1,0 +1,137 @@
+📝 Logging to file: d:\0_YG Project\0_Python Practice\Scraper\log\log_2026-06-16_17-29-35.txt
+
+🚀 Starting scraping...
+
+📌 Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: BOL
+✅ Cookies accepted
+No popup found
+[BOL] Failed: GBBSJ11DEP - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77f18fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff77f18fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff77ecc78fd]
+	chromedriver!(No symbol) [0x7ff77ed21479]
+	chromedriver!(No symbol) [0x7ff77ed2177c]
+	chromedriver!(No symbol) [0x7ff77ed71ef7]
+	chromedriver!(No symbol) [0x7ff77ed6eaeb]
+	chromedriver!(No symbol) [0x7ff77ed13a58]
+	chromedriver!(No symbol) [0x7ff77ed14953]
+	chromedriver!GetHandleVerifier [0x7ff77f755511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff77f74f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff77f773205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff77f1acc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff77f1b562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff77f199984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff77f199b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff77f17ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[1/5] BOL | OK | GBBSJ11DEP | 20.84s
+[BOL] Failed: F4WX809Y - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77f18fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff77f18fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff77ecc78fd]
+	chromedriver!(No symbol) [0x7ff77ed21479]
+	chromedriver!(No symbol) [0x7ff77ed2177c]
+	chromedriver!(No symbol) [0x7ff77ed71ef7]
+	chromedriver!(No symbol) [0x7ff77ed6eaeb]
+	chromedriver!(No symbol) [0x7ff77ed13a58]
+	chromedriver!(No symbol) [0x7ff77ed14953]
+	chromedriver!GetHandleVerifier [0x7ff77f755511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff77f74f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff77f773205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff77f1acc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff77f1b562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff77f199984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff77f199b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff77f17ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[2/5] BOL | OK | F4WX809Y | 14.27s
+[BOL] Failed: W4X1095NWB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77f18fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff77f18fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff77ecc78fd]
+	chromedriver!(No symbol) [0x7ff77ed21479]
+	chromedriver!(No symbol) [0x7ff77ed2177c]
+	chromedriver!(No symbol) [0x7ff77ed71ef7]
+	chromedriver!(No symbol) [0x7ff77ed6eaeb]
+	chromedriver!(No symbol) [0x7ff77ed13a58]
+	chromedriver!(No symbol) [0x7ff77ed14953]
+	chromedriver!GetHandleVerifier [0x7ff77f755511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff77f74f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff77f773205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff77f1acc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff77f1b562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff77f199984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff77f199b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff77f17ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[3/5] BOL | OK | W4X1095NWB | 14.52s
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77f18fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff77f18fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff77ecc78fd]
+	chromedriver!(No symbol) [0x7ff77ed21479]
+	chromedriver!(No symbol) [0x7ff77ed2177c]
+	chromedriver!(No symbol) [0x7ff77ed71ef7]
+	chromedriver!(No symbol) [0x7ff77ed6eaeb]
+	chromedriver!(No symbol) [0x7ff77ed13a58]
+	chromedriver!(No symbol) [0x7ff77ed14953]
+	chromedriver!GetHandleVerifier [0x7ff77f755511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff77f74f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff77f773205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff77f1acc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff77f1b562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff77f199984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff77f199b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff77f17ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[4/5] BOL | OK | RHX5009THB | 15.00s
+[BOL] Failed: MJ3965BPS - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77f18fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff77f18fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff77ecc78fd]
+	chromedriver!(No symbol) [0x7ff77ed21479]
+	chromedriver!(No symbol) [0x7ff77ed2177c]
+	chromedriver!(No symbol) [0x7ff77ed71ef7]
+	chromedriver!(No symbol) [0x7ff77ed6eaeb]
+	chromedriver!(No symbol) [0x7ff77ed13a58]
+	chromedriver!(No symbol) [0x7ff77ed14953]
+	chromedriver!GetHandleVerifier [0x7ff77f755511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff77f74f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff77f773205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff77f1acc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff77f1b562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff77f199984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff77f199b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff77f17ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[5/5] BOL | OK | MJ3965BPS | 13.26s
+Cooldown: 15s
+
+
+Saved results: d:\0_YG Project\0_Python Practice\Scraper\result\HS Price Tracker_2026-06-16_v1.xlsx
+
+✅ Scraping completed.
+
+
+⏱ Total execution time: 0:01:43
+

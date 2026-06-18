@@ -1,0 +1,80 @@
+📝 Logging to file: d:\0_YG Project\0_Python Practice\Scraper\log\log_2026-06-15_14-06-19.txt
+
+🚀 Starting scraping...
+
+📌 Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: BOL
+✅ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: GBBSJ11DEP | Price: 469
+[1/5] BOL | OK | GBBSJ11DEP | 27.50s
+[BOL] Matched product found -> Product: F4WX809Y | Price: 659
+[2/5] BOL | OK | F4WX809Y | 6.19s
+[BOL] Matched product found -> Product: W4X1095NWB | Price: 567
+[3/5] BOL | OK | W4X1095NWB | 8.08s
+[BOL] Search failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7039ffd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff7039ffdf0+153f0]
+	chromedriver!(No symbol) [0x7ff7035376e6]
+	chromedriver!(No symbol) [0x7ff70358c279]
+	chromedriver!(No symbol) [0x7ff70358a10c]
+	chromedriver!(No symbol) [0x7ff7035b9d7a]
+	chromedriver!(No symbol) [0x7ff7035851d6]
+	chromedriver!(No symbol) [0x7ff7035deaeb]
+	chromedriver!(No symbol) [0x7ff703583a58]
+	chromedriver!(No symbol) [0x7ff703584953]
+	chromedriver!GetHandleVerifier [0x7ff703fc5511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff703fbf8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff703fe3205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff703a1cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff703a2562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff703a09984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff703a09b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff7039eca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[BOL] No matching product found for RHX5009THB
+[4/5] BOL | OK | RHX5009THB | 2.25s
+[BOL] Search failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.103); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7039ffd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff7039ffdf0+153f0]
+	chromedriver!(No symbol) [0x7ff7035376e6]
+	chromedriver!(No symbol) [0x7ff70358c279]
+	chromedriver!(No symbol) [0x7ff70358a10c]
+	chromedriver!(No symbol) [0x7ff7035b9d7a]
+	chromedriver!(No symbol) [0x7ff7035851d6]
+	chromedriver!(No symbol) [0x7ff7035deaeb]
+	chromedriver!(No symbol) [0x7ff703583a58]
+	chromedriver!(No symbol) [0x7ff703584953]
+	chromedriver!GetHandleVerifier [0x7ff703fc5511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff703fbf8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff703fe3205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff703a1cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff703a2562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff703a09984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff703a09b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff7039eca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[BOL] No matching product found for MJ3965BPS
+[5/5] BOL | OK | MJ3965BPS | 3.41s
+Cooldown: 12s
+
+
+Saved results: d:\0_YG Project\0_Python Practice\Scraper\result\HS Price Tracker_2026-06-15_v1.xlsx
+
+✅ Scraping completed.
+
+
+⏱ Total execution time: 0:01:03
+

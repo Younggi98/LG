@@ -1,0 +1,59 @@
+📝 Logging to file: d:\0_YG Project\0_Python Practice\Scraper\log\log_2026-06-17_16-58-02.txt
+
+🚀 Starting scraping...
+
+📌 Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: CoolBlue
+✅ Cookies accepted
+[CoolBlue] No results for GBBSJ11DEP
+[1/5] CoolBlue | OK | GBBSJ11DEP | 17.56s
+Cooldown: 9s
+
+
+===== SESSION 2 =====
+
+Running site: MediaMarkt
+[MediaMarkt] No results for GBBSJ11DEP
+[2/5] MediaMarkt | OK | GBBSJ11DEP | 16.08s
+Cooldown: 15s
+
+
+===== SESSION 3 =====
+
+Running site: OBS
+✅ Cookies accepted
+[OBS] Matched product found -> Product: GBBSJ11DEP | Price: €549.00
+[3/5] OBS | OK | GBBSJ11DEP | 20.00s
+Cooldown: 15s
+
+
+===== SESSION 4 =====
+
+Running site: BK
+✅ Cookies accepted
+[BK] Matched product found -> Product: GBBSJ11DEP | Price: 469,-
+[4/5] BK | OK | GBBSJ11DEP | 11.32s
+Cooldown: 8s
+
+
+===== SESSION 5 =====
+
+Running site: BOL
+✅ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: GBBSJ11DEP | Price: 571
+[5/5] BOL | OK | GBBSJ11DEP | 11.84s
+Cooldown: 10s
+
+
+Saved results: d:\0_YG Project\0_Python Practice\Scraper\result\HS Price Tracker_2026-06-17_v1.xlsx
+
+✅ Scraping completed.
+
+
+⏱ Total execution time: 0:02:39
+
