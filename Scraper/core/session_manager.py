@@ -31,7 +31,7 @@ class SessionManager:
     # =================================
     def run(self):
         session_count = 1
-        Max_sessions = 300
+        Max_sessions = 200
 
         while not self._all_sites_completed():
             
@@ -52,9 +52,10 @@ class SessionManager:
                 continue
 
             self._run_single_session(site)
+            print("Completion status:", [site.is_done() for site in self.sites])
             
             if self._all_sites_completed():
-                print("✅ All scraping finished early.")
+                print("All scraping Completed.")
                 break
 
             session_count += 1
@@ -129,11 +130,11 @@ class SessionManager:
                 
                 if result:
                     self.result_handler.add(result)
-                    site.mark_completed(product)
                     status = "OK"
                 else:
                     status = "FAILED"
 
+                site.mark_completed(product)
 
                 duration = time.perf_counter() - start_time
                 print(f"[{self.processed_products}/{self.total_products}] {site.name} | {status} | {product} | {duration:.2f}s")

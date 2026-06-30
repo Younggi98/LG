@@ -30,7 +30,7 @@ class site_mediamarkt(BaseSite):
     def accept_cookies(self, driver):
         try:
             driver.find_element(By.ID, "pwa-consent-layer-accept-all-button").click()
-            print("✅ Cookies accepted")
+            print(" Cookies accepted")
             random_wait(1, 2)
         except:
             print("No cookie popup found")
@@ -110,34 +110,34 @@ class site_mediamarkt(BaseSite):
     # ==========================
     # MAIN FUNCTION (REQUIRED)
     # ==========================
-    def search_product(self, driver, model):
+    def search_product(self, driver, model, retry=False):
 
         try:
             search_url = f"https://www.mediamarkt.nl/nl/search.html?query={model}"
 
-            if random.random() < 0.01:
-                driver.get(self.base_url)
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    self.initialized = True
+            # if random.random() < 0.01:
+            #     driver.get(self.base_url)
+            #     if not self.initialized:
+            #         random_wait(2, 3)
+            #         self.accept_cookies(driver)
+            #         self.initialized = True
 
-                random_wait(2, 4)
+            #     random_wait(2, 4)
 
-                # optional scroll
-                if random.random() < 0.3:
-                    random_scroll(driver)
+            #     # optional scroll
+            #     if random.random() < 0.3:
+            #         random_scroll(driver)
 
-                self.search_model(driver, model)
+            #     self.search_model(driver, model)
 
-            else:
-                driver.get(search_url)
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    self.initialized = True
-                if random.random() < 0.2:
-                    random_scroll(driver)
+            # else:
+            driver.get(search_url)
+            if not self.initialized:
+                random_wait(2, 3)
+                self.accept_cookies(driver)
+                self.initialized = True
+            if random.random() < 0.2:
+                random_scroll(driver)
 
             random_wait(2, 4)
 
@@ -180,6 +180,15 @@ class site_mediamarkt(BaseSite):
 
         except Exception as e:
             print(f"[{self.name}] Failed: {model} - {e}")
+
+            if not retry:
+                print(f"[{self.name}] Retrying once...")
+                try:
+                    driver.refresh()
+                    random_wait(2, 4)
+                    return self.search_product(driver, model, retry=True)
+                except Exception as e2:
+                    print(f"[{self.name}] Retry failed: {model} - {e2}")
 
             return {
                 "site": self.name,

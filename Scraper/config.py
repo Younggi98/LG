@@ -66,7 +66,7 @@ ENABLED_SITES = _load_websites()
 SESSION_MIN_ITEMS = 10
 SESSION_MAX_ITEMS = 20
 
-SESSION_COOLDOWN_MIN = 7   # seconds
+SESSION_COOLDOWN_MIN = 10   # seconds
 SESSION_COOLDOWN_MAX = 15
 
 # ============================
@@ -83,7 +83,7 @@ USER_AGENTS = [
 # OUTPUT
 # ============================
 
-OUTPUT_FILE = "HS Price Tracker.xlsx"
+OUTPUT_FILE = "Price Tracker.xlsx"
 
 # ============================
 # FEATURES / FLAGS

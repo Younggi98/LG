@@ -25,7 +25,7 @@ class site_bk(BaseSite):
     def accept_cookies (self, driver):
         try:
             driver.find_element(By.CSS_SELECTOR,"div.CookiebotConsent-actions button").click()
-            print("✅ Cookies accepted")
+            print(" Cookies accepted")
             
         except:
             print("No cookie popup found")
@@ -102,30 +102,30 @@ class site_bk(BaseSite):
         try:
             search_url = f"https://www.bemmelenkroon.nl/zoeken/?query={model}"
 
-            if random.random() < 0.01:
-                driver.get(self.base_url)
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    self.initialized = True
+            # if random.random() < 0.01:
+            #     driver.get(self.base_url)
+            #     if not self.initialized:
+            #         random_wait(2, 3)
+            #         self.accept_cookies(driver)
+            #         self.initialized = True
 
-                random_wait(2, 4)
+            #     random_wait(2, 4)
 
-                 # optional scroll
-                if random.random() < 0.3:
-                    random_scroll(driver)
+            #      # optional scroll
+            #     if random.random() < 0.3:
+            #         random_scroll(driver)
 
-                # ✅ search
-                self.search_model(driver, model)
+            #     # ✅ search
+            #     self.search_model(driver, model)
             
-            else:
-                driver.get(search_url)
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    self.initialized = True
-                if random.random() < 0.2:
-                    random_scroll(driver)
+            # else:
+            driver.get(search_url)
+            if not self.initialized:
+                random_wait(2, 3)
+                self.accept_cookies(driver)
+                self.initialized = True
+            if random.random() < 0.2:
+                random_scroll(driver)
 
             random_wait(2, 4)
             found = False

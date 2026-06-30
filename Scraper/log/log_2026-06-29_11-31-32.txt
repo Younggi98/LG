@@ -1,0 +1,241 @@
+ Logging to file: d:\0_YG Project\0_Python Practice\Scraper\log\log_2026-06-29_11-31-32.txt
+
+Starting scraping...
+
+Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for GBBSJ11DEP
+[1/25] CoolBlue | OK | GBBSJ11DEP | 9.53s
+[CoolBlue] No results for F4WX809Y
+[2/25] CoolBlue | OK | F4WX809Y | 3.46s
+[CoolBlue] Matched product found -> Product: W4X1095NWB | Price: 589
+[3/25] CoolBlue | OK | W4X1095NWB | 19.12s
+[CoolBlue] No results for RHX5009THB
+[4/25] CoolBlue | OK | RHX5009THB | 5.18s
+[CoolBlue] No results for MJ3965BPS
+[5/25] CoolBlue | OK | MJ3965BPS | 3.40s
+Completion status: [True, False, False, False, False]
+Cooldown: 9s
+
+
+===== SESSION 2 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for GBBSJ11DEP
+[6/25] MediaMarkt | OK | GBBSJ11DEP | 11.52s
+[MediaMarkt] No results for F4WX809Y
+[7/25] MediaMarkt | OK | F4WX809Y | 6.89s
+[MediaMarkt] No results for W4X1095NWB
+[8/25] MediaMarkt | OK | W4X1095NWB | 7.52s
+[MediaMarkt] Matched product found -> Product: RHX5009THB | Price: € 799,–
+[9/25] MediaMarkt | OK | RHX5009THB | 8.21s
+[MediaMarkt] Matched product found -> Product: MJ3965BPS | Price: € 350,96
+[10/25] MediaMarkt | OK | MJ3965BPS | 7.49s
+Completion status: [True, True, False, False, False]
+Cooldown: 9s
+
+
+===== SESSION 3 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: GBBSJ11DEP | Price: €549.00
+[11/25] OBS | OK | GBBSJ11DEP | 13.99s
+[OBS] Matched product found -> Product: F4WX809Y | Price: €1,339.00
+[12/25] OBS | OK | F4WX809Y | 11.40s
+[OBS] Matched product found -> Product: W4X1095NWB | Price: €579.00
+[13/25] OBS | OK | W4X1095NWB | 6.87s
+[OBS] Matched product found -> Product: RHX5009THB | Price: €699.00
+[14/25] OBS | OK | RHX5009THB | 6.76s
+[OBS] No matching product found for MJ3965BPS
+[15/25] OBS | OK | MJ3965BPS | 6.81s
+Completion status: [True, True, True, False, False]
+Cooldown: 9s
+
+
+===== SESSION 4 =====
+
+Running site: BK
+ Cookies accepted
+[BK] Matched product found -> Product: GBBSJ11DEP | Price: 549,74
+[16/25] BK | OK | GBBSJ11DEP | 8.88s
+[BK] Matched product found -> Product: F4WX809Y | Price: 799,-
+[17/25] BK | OK | F4WX809Y | 3.93s
+[BK] Matched product found -> Product: W4X1095NWB | Price: 555,-
+[18/25] BK | OK | W4X1095NWB | 4.09s
+[BK] No results found for RHX5009THB
+[19/25] BK | OK | RHX5009THB | 4.02s
+[BK] No results found for MJ3965BPS
+[20/25] BK | OK | MJ3965BPS | 3.12s
+Completion status: [True, True, True, True, False]
+Cooldown: 8s
+
+
+===== SESSION 5 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: GBBSJ11DEP | Price: 519
+[21/25] BOL | OK | GBBSJ11DEP | 12.30s
+[BOL] Matched product found -> Product: F4WX809Y | Price: 650
+[22/25] BOL | OK | F4WX809Y | 3.61s
+[BOL] Matched product found -> Product: W4X1095NWB | Price: 528
+[23/25] BOL | OK | W4X1095NWB | 3.12s
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff798363fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff798364000+14980]
+	chromedriver!(No symbol) [0x7ff797ea793d]
+	chromedriver!(No symbol) [0x7ff797f01aad]
+	chromedriver!(No symbol) [0x7ff797f01dac]
+	chromedriver!(No symbol) [0x7ff797f527d7]
+	chromedriver!(No symbol) [0x7ff797f4f39b]
+	chromedriver!(No symbol) [0x7ff797ef401c]
+	chromedriver!(No symbol) [0x7ff797ef4f43]
+	chromedriver!GetHandleVerifier [0x7ff798947591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff798941902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff798967115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff798381dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff79838a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff79836d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff79836d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff798351447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[BOL] Retrying once...
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff798363fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff798364000+14980]
+	chromedriver!(No symbol) [0x7ff797ea793d]
+	chromedriver!(No symbol) [0x7ff797f01aad]
+	chromedriver!(No symbol) [0x7ff797f01dac]
+	chromedriver!(No symbol) [0x7ff797f527d7]
+	chromedriver!(No symbol) [0x7ff797f4f39b]
+	chromedriver!(No symbol) [0x7ff797ef401c]
+	chromedriver!(No symbol) [0x7ff797ef4f43]
+	chromedriver!GetHandleVerifier [0x7ff798947591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff798941902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff798967115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff798381dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff79838a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff79836d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff79836d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff798351447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[TIMEOUT] RHX5009THB → retry 1/2
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff798363fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff798364000+14980]
+	chromedriver!(No symbol) [0x7ff797ea793d]
+	chromedriver!(No symbol) [0x7ff797f01aad]
+	chromedriver!(No symbol) [0x7ff797f01dac]
+	chromedriver!(No symbol) [0x7ff797f527d7]
+	chromedriver!(No symbol) [0x7ff797f4f39b]
+	chromedriver!(No symbol) [0x7ff797ef401c]
+	chromedriver!(No symbol) [0x7ff797ef4f43]
+	chromedriver!GetHandleVerifier [0x7ff798947591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff798941902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff798967115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff798381dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff79838a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff79836d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff79836d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff798351447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[BOL] Retrying once...
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff798363fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff798364000+14980]
+	chromedriver!(No symbol) [0x7ff797ea793d]
+	chromedriver!(No symbol) [0x7ff797f01aad]
+	chromedriver!(No symbol) [0x7ff797f01dac]
+	chromedriver!(No symbol) [0x7ff797f527d7]
+	chromedriver!(No symbol) [0x7ff797f4f39b]
+	chromedriver!(No symbol) [0x7ff797ef401c]
+	chromedriver!(No symbol) [0x7ff797ef4f43]
+	chromedriver!GetHandleVerifier [0x7ff798947591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff798941902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff798967115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff798381dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff79838a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff79836d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff79836d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff798351447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[TIMEOUT] RHX5009THB → retry 2/2
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff798363fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff798364000+14980]
+	chromedriver!(No symbol) [0x7ff797ea793d]
+	chromedriver!(No symbol) [0x7ff797f01aad]
+	chromedriver!(No symbol) [0x7ff797f01dac]
+	chromedriver!(No symbol) [0x7ff797f527d7]
+	chromedriver!(No symbol) [0x7ff797f4f39b]
+	chromedriver!(No symbol) [0x7ff797ef401c]
+	chromedriver!(No symbol) [0x7ff797ef4f43]
+	chromedriver!GetHandleVerifier [0x7ff798947591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff798941902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff798967115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff798381dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff79838a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff79836d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff79836d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff798351447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[BOL] Retrying once...
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff798363fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff798364000+14980]
+	chromedriver!(No symbol) [0x7ff797ea793d]
+	chromedriver!(No symbol) [0x7ff797f01aad]
+	chromedriver!(No symbol) [0x7ff797f01dac]
+	chromedriver!(No symbol) [0x7ff797f527d7]
+	chromedriver!(No symbol) [0x7ff797f4f39b]
+	chromedriver!(No symbol) [0x7ff797ef401c]
+	chromedriver!(No symbol) [0x7ff797ef4f43]
+	chromedriver!GetHandleVerifier [0x7ff798947591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff798941902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff798967115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff798381dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff79838a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff79836d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff79836d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff798351447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[TIMEOUT] RHX5009THB → retry 3/2
+[24/25] BOL | FAILED | RHX5009THB | 115.62s
+[BOL] Matched product found -> Product: MJ3965BPS | Price: 212
+[25/25] BOL | OK | MJ3965BPS | 4.38s
+Completion status: [True, True, True, True, True]
+✅ All scraping finished early.
+
+Saved results: d:\0_YG Project\0_Python Practice\Scraper\result\HS Price Tracker_2026-06-29_v1.xlsx
+
+ Scraping completed.
+
+
+ Total execution time: 0:05:52
+

@@ -69,14 +69,14 @@ def main():
     # ✅ Start timer
     start_time = time.time()
 
-    print("\n🚀 Starting scraping...\n")
-    print("📌 Progress will be shown live in this console window.\n")
+    print("\nStarting scraping...\n")
+    print("Progress will be shown live in this console window.\n")
 
     # ✅ create site instances
     sites = create_sites()
 
     if not sites:
-        print("❌ No sites enabled. Check config.ENABLED_SITES")
+        print("No sites enabled. Check config.ENABLED_SITES")
         return
 
     # ✅ result manager
@@ -91,7 +91,7 @@ def main():
     # ✅ save final results
     result_handler.save()
 
-    print("\n✅ Scraping completed.\n")
+    print("\n Scraping completed.\n")
 
     # ✅ End timer
     end_time = time.time()
@@ -100,7 +100,7 @@ def main():
     # ✅ Pretty format
     elapsed_str = str(datetime.timedelta(seconds=int(elapsed)))
 
-    print(f"\n⏱ Total execution time: {elapsed_str}\n")
+    print(f"\n Total execution time: {elapsed_str}\n")
 
 
 def get_base_path():
@@ -129,7 +129,7 @@ if __name__ == "__main__":
     # ✅ Redirect stdout
     sys.stdout = Tee(log_full_path)
 
-    print(f"📝 Logging to file: {log_full_path}")
+    print(f" Logging to file: {log_full_path}")
 
 
     main()

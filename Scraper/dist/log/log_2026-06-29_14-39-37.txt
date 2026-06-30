@@ -1,0 +1,2883 @@
+ Logging to file: D:\0_YG Project\0_Python Practice\Scraper\dist\log\log_2026-06-29_14-39-37.txt
+
+Starting scraping...
+
+Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No matching product found for 100QNED86A6
+[1/1030] CoolBlue | OK | 100QNED86A6 | 23.37s
+[CoolBlue] Matched product found -> Product: 24G411A-B | Price: 79
+[2/1030] CoolBlue | OK | 24G411A-B | 12.76s
+[CoolBlue] Matched product found -> Product: 24U411A-B | Price: 79
+[3/1030] CoolBlue | OK | 24U411A-B | 4.66s
+[CoolBlue] Matched product found -> Product: 27G411A-B | Price: 99
+[4/1030] CoolBlue | OK | 27G411A-B | 11.79s
+[CoolBlue] No results for 27G414B-B
+[5/1030] CoolBlue | OK | 27G414B-B | 9.96s
+[CoolBlue] No results for 27G550B-B
+[6/1030] CoolBlue | OK | 27G550B-B | 4.01s
+[CoolBlue] Matched product found -> Product: 27G610A-B | Price: 149
+[7/1030] CoolBlue | OK | 27G610A-B | 4.08s
+[CoolBlue] Matched product found -> Product: 27GR83Q-B | Price: 363
+[8/1030] CoolBlue | OK | 27GR83Q-B | 4.75s
+[CoolBlue] Matched product found -> Product: 27GS85Q-B | Price: 219
+[9/1030] CoolBlue | OK | 27GS85Q-B | 12.08s
+[CoolBlue] Matched product found -> Product: 27GX704A-B | Price: 538
+[10/1030] CoolBlue | OK | 27GX704A-B | 9.84s
+[CoolBlue] No matching product found for 27GX790B-B
+[11/1030] CoolBlue | OK | 27GX790B-B | 4.46s
+[CoolBlue] No results for 27LX6TDGA
+[12/1030] CoolBlue | OK | 27LX6TDGA | 4.58s
+[CoolBlue] Matched product found -> Product: 27U411A-B | Price: 97
+[13/1030] CoolBlue | OK | 27U411A-B | 3.73s
+[CoolBlue] Matched product found -> Product: 27UP850K-W | Price: 269
+[14/1030] CoolBlue | OK | 27UP850K-W | 10.64s
+[CoolBlue] Matched product found -> Product: 27UQ850V-W | Price: 393
+[15/1030] CoolBlue | OK | 27UQ850V-W | 5.32s
+[CoolBlue] Matched product found -> Product: 27US550-W | Price: 275
+[16/1030] CoolBlue | OK | 27US550-W | 13.23s
+[CoolBlue] Matched product found -> Product: 29U511A-B | Price: 156
+[17/1030] CoolBlue | OK | 29U511A-B | 17.31s
+[CoolBlue] Matched product found -> Product: 32GX850A-B | Price: 786
+[18/1030] CoolBlue | OK | 32GX850A-B | 4.46s
+[CoolBlue] Matched product found -> Product: 32LQ63006LA | Price: 228
+[19/1030] CoolBlue | OK | 32LQ63006LA | 4.38s
+[CoolBlue] Matched product found -> Product: 32U889SA-W | Price: 799
+[20/1030] CoolBlue | OK | 32U889SA-W | 9.08s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 2 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No matching product found for 100QNED86A6
+[21/1030] MediaMarkt | OK | 100QNED86A6 | 10.92s
+[MediaMarkt] No results for 24G411A-B
+[22/1030] MediaMarkt | OK | 24G411A-B | 7.04s
+[MediaMarkt] No results for 24U411A-B
+[23/1030] MediaMarkt | OK | 24U411A-B | 6.69s
+[MediaMarkt] Matched product found -> Product: 27G411A-B | Price: € 120,41
+[24/1030] MediaMarkt | OK | 27G411A-B | 7.33s
+[MediaMarkt] No results for 27G414B-B
+[25/1030] MediaMarkt | OK | 27G414B-B | 5.60s
+[MediaMarkt] No results for 27G550B-B
+[26/1030] MediaMarkt | OK | 27G550B-B | 6.09s
+[MediaMarkt] Matched product found -> Product: 27G610A-B | Price: € 179,–
+[27/1030] MediaMarkt | OK | 27G610A-B | 7.52s
+[MediaMarkt] No results for 27GR83Q-B
+[28/1030] MediaMarkt | OK | 27GR83Q-B | 6.81s
+[MediaMarkt] No results for 27GS85Q-B
+[29/1030] MediaMarkt | OK | 27GS85Q-B | 8.18s
+[MediaMarkt] No results for 27GX704A-B
+[30/1030] MediaMarkt | OK | 27GX704A-B | 7.76s
+[MediaMarkt] Matched product found -> Product: 27GX790B-B | Price: € 835,–
+[31/1030] MediaMarkt | OK | 27GX790B-B | 6.47s
+[MediaMarkt] No results for 27LX6TDGA
+[32/1030] MediaMarkt | OK | 27LX6TDGA | 6.27s
+[MediaMarkt] No results for 27U411A-B
+[33/1030] MediaMarkt | OK | 27U411A-B | 7.08s
+[MediaMarkt] Matched product found -> Product: 27UP850K-W | Price: € 269,–
+[34/1030] MediaMarkt | OK | 27UP850K-W | 7.74s
+[MediaMarkt] No results for 27UQ850V-W
+[35/1030] MediaMarkt | OK | 27UQ850V-W | 7.31s
+[MediaMarkt] No results for 27US550-W
+[36/1030] MediaMarkt | OK | 27US550-W | 6.91s
+[MediaMarkt] No results for 29U511A-B
+[37/1030] MediaMarkt | OK | 29U511A-B | 7.09s
+[MediaMarkt] No results for 32GX850A-B
+[38/1030] MediaMarkt | OK | 32GX850A-B | 8.47s
+[MediaMarkt] Matched product found -> Product: 32LQ63006LA | Price: € 211,50
+[39/1030] MediaMarkt | OK | 32LQ63006LA | 16.47s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 3 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 100QNED86A6 | Price: €2,198.99
+[40/1030] OBS | OK | 100QNED86A6 | 13.15s
+[OBS] Matched product found -> Product: 24G411A-B | Price:  
+[41/1030] OBS | OK | 24G411A-B | 6.69s
+[OBS] No matching product found for 24U411A-B
+[42/1030] OBS | OK | 24U411A-B | 7.28s
+[OBS] Matched product found -> Product: 27G411A-B | Price: €99.00
+[43/1030] OBS | OK | 27G411A-B | 4.95s
+[OBS] No matching product found for 27G414B-B
+[44/1030] OBS | OK | 27G414B-B | 6.34s
+[OBS] No matching product found for 27G550B-B
+[45/1030] OBS | OK | 27G550B-B | 5.65s
+[OBS] Matched product found -> Product: 27G610A-B | Price: €179.00
+[46/1030] OBS | OK | 27G610A-B | 11.57s
+[OBS] Matched product found -> Product: 27GR83Q-B | Price: €379.00
+[47/1030] OBS | OK | 27GR83Q-B | 5.55s
+[OBS] Matched product found -> Product: 27GS85Q-B | Price: €219.00
+[48/1030] OBS | OK | 27GS85Q-B | 5.42s
+[OBS] Matched product found -> Product: 27GX704A-B | Price: €538.00
+[49/1030] OBS | OK | 27GX704A-B | 7.82s
+[OBS] Matched product found -> Product: 27GX790B-B | Price: €849.00
+[50/1030] OBS | OK | 27GX790B-B | 14.02s
+[OBS] Matched product found -> Product: 27LX6TDGA | Price: €1,298.99
+[51/1030] OBS | OK | 27LX6TDGA | 16.15s
+[OBS] Matched product found -> Product: 27U411A-B | Price: €89.00
+[52/1030] OBS | OK | 27U411A-B | 13.87s
+[OBS] Matched product found -> Product: 27UP850K-W | Price: €274.00
+[53/1030] OBS | OK | 27UP850K-W | 8.84s
+[OBS] Matched product found -> Product: 27UQ850V-W | Price: €393.00
+[54/1030] OBS | OK | 27UQ850V-W | 8.59s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 4 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for 100QNED86A6
+[55/1030] BK | OK | 100QNED86A6 | 14.39s
+[BK] No results found for 24G411A-B
+[56/1030] BK | OK | 24G411A-B | 4.54s
+[BK] No results found for 24U411A-B
+[57/1030] BK | OK | 24U411A-B | 2.65s
+[BK] No results found for 27G411A-B
+[58/1030] BK | OK | 27G411A-B | 9.70s
+[BK] No results found for 27G414B-B
+[59/1030] BK | OK | 27G414B-B | 10.19s
+[BK] No results found for 27G550B-B
+[60/1030] BK | OK | 27G550B-B | 3.89s
+[BK] No results found for 27G610A-B
+[61/1030] BK | OK | 27G610A-B | 4.04s
+[BK] No results found for 27GR83Q-B
+[62/1030] BK | OK | 27GR83Q-B | 3.33s
+[BK] No results found for 27GS85Q-B
+[63/1030] BK | OK | 27GS85Q-B | 4.21s
+[BK] No results found for 27GX704A-B
+[64/1030] BK | OK | 27GX704A-B | 4.38s
+[BK] No results found for 27GX790B-B
+[65/1030] BK | OK | 27GX790B-B | 3.79s
+[BK] No results found for 27LX6TDGA
+[66/1030] BK | OK | 27LX6TDGA | 2.53s
+[BK] No results found for 27U411A-B
+[67/1030] BK | OK | 27U411A-B | 3.21s
+[BK] No results found for 27UP850K-W
+[68/1030] BK | OK | 27UP850K-W | 2.92s
+[BK] No results found for 27UQ850V-W
+[69/1030] BK | OK | 27UQ850V-W | 3.25s
+[BK] No results found for 27US550-W
+[70/1030] BK | OK | 27US550-W | 3.10s
+[BK] No results found for 29U511A-B
+[71/1030] BK | OK | 29U511A-B | 3.38s
+[BK] No results found for 32GX850A-B
+[72/1030] BK | OK | 32GX850A-B | 2.76s
+[BK] No results found for 32LQ63006LA
+[73/1030] BK | OK | 32LQ63006LA | 3.42s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 5 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] No matching product found for 100QNED86A6
+[74/1030] BOL | OK | 100QNED86A6 | 13.29s
+[BOL] Matched product found -> Product: 24G411A-B | Price: 88
+[75/1030] BOL | OK | 24G411A-B | 3.51s
+[BOL] Matched product found -> Product: 24U411A-B | Price: 79
+[76/1030] BOL | OK | 24U411A-B | 4.65s
+[BOL] Matched product found -> Product: 27G411A-B | Price: 99
+[77/1030] BOL | OK | 27G411A-B | 3.60s
+[BOL] No matching product found for 27G414B-B
+[78/1030] BOL | OK | 27G414B-B | 4.75s
+[BOL] No matching product found for 27G550B-B
+[79/1030] BOL | OK | 27G550B-B | 4.11s
+[BOL] Matched product found -> Product: 27G610A-B | Price: 149
+[80/1030] BOL | OK | 27G610A-B | 3.65s
+[BOL] Matched product found -> Product: 27GR83Q-B | Price: 269
+[81/1030] BOL | OK | 27GR83Q-B | 8.63s
+[BOL] Matched product found -> Product: 27GS85Q-B | Price: 219
+[82/1030] BOL | OK | 27GS85Q-B | 11.68s
+[BOL] Matched product found -> Product: 27GX704A-B | Price: 481
+[83/1030] BOL | OK | 27GX704A-B | 12.65s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 6 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No matching product found for 32U990A-S
+[84/1030] CoolBlue | OK | 32U990A-S | 11.24s
+[CoolBlue] Matched product found -> Product: 32UN880K-B | Price: 349
+[85/1030] CoolBlue | OK | 32UN880K-B | 4.11s
+[CoolBlue] Matched product found -> Product: 32UQ850V-W | Price: 491
+[86/1030] CoolBlue | OK | 32UQ850V-W | 10.52s
+[CoolBlue] Matched product found -> Product: 34GX900A-B | Price: 749
+[87/1030] CoolBlue | OK | 34GX900A-B | 4.70s
+[CoolBlue] Matched product found -> Product: 34U511A-B | Price: 205
+[88/1030] CoolBlue | OK | 34U511A-B | 4.11s
+[CoolBlue] Matched product found -> Product: 34U650A-B | Price: 369
+[89/1030] CoolBlue | OK | 34U650A-B | 3.64s
+[CoolBlue] Matched product found -> Product: 34WR50QK-B | Price: 265
+[90/1030] CoolBlue | OK | 34WR50QK-B | 4.36s
+[CoolBlue] No matching product found for 34WR55QK-B
+[91/1030] CoolBlue | OK | 34WR55QK-B | 11.35s
+[CoolBlue] Matched product found -> Product: 37G800A-B | Price: 649
+[92/1030] CoolBlue | OK | 37G800A-B | 4.19s
+[CoolBlue] Matched product found -> Product: 39GX900A-B | Price: 949
+[93/1030] CoolBlue | OK | 39GX900A-B | 15.50s
+[CoolBlue] Matched product found -> Product: 40U990A-W | Price: 1579
+[94/1030] CoolBlue | OK | 40U990A-W | 4.28s
+[CoolBlue] No matching product found for 43NU800B6LC
+[95/1030] CoolBlue | OK | 43NU800B6LC | 5.43s
+[CoolBlue] No matching product found for 43QNED71B6B
+[96/1030] CoolBlue | OK | 43QNED71B6B | 4.91s
+[CoolBlue] No results for 43QNED82A6B
+[97/1030] CoolBlue | OK | 43QNED82A6B | 4.23s
+[CoolBlue] No results for 43QNED86A6C
+[98/1030] CoolBlue | OK | 43QNED86A6C | 3.83s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 7 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: 32U889SA-W | Price: € 999,–
+[99/1030] MediaMarkt | OK | 32U889SA-W | 11.26s
+[MediaMarkt] No results for 32U990A-S
+[100/1030] MediaMarkt | OK | 32U990A-S | 15.25s
+[MediaMarkt] Matched product found -> Product: 32UN880K-B | Price: € 393,–
+[101/1030] MediaMarkt | OK | 32UN880K-B | 6.41s
+[MediaMarkt] No results for 32UQ850V-W
+[102/1030] MediaMarkt | OK | 32UQ850V-W | 6.37s
+[MediaMarkt] No results for 34GX900A-B
+[103/1030] MediaMarkt | OK | 34GX900A-B | 6.77s
+[MediaMarkt] No results for 34U511A-B
+[104/1030] MediaMarkt | OK | 34U511A-B | 7.00s
+[MediaMarkt] No results for 34U650A-B
+[105/1030] MediaMarkt | OK | 34U650A-B | 14.59s
+[MediaMarkt] Matched product found -> Product: 34WR50QK-B | Price: € 249,–
+[106/1030] MediaMarkt | OK | 34WR50QK-B | 6.97s
+[MediaMarkt] Matched product found -> Product: 34WR55QK-B | Price: € 347,32
+[107/1030] MediaMarkt | OK | 34WR55QK-B | 8.03s
+[MediaMarkt] Matched product found -> Product: 37G800A-B | Price: € 737,–
+[108/1030] MediaMarkt | OK | 37G800A-B | 7.33s
+[MediaMarkt] No results for 39GX900A-B
+[109/1030] MediaMarkt | OK | 39GX900A-B | 5.57s
+[MediaMarkt] No results for 40U990A-W
+[110/1030] MediaMarkt | OK | 40U990A-W | 9.13s
+[MediaMarkt] No results for 43NU800B6LC
+[111/1030] MediaMarkt | OK | 43NU800B6LC | 6.45s
+[MediaMarkt] No results for 43QNED71B6B
+[112/1030] MediaMarkt | OK | 43QNED71B6B | 7.37s
+[MediaMarkt] No results for 43QNED82A6B
+[113/1030] MediaMarkt | OK | 43QNED82A6B | 7.22s
+[MediaMarkt] No results for 43QNED86A6C
+[114/1030] MediaMarkt | OK | 43QNED86A6C | 5.50s
+[MediaMarkt] Matched product found -> Product: 43QNED86B6B | Price: € 749,–
+[115/1030] MediaMarkt | OK | 43QNED86B6B | 8.12s
+[MediaMarkt] Matched product found -> Product: 43UA75006LA | Price: € 322,89
+[116/1030] MediaMarkt | OK | 43UA75006LA | 7.98s
+[MediaMarkt] No results for 45GX900A-B
+[117/1030] MediaMarkt | OK | 45GX900A-B | 8.18s
+[MediaMarkt] No results for 45GX950A-B
+[118/1030] MediaMarkt | OK | 45GX950A-B | 7.23s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 8 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 27US550-W | Price:  
+[119/1030] OBS | OK | 27US550-W | 13.25s
+[OBS] Matched product found -> Product: 29U511A-B | Price: €158.99
+[120/1030] OBS | OK | 29U511A-B | 6.34s
+[OBS] Matched product found -> Product: 32GX850A-B | Price: €786.00
+[121/1030] OBS | OK | 32GX850A-B | 6.58s
+[OBS] Matched product found -> Product: 32LQ63006LA | Price:  
+[122/1030] OBS | OK | 32LQ63006LA | 7.59s
+[OBS] Matched product found -> Product: 32U889SA-W | Price: €919.00
+[123/1030] OBS | OK | 32U889SA-W | 7.24s
+[OBS] Matched product found -> Product: 32U990A-S | Price: €1,599.00
+[124/1030] OBS | OK | 32U990A-S | 5.67s
+[OBS] Matched product found -> Product: 32UN880K-B | Price: €349.00
+[125/1030] OBS | OK | 32UN880K-B | 6.82s
+[OBS] Matched product found -> Product: 32UQ850V-W | Price: €491.01
+[126/1030] OBS | OK | 32UQ850V-W | 13.05s
+[OBS] Matched product found -> Product: 34GX900A-B | Price: €749.00
+[127/1030] OBS | OK | 34GX900A-B | 6.58s
+[OBS] Matched product found -> Product: 34U511A-B | Price: €209.00
+[128/1030] OBS | OK | 34U511A-B | 7.00s
+[OBS] Matched product found -> Product: 34U650A-B | Price: €369.00
+[129/1030] OBS | OK | 34U650A-B | 5.91s
+[OBS] Matched product found -> Product: 34WR50QK-B | Price: €259.00
+[130/1030] OBS | OK | 34WR50QK-B | 9.73s
+[OBS] Matched product found -> Product: 34WR55QK-B | Price:  
+[131/1030] OBS | OK | 34WR55QK-B | 5.71s
+[OBS] Matched product found -> Product: 37G800A-B | Price: €649.00
+[132/1030] OBS | OK | 37G800A-B | 5.41s
+[OBS] Matched product found -> Product: 39GX900A-B | Price: €949.00
+[133/1030] OBS | OK | 39GX900A-B | 6.10s
+[OBS] Matched product found -> Product: 40U990A-W | Price: €1,579.00
+[134/1030] OBS | OK | 40U990A-W | 6.59s
+[OBS] No matching product found for 43NU800B6LC
+[135/1030] OBS | OK | 43NU800B6LC | 7.86s
+[OBS] Matched product found -> Product: 43QNED71B6B | Price: €599.00
+[136/1030] OBS | OK | 43QNED71B6B | 12.19s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 9 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for 32U889SA-W
+[137/1030] BK | OK | 32U889SA-W | 7.48s
+[BK] No results found for 32U990A-S
+[138/1030] BK | OK | 32U990A-S | 3.12s
+[BK] No results found for 32UN880K-B
+[139/1030] BK | OK | 32UN880K-B | 3.45s
+[BK] No results found for 32UQ850V-W
+[140/1030] BK | OK | 32UQ850V-W | 9.22s
+[BK] No results found for 34GX900A-B
+[141/1030] BK | OK | 34GX900A-B | 3.38s
+[BK] No results found for 34U511A-B
+[142/1030] BK | OK | 34U511A-B | 3.58s
+[BK] No results found for 34U650A-B
+[143/1030] BK | OK | 34U650A-B | 3.37s
+[BK] No results found for 34WR50QK-B
+[144/1030] BK | OK | 34WR50QK-B | 4.19s
+[BK] No results found for 34WR55QK-B
+[145/1030] BK | OK | 34WR55QK-B | 3.24s
+[BK] No results found for 37G800A-B
+[146/1030] BK | OK | 37G800A-B | 10.94s
+[BK] No results found for 39GX900A-B
+[147/1030] BK | OK | 39GX900A-B | 9.26s
+[BK] No results found for 40U990A-W
+[148/1030] BK | OK | 40U990A-W | 2.79s
+[BK] No results found for 43NU800B6LC
+[149/1030] BK | OK | 43NU800B6LC | 4.04s
+[BK] No results found for 43QNED71B6B
+[150/1030] BK | OK | 43QNED71B6B | 10.70s
+[BK] No results found for 43QNED82A6B
+[151/1030] BK | OK | 43QNED82A6B | 9.52s
+[BK] No results found for 43QNED86A6C
+[152/1030] BK | OK | 43QNED86A6C | 3.90s
+[BK] No results found for 43QNED86B6B
+[153/1030] BK | OK | 43QNED86B6B | 4.09s
+[BK] No results found for 43UA75006LA
+[154/1030] BK | OK | 43UA75006LA | 2.53s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 10 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] No matching product found for 27GX790B-B
+[155/1030] BOL | OK | 27GX790B-B | 10.86s
+[BOL] No matching product found for 27LX6TDGA
+[156/1030] BOL | OK | 27LX6TDGA | 9.87s
+[BOL] Matched product found -> Product: 27U411A-B | Price: 94
+[157/1030] BOL | OK | 27U411A-B | 4.05s
+[BOL] No matching product found for 27UP850K-W
+[158/1030] BOL | OK | 27UP850K-W | 11.78s
+[BOL] No matching product found for 27UQ850V-W
+[159/1030] BOL | OK | 27UQ850V-W | 10.34s
+[BOL] No matching product found for 27US550-W
+[160/1030] BOL | OK | 27US550-W | 3.89s
+[BOL] No matching product found for 29U511A-B
+[161/1030] BOL | OK | 29U511A-B | 4.81s
+[BOL] Matched product found -> Product: 32GX850A-B | Price: 729
+[162/1030] BOL | OK | 32GX850A-B | 12.21s
+[BOL] Matched product found -> Product: 32LQ63006LA | Price: 189
+[163/1030] BOL | OK | 32LQ63006LA | 4.62s
+[BOL] No matching product found for 32U889SA-W
+[164/1030] BOL | OK | 32U889SA-W | 5.08s
+[BOL] Matched product found -> Product: 32U990A-S | Price: 1449
+[165/1030] BOL | OK | 32U990A-S | 4.48s
+[BOL] No matching product found for 32UN880K-B
+[166/1030] BOL | OK | 32UN880K-B | 12.78s
+[BOL] Matched product found -> Product: 32UQ850V-W | Price: 479
+[167/1030] BOL | OK | 32UQ850V-W | 4.00s
+[BOL] Matched product found -> Product: 34GX900A-B | Price: 709
+[168/1030] BOL | OK | 34GX900A-B | 11.39s
+[BOL] Matched product found -> Product: 34U511A-B | Price: 199
+[169/1030] BOL | OK | 34U511A-B | 3.98s
+[BOL] Matched product found -> Product: 34U650A-B | Price: 369
+[170/1030] BOL | OK | 34U650A-B | 4.28s
+[BOL] Matched product found -> Product: 34WR50QK-B | Price: 263
+[171/1030] BOL | OK | 34WR50QK-B | 13.17s
+[BOL] Matched product found -> Product: 34WR55QK-B | Price: 275
+[172/1030] BOL | OK | 34WR55QK-B | 10.90s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 11 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for 43QNED86B6B
+[173/1030] CoolBlue | OK | 43QNED86B6B | 10.10s
+[CoolBlue] No results for 43UA75006LA
+[174/1030] CoolBlue | OK | 43UA75006LA | 4.75s
+[CoolBlue] Matched product found -> Product: 45GX900A-B | Price: 1149
+[175/1030] CoolBlue | OK | 45GX900A-B | 4.71s
+[CoolBlue] Matched product found -> Product: 45GX950A-B | Price: 1969
+[176/1030] CoolBlue | OK | 45GX950A-B | 5.42s
+[CoolBlue] Matched product found -> Product: 49U950A-W | Price: 1279
+[177/1030] CoolBlue | OK | 49U950A-W | 10.22s
+[CoolBlue] No matching product found for 50MRGB86B9A
+[178/1030] CoolBlue | OK | 50MRGB86B9A | 7.50s
+[CoolBlue] No matching product found for 50NU800B6LC
+[179/1030] CoolBlue | OK | 50NU800B6LC | 4.83s
+[CoolBlue] No matching product found for 50QNED71B6B
+[180/1030] CoolBlue | OK | 50QNED71B6B | 4.85s
+[CoolBlue] No results for 50QNED82A6B
+[181/1030] CoolBlue | OK | 50QNED82A6B | 4.66s
+[CoolBlue] No results for 50QNED86A6C
+[182/1030] CoolBlue | OK | 50QNED86A6C | 3.86s
+[CoolBlue] No results for 50QNED86B6B
+[183/1030] CoolBlue | OK | 50QNED86B6B | 11.53s
+[CoolBlue] No results for 50UA75006LA
+[184/1030] CoolBlue | OK | 50UA75006LA | 9.35s
+[CoolBlue] No matching product found for 55MRGB86B9A
+[185/1030] CoolBlue | OK | 55MRGB86B9A | 5.05s
+[CoolBlue] No matching product found for 55NU800B6LA
+[186/1030] CoolBlue | OK | 55NU800B6LA | 5.18s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 12 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for 49U950A-W
+[187/1030] MediaMarkt | OK | 49U950A-W | 16.12s
+[MediaMarkt] No results for 50MRGB86B9A
+[188/1030] MediaMarkt | OK | 50MRGB86B9A | 8.32s
+[MediaMarkt] No results for 50NU800B6LC
+[189/1030] MediaMarkt | OK | 50NU800B6LC | 6.67s
+[MediaMarkt] No results for 50QNED71B6B
+[190/1030] MediaMarkt | OK | 50QNED71B6B | 7.23s
+[MediaMarkt] No results for 50QNED82A6B
+[191/1030] MediaMarkt | OK | 50QNED82A6B | 13.15s
+[MediaMarkt] No matching product found for 50QNED86A6C
+[192/1030] MediaMarkt | OK | 50QNED86A6C | 7.87s
+[MediaMarkt] Matched product found -> Product: 50QNED86B6B | Price: € 899,–
+[193/1030] MediaMarkt | OK | 50QNED86B6B | 17.77s
+[MediaMarkt] No results for 50UA75006LA
+[194/1030] MediaMarkt | OK | 50UA75006LA | 8.64s
+[MediaMarkt] No results for 55MRGB86B9A
+[195/1030] MediaMarkt | OK | 55MRGB86B9A | 5.16s
+[MediaMarkt] No results for 55NU800B6LA
+[196/1030] MediaMarkt | OK | 55NU800B6LA | 13.95s
+[MediaMarkt] No results for 55QNED71B6B
+[197/1030] MediaMarkt | OK | 55QNED71B6B | 7.00s
+[MediaMarkt] Matched product found -> Product: 55QNED82A6B | Price: € 586,–
+[198/1030] MediaMarkt | OK | 55QNED82A6B | 9.42s
+[MediaMarkt] Matched product found -> Product: 55QNED82B6B | Price: € 999,–
+[199/1030] MediaMarkt | OK | 55QNED82B6B | 15.54s
+[MediaMarkt] No matching product found for 55QNED86A6A
+[200/1030] MediaMarkt | OK | 55QNED86A6A | 19.00s
+[MediaMarkt] Matched product found -> Product: 55QNED86B6B | Price: € 1099,–
+[201/1030] MediaMarkt | OK | 55QNED86B6B | 7.89s
+[MediaMarkt] No results for 55QNED93A6A
+[202/1030] MediaMarkt | OK | 55QNED93A6A | 15.60s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 13 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 43QNED82A6B | Price: €419.00
+[203/1030] OBS | OK | 43QNED82A6B | 14.11s
+[OBS] Matched product found -> Product: 43QNED86A6C | Price: €498.99
+[204/1030] OBS | OK | 43QNED86A6C | 12.31s
+[OBS] Matched product found -> Product: 43QNED86B6B | Price: €748.99
+[205/1030] OBS | OK | 43QNED86B6B | 12.22s
+[OBS] Matched product found -> Product: 43UA75006LA | Price: €349.00
+[206/1030] OBS | OK | 43UA75006LA | 7.17s
+[OBS] Matched product found -> Product: 45GX900A-B | Price: €1,149.00
+[207/1030] OBS | OK | 45GX900A-B | 5.92s
+[OBS] Matched product found -> Product: 45GX950A-B | Price: €1,969.00
+[208/1030] OBS | OK | 45GX950A-B | 7.03s
+[OBS] Matched product found -> Product: 49U950A-W | Price: €1,278.99
+[209/1030] OBS | OK | 49U950A-W | 6.79s
+[OBS] Matched product found -> Product: 50MRGB86B9A | Price: €999.00
+[210/1030] OBS | OK | 50MRGB86B9A | 7.60s
+[OBS] No matching product found for 50NU800B6LC
+[211/1030] OBS | OK | 50NU800B6LC | 5.83s
+[OBS] No matching product found for 50QNED71B6B
+[212/1030] OBS | OK | 50QNED71B6B | 7.45s
+[OBS] Matched product found -> Product: 50QNED82A6B | Price: €448.99
+[213/1030] OBS | OK | 50QNED82A6B | 6.76s
+[OBS] Matched product found -> Product: 50QNED86A6C | Price: €549.00
+[214/1030] OBS | OK | 50QNED86A6C | 12.89s
+[OBS] Matched product found -> Product: 50QNED86B6B | Price: €898.99
+[215/1030] OBS | OK | 50QNED86B6B | 7.58s
+[OBS] Matched product found -> Product: 50UA75006LA | Price:  
+[216/1030] OBS | OK | 50UA75006LA | 6.25s
+[OBS] Matched product found -> Product: 55MRGB86B9A | Price: €1,199.00
+[217/1030] OBS | OK | 55MRGB86B9A | 7.39s
+[OBS] Matched product found -> Product: 55NU800B6LA | Price:  
+[218/1030] OBS | OK | 55NU800B6LA | 14.93s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 14 =====
+
+Running site: BK
+No cookie popup found
+[BK] No results found for 45GX900A-B
+[219/1030] BK | OK | 45GX900A-B | 7.12s
+[BK] No results found for 45GX950A-B
+[220/1030] BK | OK | 45GX950A-B | 3.47s
+[BK] No results found for 49U950A-W
+[221/1030] BK | OK | 49U950A-W | 7.76s
+[BK] No results found for 50MRGB86B9A
+[222/1030] BK | OK | 50MRGB86B9A | 10.30s
+[BK] No results found for 50NU800B6LC
+[223/1030] BK | OK | 50NU800B6LC | 11.33s
+[BK] No results found for 50QNED71B6B
+[224/1030] BK | OK | 50QNED71B6B | 3.00s
+[BK] No results found for 50QNED82A6B
+[225/1030] BK | OK | 50QNED82A6B | 3.54s
+[BK] No results found for 50QNED86A6C
+[226/1030] BK | OK | 50QNED86A6C | 2.52s
+[BK] No results found for 50QNED86B6B
+[227/1030] BK | OK | 50QNED86B6B | 11.70s
+[BK] No results found for 50UA75006LA
+[228/1030] BK | OK | 50UA75006LA | 2.53s
+[BK] No results found for 55MRGB86B9A
+[229/1030] BK | OK | 55MRGB86B9A | 4.27s
+[BK] No results found for 55NU800B6LA
+[230/1030] BK | OK | 55NU800B6LA | 11.59s
+[BK] No results found for 55QNED71B6B
+[231/1030] BK | OK | 55QNED71B6B | 2.50s
+[BK] No results found for 55QNED82A6B
+[232/1030] BK | OK | 55QNED82A6B | 2.75s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 15 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] Matched product found -> Product: 37G800A-B | Price: 649
+[233/1030] BOL | OK | 37G800A-B | 9.50s
+[BOL] No matching product found for 39GX900A-B
+[234/1030] BOL | OK | 39GX900A-B | 3.98s
+[BOL] Matched product found -> Product: 40U990A-W | Price: 1319
+[235/1030] BOL | OK | 40U990A-W | 4.64s
+[BOL] No matching product found for 43NU800B6LC
+[236/1030] BOL | OK | 43NU800B6LC | 4.53s
+[BOL] No matching product found for 43QNED71B6B
+[237/1030] BOL | OK | 43QNED71B6B | 4.66s
+[BOL] No matching product found for 43QNED82A6B
+[238/1030] BOL | OK | 43QNED82A6B | 10.51s
+[BOL] No matching product found for 43QNED86A6C
+[239/1030] BOL | OK | 43QNED86A6C | 4.36s
+[BOL] No matching product found for 43QNED86B6B
+[240/1030] BOL | OK | 43QNED86B6B | 4.50s
+[BOL] Matched product found -> Product: 43UA75006LA | Price: 298
+[241/1030] BOL | OK | 43UA75006LA | 4.95s
+[BOL] Matched product found -> Product: 45GX900A-B | Price: 1136
+[242/1030] BOL | OK | 45GX900A-B | 3.49s
+[BOL] No matching product found for 45GX950A-B
+[243/1030] BOL | OK | 45GX950A-B | 11.96s
+[BOL] Matched product found -> Product: 49U950A-W | Price: 1098
+[244/1030] BOL | OK | 49U950A-W | 4.37s
+[BOL] No matching product found for 50MRGB86B9A
+[245/1030] BOL | OK | 50MRGB86B9A | 4.92s
+[BOL] No matching product found for 50NU800B6LC
+[246/1030] BOL | OK | 50NU800B6LC | 3.60s
+[BOL] No matching product found for 50QNED71B6B
+[247/1030] BOL | OK | 50QNED71B6B | 3.52s
+[BOL] Matched product found -> Product: 50QNED82A6B | Price: 449
+[248/1030] BOL | OK | 50QNED82A6B | 3.92s
+[BOL] Matched product found -> Product: 50QNED86A6C | Price: 599
+[249/1030] BOL | OK | 50QNED86A6C | 10.72s
+[BOL] No matching product found for 50QNED86B6B
+[250/1030] BOL | OK | 50QNED86B6B | 4.11s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 16 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No matching product found for 55QNED71B6B
+[251/1030] CoolBlue | OK | 55QNED71B6B | 11.18s
+[CoolBlue] No results for 55QNED82A6B
+[252/1030] CoolBlue | OK | 55QNED82A6B | 4.04s
+[CoolBlue] No results for 55QNED82B6B
+[253/1030] CoolBlue | OK | 55QNED82B6B | 12.46s
+[CoolBlue] No results for 55QNED86A6A
+[254/1030] CoolBlue | OK | 55QNED86A6A | 3.76s
+[CoolBlue] No results for 55QNED86B6B
+[255/1030] CoolBlue | OK | 55QNED86B6B | 9.40s
+[CoolBlue] No results for 55QNED93A6A
+[256/1030] CoolBlue | OK | 55QNED93A6A | 4.48s
+[CoolBlue] No matching product found for 55QNED93B6A
+[257/1030] CoolBlue | OK | 55QNED93B6A | 20.36s
+[CoolBlue] No results for 55UA75006LA
+[258/1030] CoolBlue | OK | 55UA75006LA | 3.11s
+[CoolBlue] No matching product found for 65MRGB86B9A
+[259/1030] CoolBlue | OK | 65MRGB86B9A | 4.98s
+[CoolBlue] No matching product found for 65NU800B6LA
+[260/1030] CoolBlue | OK | 65NU800B6LA | 3.54s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 17 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: 55QNED93B6A | Price: € 1199,–
+[261/1030] MediaMarkt | OK | 55QNED93B6A | 11.05s
+[MediaMarkt] No results for 55UA75006LA
+[262/1030] MediaMarkt | OK | 55UA75006LA | 7.66s
+[MediaMarkt] No results for 65MRGB86B9A
+[263/1030] MediaMarkt | OK | 65MRGB86B9A | 7.37s
+[MediaMarkt] No results for 65NU800B6LA
+[264/1030] MediaMarkt | OK | 65NU800B6LA | 7.97s
+[MediaMarkt] No results for 65QNED71B6B
+[265/1030] MediaMarkt | OK | 65QNED71B6B | 6.31s
+[MediaMarkt] No results for 65QNED82A6B
+[266/1030] MediaMarkt | OK | 65QNED82A6B | 7.48s
+[MediaMarkt] Matched product found -> Product: 65QNED82B6B | Price: € 1299,–
+[267/1030] MediaMarkt | OK | 65QNED82B6B | 6.38s
+[MediaMarkt] Matched product found -> Product: 65QNED86A6A | Price: € 998,–
+[268/1030] MediaMarkt | OK | 65QNED86A6A | 7.15s
+[MediaMarkt] Matched product found -> Product: 65QNED86B6B | Price: € 1399,–
+[269/1030] MediaMarkt | OK | 65QNED86B6B | 8.68s
+[MediaMarkt] Matched product found -> Product: 65QNED93B6A | Price: € 1499,–
+[270/1030] MediaMarkt | OK | 65QNED93B6A | 6.95s
+[MediaMarkt] No matching product found for 65UA75006LA
+[271/1030] MediaMarkt | OK | 65UA75006LA | 16.28s
+[MediaMarkt] No results for 75MRGB86B9A
+[272/1030] MediaMarkt | OK | 75MRGB86B9A | 7.99s
+[MediaMarkt] No results for 75NU800B6LA
+[273/1030] MediaMarkt | OK | 75NU800B6LA | 6.39s
+[MediaMarkt] Matched product found -> Product: 75QNED70B6A | Price: € 1299,–
+[274/1030] MediaMarkt | OK | 75QNED70B6A | 7.98s
+[MediaMarkt] No results for 75QNED82A6B
+[275/1030] MediaMarkt | OK | 75QNED82A6B | 7.57s
+[MediaMarkt] No matching product found for 75QNED86A6A
+[276/1030] MediaMarkt | OK | 75QNED86A6A | 5.54s
+[MediaMarkt] Matched product found -> Product: 75QNED86B6B | Price: € 1899,–
+[277/1030] MediaMarkt | OK | 75QNED86B6B | 15.69s
+[MediaMarkt] Matched product found -> Product: 75QNED93B6A | Price: € 1899,–
+[278/1030] MediaMarkt | OK | 75QNED93B6A | 6.07s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 18 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 55QNED71B6B | Price: €799.00
+[279/1030] OBS | OK | 55QNED71B6B | 13.24s
+[OBS] Matched product found -> Product: 55QNED82A6B | Price: €518.99
+[TIMEOUT] 55QNED82A6B → retry 1/2
+[OBS] Matched product found -> Product: 55QNED82A6B | Price: €518.99
+[280/1030] OBS | OK | 55QNED82A6B | 48.86s
+[OBS] Matched product found -> Product: 55QNED82B6B | Price: €999.00
+[281/1030] OBS | OK | 55QNED82B6B | 6.28s
+[OBS] Matched product found -> Product: 55QNED86A6A | Price: €599.00
+[282/1030] OBS | OK | 55QNED86A6A | 6.62s
+[OBS] Matched product found -> Product: 55QNED86B6B | Price: €1,098.99
+[283/1030] OBS | OK | 55QNED86B6B | 5.98s
+[OBS] Matched product found -> Product: 55QNED93A6A | Price:  
+[284/1030] OBS | OK | 55QNED93A6A | 4.27s
+[OBS] Matched product found -> Product: 55QNED93B6A | Price:  
+[285/1030] OBS | OK | 55QNED93B6A | 6.45s
+[OBS] Matched product found -> Product: 55UA75006LA | Price: €469.00
+[286/1030] OBS | OK | 55UA75006LA | 5.05s
+[OBS] Matched product found -> Product: 65MRGB86B9A | Price: €1,598.99
+[287/1030] OBS | OK | 65MRGB86B9A | 11.64s
+[OBS] Matched product found -> Product: 65NU800B6LA | Price:  
+[288/1030] OBS | OK | 65NU800B6LA | 7.52s
+[OBS] No matching product found for 65QNED71B6B
+[289/1030] OBS | OK | 65QNED71B6B | 8.72s
+[OBS] Matched product found -> Product: 65QNED82A6B | Price: €698.99
+[290/1030] OBS | OK | 65QNED82A6B | 3.73s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 19 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for 55QNED82B6B
+[291/1030] BK | OK | 55QNED82B6B | 6.94s
+[BK] No results found for 55QNED86A6A
+[292/1030] BK | OK | 55QNED86A6A | 2.66s
+[BK] No results found for 55QNED86B6B
+[293/1030] BK | OK | 55QNED86B6B | 2.90s
+[BK] No results found for 55QNED93A6A
+[294/1030] BK | OK | 55QNED93A6A | 2.90s
+[BK] No results found for 55QNED93B6A
+[295/1030] BK | OK | 55QNED93B6A | 4.23s
+[BK] No results found for 55UA75006LA
+[296/1030] BK | OK | 55UA75006LA | 8.94s
+[BK] No results found for 65MRGB86B9A
+[297/1030] BK | OK | 65MRGB86B9A | 3.51s
+[BK] No results found for 65NU800B6LA
+[298/1030] BK | OK | 65NU800B6LA | 3.08s
+[BK] No results found for 65QNED71B6B
+[299/1030] BK | OK | 65QNED71B6B | 9.50s
+[BK] No results found for 65QNED82A6B
+[300/1030] BK | OK | 65QNED82A6B | 3.19s
+[BK] No results found for 65QNED82B6B
+[301/1030] BK | OK | 65QNED82B6B | 2.48s
+[BK] No results found for 65QNED86A6A
+[302/1030] BK | OK | 65QNED86A6A | 4.23s
+[BK] No results found for 65QNED86B6B
+[303/1030] BK | OK | 65QNED86B6B | 3.35s
+[BK] No results found for 65QNED93B6A
+[304/1030] BK | OK | 65QNED93B6A | 2.83s
+[BK] No results found for 65UA75006LA
+[305/1030] BK | OK | 65UA75006LA | 3.92s
+[BK] No results found for 75MRGB86B9A
+[306/1030] BK | OK | 75MRGB86B9A | 9.00s
+[BK] No results found for 75NU800B6LA
+[307/1030] BK | OK | 75NU800B6LA | 2.89s
+[BK] No results found for 75QNED70B6A
+[308/1030] BK | OK | 75QNED70B6A | 9.59s
+[BK] No results found for 75QNED82A6B
+[309/1030] BK | OK | 75QNED82A6B | 2.87s
+[BK] No results found for 75QNED86A6A
+[310/1030] BK | OK | 75QNED86A6A | 10.22s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 20 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] No matching product found for 50UA75006LA
+[311/1030] BOL | OK | 50UA75006LA | 8.50s
+[BOL] No matching product found for 55MRGB86B9A
+[312/1030] BOL | OK | 55MRGB86B9A | 5.21s
+[BOL] No matching product found for 55NU800B6LA
+[313/1030] BOL | OK | 55NU800B6LA | 3.50s
+[BOL] No matching product found for 55QNED71B6B
+[314/1030] BOL | OK | 55QNED71B6B | 4.94s
+[BOL] No matching product found for 55QNED82A6B
+[315/1030] BOL | OK | 55QNED82A6B | 5.22s
+[BOL] No matching product found for 55QNED82B6B
+[316/1030] BOL | OK | 55QNED82B6B | 4.06s
+[BOL] No matching product found for 55QNED86A6A
+[317/1030] BOL | OK | 55QNED86A6A | 10.77s
+[BOL] No matching product found for 55QNED86B6B
+[318/1030] BOL | OK | 55QNED86B6B | 3.67s
+[BOL] Matched product found -> Product: 55QNED93A6A | Price: 759
+[319/1030] BOL | OK | 55QNED93A6A | 4.76s
+[BOL] No matching product found for 55QNED93B6A
+[320/1030] BOL | OK | 55QNED93B6A | 10.94s
+[BOL] Matched product found -> Product: 55UA75006LA | Price: 412
+[321/1030] BOL | OK | 55UA75006LA | 4.21s
+[BOL] No matching product found for 65MRGB86B9A
+[322/1030] BOL | OK | 65MRGB86B9A | 4.94s
+[BOL] No matching product found for 65NU800B6LA
+[323/1030] BOL | OK | 65NU800B6LA | 4.18s
+[BOL] No matching product found for 65QNED71B6B
+[324/1030] BOL | OK | 65QNED71B6B | 8.89s
+[BOL] No matching product found for 65QNED82A6B
+[325/1030] BOL | OK | 65QNED82A6B | 5.05s
+[BOL] No matching product found for 65QNED82B6B
+[326/1030] BOL | OK | 65QNED82B6B | 3.39s
+[BOL] No matching product found for 65QNED86A6A
+[327/1030] BOL | OK | 65QNED86A6A | 4.74s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 21 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No matching product found for 65QNED71B6B
+[328/1030] CoolBlue | OK | 65QNED71B6B | 11.41s
+[CoolBlue] No results for 65QNED82A6B
+[329/1030] CoolBlue | OK | 65QNED82A6B | 5.32s
+[CoolBlue] No results for 65QNED82B6B
+[330/1030] CoolBlue | OK | 65QNED82B6B | 4.27s
+[CoolBlue] No results for 65QNED86A6A
+[331/1030] CoolBlue | OK | 65QNED86A6A | 12.18s
+[CoolBlue] No results for 65QNED86B6B
+[332/1030] CoolBlue | OK | 65QNED86B6B | 3.83s
+[CoolBlue] No matching product found for 65QNED93B6A
+[333/1030] CoolBlue | OK | 65QNED93B6A | 12.06s
+[CoolBlue] No results for 65UA75006LA
+[334/1030] CoolBlue | OK | 65UA75006LA | 4.93s
+[CoolBlue] No matching product found for 75MRGB86B9A
+[335/1030] CoolBlue | OK | 75MRGB86B9A | 8.53s
+[CoolBlue] No matching product found for 75NU800B6LA
+[336/1030] CoolBlue | OK | 75NU800B6LA | 10.90s
+[CoolBlue] No matching product found for 75QNED70B6A
+[337/1030] CoolBlue | OK | 75QNED70B6A | 4.23s
+[CoolBlue] No results for 75QNED82A6B
+[338/1030] CoolBlue | OK | 75QNED82A6B | 4.19s
+[CoolBlue] No results for 75QNED86A6A
+[339/1030] CoolBlue | OK | 75QNED86A6A | 5.30s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 22 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for 75UA75006LA
+[340/1030] MediaMarkt | OK | 75UA75006LA | 19.01s
+[MediaMarkt] No results for 85NU800B6LA
+[341/1030] MediaMarkt | OK | 85NU800B6LA | 6.53s
+[MediaMarkt] Matched product found -> Product: 85QNED70B6A | Price: € 1649,–
+[342/1030] MediaMarkt | OK | 85QNED70B6A | 6.69s
+[MediaMarkt] No results for 85QNED82B6A
+[343/1030] MediaMarkt | OK | 85QNED82B6A | 6.95s
+[MediaMarkt] Matched product found -> Product: 85QNED93A6A | Price: € 2477,–
+[344/1030] MediaMarkt | OK | 85QNED93A6A | 7.66s
+[MediaMarkt] Matched product found -> Product: 85QNED93B6A | Price: € 2599,–
+[345/1030] MediaMarkt | OK | 85QNED93B6A | 11.60s
+[MediaMarkt] No results for 86QNED82A6B
+[346/1030] MediaMarkt | OK | 86QNED82A6B | 6.46s
+[MediaMarkt] Matched product found -> Product: 86QNED86A6A | Price: € 1569,–
+[347/1030] MediaMarkt | OK | 86QNED86A6A | 7.30s
+[MediaMarkt] Matched product found -> Product: 86QNED86B6B | Price: € 2699,–
+[348/1030] MediaMarkt | OK | 86QNED86B6B | 5.53s
+[MediaMarkt] No results for 86UA75006LA
+[349/1030] MediaMarkt | OK | 86UA75006LA | 14.01s
+[MediaMarkt] Matched product found -> Product: 98NU900B6LB | Price: € 2299,–
+[350/1030] MediaMarkt | OK | 98NU900B6LB | 7.67s
+[MediaMarkt] Matched product found -> Product: DS40T | Price: € 219,–
+[351/1030] MediaMarkt | OK | DS40T | 6.96s
+[MediaMarkt] Matched product found -> Product: DS60T | Price: € 279,–
+[352/1030] MediaMarkt | OK | DS60T | 7.06s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 23 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 65QNED82B6B | Price: €1,299.00
+[353/1030] OBS | OK | 65QNED82B6B | 14.55s
+[OBS] Matched product found -> Product: 65QNED86A6A | Price:  
+[354/1030] OBS | OK | 65QNED86A6A | 6.00s
+[OBS] Matched product found -> Product: 65QNED86B6B | Price: €1,398.99
+[355/1030] OBS | OK | 65QNED86B6B | 5.51s
+[OBS] Matched product found -> Product: 65QNED93B6A | Price:  
+[356/1030] OBS | OK | 65QNED93B6A | 5.76s
+[OBS] Matched product found -> Product: 65UA75006LA | Price: €546.99
+[357/1030] OBS | OK | 65UA75006LA | 12.73s
+[OBS] Matched product found -> Product: 75MRGB86B9A | Price: €2,099.00
+[358/1030] OBS | OK | 75MRGB86B9A | 7.03s
+[OBS] Matched product found -> Product: 75NU800B6LA | Price:  
+[359/1030] OBS | OK | 75NU800B6LA | 5.65s
+[OBS] Matched product found -> Product: 75QNED70B6A | Price: €1,299.00
+[360/1030] OBS | OK | 75QNED70B6A | 5.72s
+[OBS] No matching product found for 75QNED82A6B
+[361/1030] OBS | OK | 75QNED82A6B | 13.55s
+[OBS] Matched product found -> Product: 75QNED86A6A | Price: €1,428.99
+[362/1030] OBS | OK | 75QNED86A6A | 7.01s
+[OBS] Matched product found -> Product: 75QNED86B6B | Price: €1,899.00
+[363/1030] OBS | OK | 75QNED86B6B | 7.36s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 24 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for 75QNED86B6B
+[364/1030] BK | OK | 75QNED86B6B | 14.93s
+[BK] No results found for 75QNED93B6A
+[365/1030] BK | OK | 75QNED93B6A | 3.41s
+[BK] No results found for 75UA75006LA
+[366/1030] BK | OK | 75UA75006LA | 3.68s
+[BK] No results found for 85NU800B6LA
+[367/1030] BK | OK | 85NU800B6LA | 3.62s
+[BK] No results found for 85QNED70B6A
+[368/1030] BK | OK | 85QNED70B6A | 7.21s
+[BK] No results found for 85QNED82B6A
+[369/1030] BK | OK | 85QNED82B6A | 3.78s
+[BK] No results found for 85QNED93A6A
+[370/1030] BK | OK | 85QNED93A6A | 9.32s
+[BK] No results found for 85QNED93B6A
+[371/1030] BK | OK | 85QNED93B6A | 2.89s
+[BK] No results found for 86QNED82A6B
+[372/1030] BK | OK | 86QNED82A6B | 2.59s
+[BK] No results found for 86QNED86A6A
+[373/1030] BK | OK | 86QNED86A6A | 3.17s
+[BK] No results found for 86QNED86B6B
+[374/1030] BK | OK | 86QNED86B6B | 3.47s
+[BK] No results found for 86UA75006LA
+[375/1030] BK | OK | 86UA75006LA | 11.26s
+[BK] No results found for 98NU900B6LB
+[376/1030] BK | OK | 98NU900B6LB | 3.33s
+[BK] No results found for DS40T
+[377/1030] BK | OK | DS40T | 2.52s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 25 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] No matching product found for 65QNED86B6B
+[378/1030] BOL | OK | 65QNED86B6B | 18.01s
+[BOL] No matching product found for 65QNED93B6A
+[379/1030] BOL | OK | 65QNED93B6A | 4.21s
+[BOL] Matched product found -> Product: 65UA75006LA | Price: 549
+[380/1030] BOL | OK | 65UA75006LA | 5.05s
+[BOL] No matching product found for 75MRGB86B9A
+[381/1030] BOL | OK | 75MRGB86B9A | 3.58s
+[BOL] No matching product found for 75NU800B6LA
+[382/1030] BOL | OK | 75NU800B6LA | 4.24s
+[BOL] No matching product found for 75QNED70B6A
+[383/1030] BOL | OK | 75QNED70B6A | 4.79s
+[BOL] No matching product found for 75QNED82A6B
+[384/1030] BOL | OK | 75QNED82A6B | 4.01s
+[BOL] No matching product found for 75QNED86A6A
+[385/1030] BOL | OK | 75QNED86A6A | 4.73s
+[BOL] No matching product found for 75QNED86B6B
+[386/1030] BOL | OK | 75QNED86B6B | 3.24s
+[BOL] No matching product found for 75QNED93B6A
+[387/1030] BOL | OK | 75QNED93B6A | 4.68s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 26 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for 75QNED86B6B
+[388/1030] CoolBlue | OK | 75QNED86B6B | 9.54s
+[CoolBlue] No matching product found for 75QNED93B6A
+[389/1030] CoolBlue | OK | 75QNED93B6A | 4.01s
+[CoolBlue] No results for 75UA75006LA
+[390/1030] CoolBlue | OK | 75UA75006LA | 10.59s
+[CoolBlue] No matching product found for 85NU800B6LA
+[391/1030] CoolBlue | OK | 85NU800B6LA | 18.11s
+[CoolBlue] No matching product found for 85QNED70B6A
+[392/1030] CoolBlue | OK | 85QNED70B6A | 11.32s
+[CoolBlue] No results for 85QNED82B6A
+[393/1030] CoolBlue | OK | 85QNED82B6A | 3.91s
+[CoolBlue] No results for 85QNED93A6A
+[394/1030] CoolBlue | OK | 85QNED93A6A | 3.23s
+[CoolBlue] No results for 85QNED93B6A
+[395/1030] CoolBlue | OK | 85QNED93B6A | 4.84s
+[CoolBlue] No results for 86QNED82A6B
+[396/1030] CoolBlue | OK | 86QNED82A6B | 4.84s
+[CoolBlue] No results for 86QNED86A6A
+[397/1030] CoolBlue | OK | 86QNED86A6A | 3.07s
+[CoolBlue] No results for 86QNED86B6B
+[398/1030] CoolBlue | OK | 86QNED86B6B | 4.77s
+[CoolBlue] No results for 86UA75006LA
+[399/1030] CoolBlue | OK | 86UA75006LA | 3.19s
+[CoolBlue] No matching product found for 98NU900B6LB
+[400/1030] CoolBlue | OK | 98NU900B6LB | 11.54s
+[CoolBlue] Matched product found -> Product: DS40T | Price: 129
+[401/1030] CoolBlue | OK | DS40T | 4.79s
+[CoolBlue] No matching product found for DS60T
+[402/1030] CoolBlue | OK | DS60T | 12.49s
+[CoolBlue] Matched product found -> Product: DS60TR | Price: 249
+[403/1030] CoolBlue | OK | DS60TR | 4.75s
+[CoolBlue] Matched product found -> Product: DS70TR | Price: 419
+[404/1030] CoolBlue | OK | DS70TR | 12.30s
+[CoolBlue] No matching product found for DS70TY
+[405/1030] CoolBlue | OK | DS70TY | 6.68s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 27 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for DS60TR
+[406/1030] MediaMarkt | OK | DS60TR | 11.54s
+[MediaMarkt] Matched product found -> Product: DS70TR | Price: € 1528,–
+[407/1030] MediaMarkt | OK | DS70TR | 13.16s
+[MediaMarkt] Matched product found -> Product: DS70TY | Price: € 229,–
+[408/1030] MediaMarkt | OK | DS70TY | 8.06s
+[MediaMarkt] Matched product found -> Product: DS80TR | Price: € 321,–
+[409/1030] MediaMarkt | OK | DS80TR | 7.55s
+[MediaMarkt] Matched product found -> Product: DS95TR | Price: € 769,–
+[410/1030] MediaMarkt | OK | DS95TR | 7.23s
+[MediaMarkt] Matched product found -> Product: DSC9S | Price: € 729,–
+[411/1030] MediaMarkt | OK | DSC9S | 6.34s
+[MediaMarkt] Matched product found -> Product: DSG10TY | Price: € 700,–
+[412/1030] MediaMarkt | OK | DSG10TY | 7.68s
+[MediaMarkt] Matched product found -> Product: F4DR3096N3W | Price: € 649,–
+[413/1030] MediaMarkt | OK | F4DR3096N3W | 7.24s
+[MediaMarkt] Matched product found -> Product: F4DR9537S2W | Price: € 849,–
+[414/1030] MediaMarkt | OK | F4DR9537S2W | 8.46s
+[MediaMarkt] Matched product found -> Product: F4WR7011SYB | Price: € 729,–
+[415/1030] MediaMarkt | OK | F4WR7011SYB | 8.08s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 28 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 75QNED93B6A | Price:  
+[416/1030] OBS | OK | 75QNED93B6A | 19.72s
+[OBS] Matched product found -> Product: 75UA75006LA | Price:  
+[417/1030] OBS | OK | 75UA75006LA | 7.73s
+[OBS] Matched product found -> Product: 85NU800B6LA | Price:  
+[418/1030] OBS | OK | 85NU800B6LA | 7.32s
+[OBS] Matched product found -> Product: 85QNED70B6A | Price: €1,649.00
+[419/1030] OBS | OK | 85QNED70B6A | 13.85s
+[OBS] Matched product found -> Product: 85QNED82B6A | Price:  
+[420/1030] OBS | OK | 85QNED82B6A | 12.19s
+[OBS] Matched product found -> Product: 85QNED93A6A | Price:  
+[421/1030] OBS | OK | 85QNED93A6A | 5.47s
+[OBS] Matched product found -> Product: 85QNED93B6A | Price:  
+[422/1030] OBS | OK | 85QNED93B6A | 11.83s
+[OBS] Matched product found -> Product: 86QNED82A6B | Price:  
+[423/1030] OBS | OK | 86QNED82A6B | 7.37s
+[OBS] Matched product found -> Product: 86QNED86A6A | Price:  
+[424/1030] OBS | OK | 86QNED86A6A | 5.02s
+[OBS] Matched product found -> Product: 86QNED86B6B | Price: €2,698.99
+[425/1030] OBS | OK | 86QNED86B6B | 5.66s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 29 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for DS60T
+[426/1030] BK | OK | DS60T | 6.18s
+[BK] No results found for DS60TR
+[427/1030] BK | OK | DS60TR | 4.44s
+[BK] No results found for DS70TR
+[428/1030] BK | OK | DS70TR | 3.14s
+[BK] No results found for DS70TY
+[429/1030] BK | OK | DS70TY | 2.96s
+[BK] No results found for DS80TR
+[430/1030] BK | OK | DS80TR | 3.27s
+[BK] No results found for DS95TR
+[431/1030] BK | OK | DS95TR | 2.98s
+[BK] No results found for DSC9S
+[432/1030] BK | OK | DSC9S | 2.67s
+[BK] No results found for DSG10TY
+[433/1030] BK | OK | DSG10TY | 3.64s
+[BK] No results found for F4DR3096N3W
+[434/1030] BK | OK | F4DR3096N3W | 3.61s
+[BK] Matched product found -> Product: F4DR9537S2W | Price: 749,-
+[435/1030] BK | OK | F4DR9537S2W | 4.26s
+[BK] Matched product found -> Product: F4WR7011SYB | Price: 649,-
+[436/1030] BK | OK | F4WR7011SYB | 3.14s
+[BK] Matched product found -> Product: F4WR9513S2W | Price: 799,-
+[437/1030] BK | OK | F4WR9513S2W | 3.41s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 30 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] Matched product found -> Product: 75UA75006LA | Price: 679
+[438/1030] BOL | OK | 75UA75006LA | 7.02s
+[BOL] No matching product found for 85NU800B6LA
+[439/1030] BOL | OK | 85NU800B6LA | 3.69s
+[BOL] No matching product found for 85QNED70B6A
+[440/1030] BOL | OK | 85QNED70B6A | 11.38s
+[BOL] No matching product found for 85QNED82B6A
+[441/1030] BOL | OK | 85QNED82B6A | 3.39s
+[BOL] No matching product found for 85QNED93A6A
+[442/1030] BOL | OK | 85QNED93A6A | 3.76s
+[BOL] No matching product found for 85QNED93B6A
+[443/1030] BOL | OK | 85QNED93B6A | 4.78s
+[BOL] Matched product found -> Product: 86QNED82A6B | Price: 1199
+[444/1030] BOL | OK | 86QNED82A6B | 4.54s
+[BOL] Matched product found -> Product: 86QNED86A6A | Price: 1499
+[445/1030] BOL | OK | 86QNED86A6A | 8.72s
+[BOL] No matching product found for 86QNED86B6B
+[446/1030] BOL | OK | 86QNED86B6B | 4.99s
+[BOL] No matching product found for 86UA75006LA
+[447/1030] BOL | OK | 86UA75006LA | 11.68s
+[BOL] No matching product found for 98NU900B6LB
+[448/1030] BOL | OK | 98NU900B6LB | 4.94s
+[BOL] Matched product found -> Product: DS40T | Price: 130
+[449/1030] BOL | OK | DS40T | 9.02s
+[BOL] Matched product found -> Product: DS60T | Price: 199
+[450/1030] BOL | OK | DS60T | 8.46s
+[BOL] Matched product found -> Product: DS60TR | Price: 199
+[451/1030] BOL | OK | DS60TR | 4.55s
+[BOL] Matched product found -> Product: DS70TR | Price: 346
+[452/1030] BOL | OK | DS70TR | 10.99s
+[BOL] No matching product found for DS70TY
+[453/1030] BOL | OK | DS70TY | 11.22s
+[BOL] Matched product found -> Product: DS80TR | Price: 354
+[454/1030] BOL | OK | DS80TR | 3.99s
+[BOL] Matched product found -> Product: DS95TR | Price: 835
+[455/1030] BOL | OK | DS95TR | 3.02s
+[BOL] Matched product found -> Product: DSC9S | Price: 396
+[456/1030] BOL | OK | DSC9S | 3.19s
+[BOL] Matched product found -> Product: DSG10TY | Price: 408
+[457/1030] BOL | OK | DSG10TY | 4.39s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 31 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] Matched product found -> Product: DS80TR | Price: 1149
+[458/1030] CoolBlue | OK | DS80TR | 22.02s
+[CoolBlue] Matched product found -> Product: DS95TR | Price: 899
+[459/1030] CoolBlue | OK | DS95TR | 6.19s
+[CoolBlue] Matched product found -> Product: DSC9S | Price: 626
+[460/1030] CoolBlue | OK | DSC9S | 10.91s
+[CoolBlue] Matched product found -> Product: DSG10TY | Price: 599
+[461/1030] CoolBlue | OK | DSG10TY | 10.93s
+[CoolBlue] No results for F4DR3096N3W
+[462/1030] CoolBlue | OK | F4DR3096N3W | 4.18s
+[CoolBlue] No results for F4DR9537S2W
+[463/1030] CoolBlue | OK | F4DR9537S2W | 13.33s
+[CoolBlue] No results for F4WR7011SYB
+[464/1030] CoolBlue | OK | F4WR7011SYB | 11.77s
+[CoolBlue] No results for F4WR9513S2W
+[465/1030] CoolBlue | OK | F4WR9513S2W | 11.12s
+[CoolBlue] No results for F4WX801Y
+[466/1030] CoolBlue | OK | F4WX801Y | 3.42s
+[CoolBlue] No results for F4WX801YB
+[467/1030] CoolBlue | OK | F4WX801YB | 3.29s
+[CoolBlue] No results for F4WX809Y
+[468/1030] CoolBlue | OK | F4WX809Y | 4.64s
+[CoolBlue] No results for F4WX859Y
+[469/1030] CoolBlue | OK | F4WX859Y | 4.64s
+[CoolBlue] No results for F4X1008NWH
+[470/1030] CoolBlue | OK | F4X1008NWH | 12.15s
+[CoolBlue] No results for F4X1009NWB
+[471/1030] CoolBlue | OK | F4X1009NWB | 4.95s
+[CoolBlue] No results for F4X1009NWK
+[472/1030] CoolBlue | OK | F4X1009NWK | 3.95s
+[CoolBlue] No results for F4X5009THB
+[473/1030] CoolBlue | OK | F4X5009THB | 4.22s
+[CoolBlue] No results for F4X5009TWB
+[474/1030] CoolBlue | OK | F4X5009TWB | 3.09s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 32 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: F4WR9513S2W | Price: € 999,–
+[475/1030] MediaMarkt | OK | F4WR9513S2W | 10.82s
+[MediaMarkt] Matched product found -> Product: F4WX801Y | Price: € 799,–
+[476/1030] MediaMarkt | OK | F4WX801Y | 7.20s
+[MediaMarkt] Matched product found -> Product: F4WX801YB | Price: € 829,–
+[477/1030] MediaMarkt | OK | F4WX801YB | 9.48s
+[MediaMarkt] No results for F4WX809Y
+[478/1030] MediaMarkt | OK | F4WX809Y | 7.67s
+[MediaMarkt] No results for F4WX859Y
+[479/1030] MediaMarkt | OK | F4WX859Y | 6.44s
+[MediaMarkt] Matched product found -> Product: F4X1008NWH | Price: € 529,–
+[480/1030] MediaMarkt | OK | F4X1008NWH | 7.01s
+[MediaMarkt] Matched product found -> Product: F4X1009NWB | Price: € 488,–
+[481/1030] MediaMarkt | OK | F4X1009NWB | 7.68s
+[MediaMarkt] No results for F4X1009NWK
+[482/1030] MediaMarkt | OK | F4X1009NWK | 6.22s
+[MediaMarkt] Matched product found -> Product: F4X5009THB | Price: € 679,–
+[483/1030] MediaMarkt | OK | F4X5009THB | 15.32s
+[MediaMarkt] No results for F4X5009TWB
+[484/1030] MediaMarkt | OK | F4X5009TWB | 15.45s
+[MediaMarkt] Matched product found -> Product: F4X5011THB | Price: € 699,–
+[485/1030] MediaMarkt | OK | F4X5011THB | 7.02s
+[MediaMarkt] No results for F4X5509THB
+[486/1030] MediaMarkt | OK | F4X5509THB | 7.81s
+[MediaMarkt] Matched product found -> Product: FC25XA | Price: € 69,99
+[487/1030] MediaMarkt | OK | FC25XA | 6.72s
+[MediaMarkt] Matched product found -> Product: GBBS312AEV | Price: € 999,–
+[488/1030] MediaMarkt | OK | GBBS312AEV | 7.07s
+[MediaMarkt] Matched product found -> Product: GBBS312APY | Price: € 879,–
+[489/1030] MediaMarkt | OK | GBBS312APY | 7.67s
+[MediaMarkt] No results for GBBS312BEV
+[490/1030] MediaMarkt | OK | GBBS312BEV | 5.71s
+[MediaMarkt] Matched product found -> Product: GBBS312CEV | Price: € 699,–
+[491/1030] MediaMarkt | OK | GBBS312CEV | 6.45s
+[MediaMarkt] Matched product found -> Product: GBBS312CPY | Price: € 649,–
+[492/1030] MediaMarkt | OK | GBBS312CPY | 7.58s
+[MediaMarkt] Matched product found -> Product: GBBS322AEV | Price: € 1049,–
+[493/1030] MediaMarkt | OK | GBBS322AEV | 7.14s
+[MediaMarkt] Matched product found -> Product: GBBS322APY | Price: € 999,–
+[494/1030] MediaMarkt | OK | GBBS322APY | 6.48s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 33 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: 86UA75006LA | Price:  
+[495/1030] OBS | OK | 86UA75006LA | 12.08s
+[OBS] No matching product found for 98NU900B6LB
+[496/1030] OBS | OK | 98NU900B6LB | 9.26s
+[OBS] Matched product found -> Product: DS40T | Price: €129.00
+[497/1030] OBS | OK | DS40T | 6.78s
+[OBS] Matched product found -> Product: DS60T | Price: €248.99
+[498/1030] OBS | OK | DS60T | 12.96s
+[OBS] Matched product found -> Product: DS60TR | Price: €248.99
+[499/1030] OBS | OK | DS60TR | 7.48s
+[OBS] Matched product found -> Product: DS70TR | Price: €428.99
+[500/1030] OBS | OK | DS70TR | 7.27s
+[OBS] Matched product found -> Product: DS70TY | Price: €349.00
+[501/1030] OBS | OK | DS70TY | 6.51s
+[OBS] Matched product found -> Product: DS80TR | Price: €448.99
+[502/1030] OBS | OK | DS80TR | 5.81s
+[OBS] Matched product found -> Product: DS95TR | Price: €898.99
+[503/1030] OBS | OK | DS95TR | 5.44s
+[OBS] Matched product found -> Product: DSC9S | Price: €588.99
+[504/1030] OBS | OK | DSC9S | 11.27s
+[OBS] Matched product found -> Product: DSG10TY | Price: €599.00
+[505/1030] OBS | OK | DSG10TY | 13.34s
+[OBS] Matched product found -> Product: F4DR3096N3W | Price: €649.00
+[506/1030] OBS | OK | F4DR3096N3W | 5.72s
+[OBS] Matched product found -> Product: F4DR9537S2W | Price: €899.01
+[507/1030] OBS | OK | F4DR9537S2W | 5.69s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 34 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for F4WX801Y
+[508/1030] BK | OK | F4WX801Y | 6.31s
+[BK] No results found for F4WX801YB
+[509/1030] BK | OK | F4WX801YB | 2.61s
+[BK] Matched product found -> Product: F4WX809Y | Price: 799,-
+[510/1030] BK | OK | F4WX809Y | 3.07s
+[BK] Matched product found -> Product: F4WX859Y | Price: 649,-
+[511/1030] BK | OK | F4WX859Y | 4.04s
+[BK] Matched product found -> Product: F4X1008NWH | Price: 444,-
+[512/1030] BK | OK | F4X1008NWH | 3.06s
+[BK] No results found for F4X1009NWB
+[513/1030] BK | OK | F4X1009NWB | 8.93s
+[BK] No results found for F4X1009NWK
+[514/1030] BK | OK | F4X1009NWK | 3.35s
+[BK] No results found for F4X5009THB
+[515/1030] BK | OK | F4X5009THB | 3.65s
+[BK] Matched product found -> Product: F4X5009TWB | Price: 579,-
+[516/1030] BK | OK | F4X5009TWB | 9.98s
+[BK] No results found for F4X5011THB
+[517/1030] BK | OK | F4X5011THB | 3.22s
+[BK] Matched product found -> Product: F4X5509THB | Price: 599,-
+[518/1030] BK | OK | F4X5509THB | 9.02s
+[BK] No results found for FC25XA
+[519/1030] BK | OK | FC25XA | 3.80s
+[BK] Matched product found -> Product: GBBS312AEV | Price: 799,-
+[520/1030] BK | OK | GBBS312AEV | 3.46s
+[BK] Matched product found -> Product: GBBS312APY | Price: 849,-
+[521/1030] BK | OK | GBBS312APY | 3.20s
+[BK] Matched product found -> Product: GBBS312BEV | Price: 725,-
+[522/1030] BK | OK | GBBS312BEV | 3.85s
+[BK] No results found for GBBS312CEV
+[523/1030] BK | OK | GBBS312CEV | 2.53s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 35 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] No matching product found for F4DR3096N3W
+[524/1030] BOL | OK | F4DR3096N3W | 8.73s
+[BOL] Matched product found -> Product: F4DR9537S2W | Price: 849
+[525/1030] BOL | OK | F4DR9537S2W | 4.57s
+[BOL] Matched product found -> Product: F4WR7011SYB | Price: 699
+[526/1030] BOL | OK | F4WR7011SYB | 4.12s
+[BOL] Matched product found -> Product: F4WR9513S2W | Price: 849
+[527/1030] BOL | OK | F4WR9513S2W | 4.45s
+[BOL] Matched product found -> Product: F4WX801Y | Price: 779
+[528/1030] BOL | OK | F4WX801Y | 3.02s
+[BOL] Matched product found -> Product: F4WX801YB | Price: 779
+[529/1030] BOL | OK | F4WX801YB | 11.12s
+[BOL] No matching product found for F4WX809Y
+[530/1030] BOL | OK | F4WX809Y | 4.65s
+[BOL] Matched product found -> Product: F4WX859Y | Price: 699
+[531/1030] BOL | OK | F4WX859Y | 9.66s
+[BOL] No matching product found for F4X1008NWH
+[532/1030] BOL | OK | F4X1008NWH | 2.98s
+[BOL] Matched product found -> Product: F4X1009NWB | Price: 469
+[533/1030] BOL | OK | F4X1009NWB | 11.39s
+[BOL] Matched product found -> Product: F4X1009NWK | Price: 488
+[534/1030] BOL | OK | F4X1009NWK | 3.35s
+[BOL] No matching product found for F4X5009THB
+[535/1030] BOL | OK | F4X5009THB | 4.85s
+[BOL] Matched product found -> Product: F4X5009TWB | Price: 709
+[536/1030] BOL | OK | F4X5009TWB | 10.11s
+[BOL] No matching product found for F4X5011THB
+[537/1030] BOL | OK | F4X5011THB | 3.13s
+[BOL] No matching product found for F4X5509THB
+[538/1030] BOL | OK | F4X5509THB | 8.39s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 36 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for F4X5011THB
+[539/1030] CoolBlue | OK | F4X5011THB | 10.54s
+[CoolBlue] No results for F4X5509THB
+[540/1030] CoolBlue | OK | F4X5509THB | 3.66s
+[CoolBlue] No results for FC25XA
+[541/1030] CoolBlue | OK | FC25XA | 4.61s
+[CoolBlue] Matched product found -> Product: GBBS312AEV | Price: 999
+[542/1030] CoolBlue | OK | GBBS312AEV | 3.64s
+[CoolBlue] Matched product found -> Product: GBBS312APY | Price: 879
+[543/1030] CoolBlue | OK | GBBS312APY | 4.63s
+[CoolBlue] Failed: GBBS312BEV - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.156); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc6793d]
+	chromedriver!(No symbol) [0x7ff65bc52d82]
+	chromedriver!(No symbol) [0x7ff65bc790cc]
+	chromedriver!(No symbol) [0x7ff65bcf1aa0]
+	chromedriver!(No symbol) [0x7ff65bd0ec82]
+	chromedriver!(No symbol) [0x7ff65bcb401c]
+	chromedriver!(No symbol) [0x7ff65bcb4f43]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff65c12d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff65c12d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff65c111447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[CoolBlue] Retrying once...
+[CoolBlue] Retry failed: GBBS312BEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[544/1030] CoolBlue | FAILED | GBBS312BEV | 726.68s
+[CoolBlue] Failed: GBBS312CEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[CoolBlue] Retrying once...
+[CoolBlue] Retry failed: GBBS312CEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[545/1030] CoolBlue | FAILED | GBBS312CEV | 0.01s
+[CoolBlue] Failed: GBBS312CPY - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[CoolBlue] Retrying once...
+[CoolBlue] Retry failed: GBBS312CPY - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[546/1030] CoolBlue | FAILED | GBBS312CPY | 0.04s
+[CoolBlue] Failed: GBBS322AEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[CoolBlue] Retrying once...
+[CoolBlue] Retry failed: GBBS322AEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[547/1030] CoolBlue | FAILED | GBBS322AEV | 0.03s
+[CoolBlue] Failed: GBBS322APY - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[CoolBlue] Retrying once...
+[CoolBlue] Retry failed: GBBS322APY - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[548/1030] CoolBlue | FAILED | GBBS322APY | 0.02s
+[CoolBlue] Failed: GBBS322BEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[CoolBlue] Retrying once...
+[CoolBlue] Retry failed: GBBS322BEV - Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65c123fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff65c124000+14980]
+	chromedriver!(No symbol) [0x7ff65bc67726]
+	chromedriver!(No symbol) [0x7ff65bcb3083]
+	chromedriver!(No symbol) [0x7ff65bcea2d2]
+	chromedriver!(No symbol) [0x7ff65bce40d2]
+	chromedriver!(No symbol) [0x7ff65bce3892]
+	chromedriver!(No symbol) [0x7ff65bc303e5]
+	chromedriver!GetHandleVerifier [0x7ff65c707591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff65c701902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff65c727115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff65c141dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff65c14a82c+3b1ac]
+	chromedriver!(No symbol) [0x7ff65bc2f188]
+	chromedriver!GetHandleVerifier [0x7ff65c8d7b58+7c84d8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[549/1030] CoolBlue | FAILED | GBBS322BEV | 0.02s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 37 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: GBBS322BEV | Price: € 759,–
+[550/1030] MediaMarkt | OK | GBBS322BEV | 12.92s
+[MediaMarkt] Matched product found -> Product: GBBS322BPY | Price: € 849,–
+[551/1030] MediaMarkt | OK | GBBS322BPY | 7.16s
+[MediaMarkt] Matched product found -> Product: GBBS322CEV | Price: € 699,–
+[552/1030] MediaMarkt | OK | GBBS322CEV | 16.09s
+[MediaMarkt] Matched product found -> Product: GBBS322CPY | Price: € 679,–
+[553/1030] MediaMarkt | OK | GBBS322CPY | 6.86s
+[MediaMarkt] No results for GBBS726AEV
+[554/1030] MediaMarkt | OK | GBBS726AEV | 6.08s
+[MediaMarkt] No results for GBBS726CEV
+[555/1030] MediaMarkt | OK | GBBS726CEV | 13.46s
+[MediaMarkt] No results for GBBSJ11DEP
+[556/1030] MediaMarkt | OK | GBBSJ11DEP | 7.25s
+[MediaMarkt] No results for GBBSJ1CCEP
+[557/1030] MediaMarkt | OK | GBBSJ1CCEP | 14.49s
+[MediaMarkt] No results for GBBSJ1CCPY
+[558/1030] MediaMarkt | OK | GBBSJ1CCPY | 5.92s
+[MediaMarkt] No results for GBBSJ1CCSW
+[559/1030] MediaMarkt | OK | GBBSJ1CCSW | 7.23s
+[MediaMarkt] No results for GBBW322AEV
+[560/1030] MediaMarkt | OK | GBBW322AEV | 7.77s
+[MediaMarkt] Matched product found -> Product: GBG5160CEV | Price: € 944,–
+[561/1030] MediaMarkt | OK | GBG5160CEV | 7.86s
+[MediaMarkt] No results for GC3R709S1
+[562/1030] MediaMarkt | OK | GC3R709S1 | 7.70s
+[MediaMarkt] No results for GD3R509S0
+[563/1030] MediaMarkt | OK | GD3R509S0 | 7.02s
+[MediaMarkt] Matched product found -> Product: GFM61MCCSF | Price: € 1249,–
+[564/1030] MediaMarkt | OK | GFM61MCCSF | 13.27s
+[MediaMarkt] Matched product found -> Product: GLM71MCCSF | Price: € 949,–
+[565/1030] MediaMarkt | OK | GLM71MCCSF | 7.76s
+[MediaMarkt] Matched product found -> Product: GMG860EPBE | Price: € 2291,99
+[566/1030] MediaMarkt | OK | GMG860EPBE | 19.99s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 38 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: F4WR7011SYB | Price: €729.00
+[567/1030] OBS | OK | F4WR7011SYB | 17.31s
+[OBS] Matched product found -> Product: F4WR9513S2W | Price: €999.00
+[568/1030] OBS | OK | F4WR9513S2W | 7.40s
+[OBS] Matched product found -> Product: F4WX801Y | Price: €799.00
+[569/1030] OBS | OK | F4WX801Y | 6.89s
+[OBS] Matched product found -> Product: F4WX801YB | Price: €744.00
+[570/1030] OBS | OK | F4WX801YB | 6.18s
+[OBS] Matched product found -> Product: F4WX809Y | Price: €1,339.00
+[571/1030] OBS | OK | F4WX809Y | 16.58s
+[OBS] Matched product found -> Product: F4WX859Y | Price: €799.00
+[572/1030] OBS | OK | F4WX859Y | 7.08s
+[OBS] Matched product found -> Product: F4X1008NWH | Price: €479.00
+[573/1030] OBS | OK | F4X1008NWH | 7.08s
+[OBS] Matched product found -> Product: F4X1009NWB | Price: €569.00
+[574/1030] OBS | OK | F4X1009NWB | 7.01s
+[OBS] Matched product found -> Product: F4X1009NWK | Price: €499.00
+[575/1030] OBS | OK | F4X1009NWK | 8.23s
+[OBS] Matched product found -> Product: F4X5009THB | Price: €579.00
+[576/1030] OBS | OK | F4X5009THB | 15.35s
+[OBS] Matched product found -> Product: F4X5009TWB | Price:  
+[577/1030] OBS | OK | F4X5009TWB | 5.90s
+[OBS] Matched product found -> Product: F4X5011THB | Price: €699.00
+[578/1030] OBS | OK | F4X5011THB | 7.55s
+[OBS] Matched product found -> Product: F4X5509THB | Price: €599.00
+[579/1030] OBS | OK | F4X5509THB | 7.19s
+[OBS] Matched product found -> Product: FC25XA | Price: €89.00
+[580/1030] OBS | OK | FC25XA | 6.22s
+[OBS] Matched product found -> Product: GBBS312AEV | Price: €899.01
+[581/1030] OBS | OK | GBBS312AEV | 13.61s
+[OBS] Matched product found -> Product: GBBS312APY | Price: €899.01
+[582/1030] OBS | OK | GBBS312APY | 13.25s
+[OBS] Matched product found -> Product: GBBS312BEV | Price: €829.00
+[583/1030] OBS | OK | GBBS312BEV | 8.31s
+[OBS] Matched product found -> Product: GBBS312CEV | Price:  
+[584/1030] OBS | OK | GBBS312CEV | 7.24s
+[OBS] Matched product found -> Product: GBBS312CPY | Price: €549.00
+[585/1030] OBS | OK | GBBS312CPY | 13.95s
+[OBS] No matching product found for GBBS322AEV
+[586/1030] OBS | OK | GBBS322AEV | 14.44s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 39 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for GBBS312CPY
+[587/1030] BK | OK | GBBS312CPY | 7.55s
+[BK] No results found for GBBS322AEV
+[588/1030] BK | OK | GBBS322AEV | 10.63s
+[BK] No results found for GBBS322APY
+[589/1030] BK | OK | GBBS322APY | 3.88s
+[BK] No results found for GBBS322BEV
+[590/1030] BK | OK | GBBS322BEV | 2.58s
+[BK] No results found for GBBS322BPY
+[591/1030] BK | OK | GBBS322BPY | 3.91s
+[BK] No results found for GBBS322CEV
+[592/1030] BK | OK | GBBS322CEV | 3.48s
+[BK] No results found for GBBS322CPY
+[593/1030] BK | OK | GBBS322CPY | 4.29s
+[BK] Matched product found -> Product: GBBS726AEV | Price: 749,-
+[594/1030] BK | OK | GBBS726AEV | 4.19s
+[BK] Matched product found -> Product: GBBS726CEV | Price: 699,-
+[595/1030] BK | OK | GBBS726CEV | 4.43s
+[BK] Matched product found -> Product: GBBSJ11DEP | Price: 549,74
+[596/1030] BK | OK | GBBSJ11DEP | 4.64s
+[BK] Matched product found -> Product: GBBSJ1CCEP | Price: 623,-
+[597/1030] BK | OK | GBBSJ1CCEP | 9.87s
+[BK] Matched product found -> Product: GBBSJ1CCPY | Price: 509,-
+[598/1030] BK | OK | GBBSJ1CCPY | 9.31s
+[BK] No results found for GBBSJ1CCSW
+[599/1030] BK | OK | GBBSJ1CCSW | 10.50s
+[BK] Matched product found -> Product: GBBW322AEV | Price: 1149,-
+[600/1030] BK | OK | GBBW322AEV | 10.89s
+[BK] No results found for GBG5160CEV
+[601/1030] BK | OK | GBG5160CEV | 3.30s
+[BK] No results found for GC3R709S1
+[602/1030] BK | OK | GC3R709S1 | 4.08s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 40 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] No matching product found for FC25XA
+[603/1030] BOL | OK | FC25XA | 9.70s
+[BOL] Matched product found -> Product: GBBS312AEV | Price: 849
+[604/1030] BOL | OK | GBBS312AEV | 4.96s
+[BOL] Matched product found -> Product: GBBS312APY | Price: 819
+[605/1030] BOL | OK | GBBS312APY | 4.58s
+[BOL] No matching product found for GBBS312BEV
+[606/1030] BOL | OK | GBBS312BEV | 3.82s
+[BOL] Matched product found -> Product: GBBS312CEV | Price: 699
+[607/1030] BOL | OK | GBBS312CEV | 10.48s
+[BOL] Matched product found -> Product: GBBS312CPY | Price: 649
+[608/1030] BOL | OK | GBBS312CPY | 3.15s
+[BOL] No matching product found for GBBS322AEV
+[609/1030] BOL | OK | GBBS322AEV | 3.30s
+[BOL] Matched product found -> Product: GBBS322APY | Price: 949
+[610/1030] BOL | OK | GBBS322APY | 4.22s
+[BOL] Matched product found -> Product: GBBS322BEV | Price: 739
+[611/1030] BOL | OK | GBBS322BEV | 4.64s
+[BOL] Matched product found -> Product: GBBS322BPY | Price: 819
+[612/1030] BOL | OK | GBBS322BPY | 3.78s
+[BOL] Matched product found -> Product: GBBS322CEV | Price: 689
+[613/1030] BOL | OK | GBBS322CEV | 4.50s
+[BOL] Matched product found -> Product: GBBS322CPY | Price: 649
+[614/1030] BOL | OK | GBBS322CPY | 10.54s
+[BOL] No matching product found for GBBS726AEV
+[615/1030] BOL | OK | GBBS726AEV | 3.87s
+[BOL] Matched product found -> Product: GBBS726CEV | Price: 749
+[616/1030] BOL | OK | GBBS726CEV | 3.41s
+[BOL] Matched product found -> Product: GBBSJ11DEP | Price: 519
+[617/1030] BOL | OK | GBBSJ11DEP | 4.01s
+[BOL] Matched product found -> Product: GBBSJ1CCEP | Price: 623
+[618/1030] BOL | OK | GBBSJ1CCEP | 4.62s
+[BOL] Matched product found -> Product: GBBSJ1CCPY | Price: 559
+[619/1030] BOL | OK | GBBSJ1CCPY | 4.75s
+[BOL] Matched product found -> Product: GBBSJ1CCSW | Price: 599
+[620/1030] BOL | OK | GBBSJ1CCSW | 11.07s
+[BOL] Matched product found -> Product: GBBW322AEV | Price: 1249
+[621/1030] BOL | OK | GBBW322AEV | 10.70s
+[BOL] Matched product found -> Product: GBG5160CEV | Price: 959
+[622/1030] BOL | OK | GBG5160CEV | 3.35s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 41 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for GBBS322BPY
+[623/1030] CoolBlue | OK | GBBS322BPY | 10.51s
+[CoolBlue] No results for GBBS322CEV
+[624/1030] CoolBlue | OK | GBBS322CEV | 4.38s
+[CoolBlue] No results for GBBS322CPY
+[625/1030] CoolBlue | OK | GBBS322CPY | 4.59s
+[CoolBlue] No matching product found for GBBS726AEV
+[626/1030] CoolBlue | OK | GBBS726AEV | 3.47s
+[CoolBlue] Matched product found -> Product: GBBS726CEV | Price: 699
+[627/1030] CoolBlue | OK | GBBS726CEV | 3.28s
+[CoolBlue] No results for GBBSJ11DEP
+[628/1030] CoolBlue | OK | GBBSJ11DEP | 4.72s
+[CoolBlue] Matched product found -> Product: GBBSJ1CCEP | Price: 623
+[629/1030] CoolBlue | OK | GBBSJ1CCEP | 4.13s
+[CoolBlue] Matched product found -> Product: GBBSJ1CCPY | Price: 579
+[630/1030] CoolBlue | OK | GBBSJ1CCPY | 11.48s
+[CoolBlue] No results for GBBSJ1CCSW
+[631/1030] CoolBlue | OK | GBBSJ1CCSW | 3.73s
+[CoolBlue] No results for GBBW322AEV
+[632/1030] CoolBlue | OK | GBBW322AEV | 3.47s
+[CoolBlue] No results for GBG5160CEV
+[633/1030] CoolBlue | OK | GBG5160CEV | 4.20s
+[CoolBlue] Matched product found -> Product: GC3R709S1 | Price: 803
+[634/1030] CoolBlue | OK | GC3R709S1 | 5.22s
+[CoolBlue] Matched product found -> Product: GD3R509S0 | Price: 724
+[635/1030] CoolBlue | OK | GD3R509S0 | 9.12s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 42 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: GMG960EVEE | Price: € 2399,–
+[636/1030] MediaMarkt | OK | GMG960EVEE | 21.12s
+[MediaMarkt] Matched product found -> Product: GSGV80EPLD | Price: € 1389,–
+[637/1030] MediaMarkt | OK | GSGV80EPLD | 8.16s
+[MediaMarkt] No results for GSLC40EPPE
+[638/1030] MediaMarkt | OK | GSLC40EPPE | 8.84s
+[MediaMarkt] Matched product found -> Product: GSLC40PYPE | Price: € 1471,62
+[639/1030] MediaMarkt | OK | GSLC40PYPE | 17.60s
+[MediaMarkt] Matched product found -> Product: GSLC41EPPE | Price: € 1149,–
+[640/1030] MediaMarkt | OK | GSLC41EPPE | 7.88s
+[MediaMarkt] Matched product found -> Product: GSLC41PYPE | Price: € 1099,–
+[641/1030] MediaMarkt | OK | GSLC41PYPE | 7.91s
+[MediaMarkt] Matched product found -> Product: GSLE81PYBC | Price: € 1349,–
+[642/1030] MediaMarkt | OK | GSLE81PYBC | 6.66s
+[MediaMarkt] Matched product found -> Product: GSLE81PYBD | Price: € 1499,–
+[643/1030] MediaMarkt | OK | GSLE81PYBD | 8.39s
+[MediaMarkt] Matched product found -> Product: GSLE91EVAB | Price: € 1599,–
+[644/1030] MediaMarkt | OK | GSLE91EVAB | 14.12s
+[MediaMarkt] Matched product found -> Product: GSLE91EVAC | Price: € 1926,59
+[645/1030] MediaMarkt | OK | GSLE91EVAC | 7.12s
+[MediaMarkt] Matched product found -> Product: GSXE81EVBD | Price: € 1849,–
+[646/1030] MediaMarkt | OK | GSXE81EVBD | 12.51s
+[MediaMarkt] Matched product found -> Product: GSXE90EVDD | Price: € 1999,–
+[647/1030] MediaMarkt | OK | GSXE90EVDD | 6.14s
+[MediaMarkt] No results for GSXE91EVAD
+[648/1030] MediaMarkt | OK | GSXE91EVAD | 5.81s
+[MediaMarkt] No results for GSXV80PZLE
+[649/1030] MediaMarkt | OK | GSXV80PZLE | 7.64s
+[MediaMarkt] Matched product found -> Product: H7 | Price: € 999,–
+[650/1030] MediaMarkt | OK | H7 | 17.35s
+[MediaMarkt] Matched product found -> Product: HPWD116A | Price: € 1399,–
+[651/1030] MediaMarkt | OK | HPWD116A | 16.91s
+[MediaMarkt] Matched product found -> Product: HS25XA | Price: € 69,99
+[652/1030] MediaMarkt | OK | HS25XA | 6.51s
+[MediaMarkt] Matched product found -> Product: LC0R2N2 | Price: € 999,–
+[653/1030] MediaMarkt | OK | LC0R2N2 | 13.32s
+[MediaMarkt] Matched product found -> Product: M5 | Price: € 1429,–
+[654/1030] MediaMarkt | OK | M5 | 9.80s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 43 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: GBBS322APY | Price: €999.00
+[655/1030] OBS | OK | GBBS322APY | 14.03s
+[OBS] Matched product found -> Product: GBBS322BEV | Price: €759.00
+[656/1030] OBS | OK | GBBS322BEV | 5.75s
+[OBS] Matched product found -> Product: GBBS322BPY | Price: €849.00
+[657/1030] OBS | OK | GBBS322BPY | 5.29s
+[OBS] Matched product found -> Product: GBBS322CEV | Price: €699.00
+[658/1030] OBS | OK | GBBS322CEV | 6.40s
+[OBS] Matched product found -> Product: GBBS322CPY | Price: €949.00
+[659/1030] OBS | OK | GBBS322CPY | 5.62s
+[OBS] Matched product found -> Product: GBBS726AEV | Price: €899.01
+[660/1030] OBS | OK | GBBS726AEV | 5.40s
+[OBS] Matched product found -> Product: GBBS726CEV | Price: €718.99
+[661/1030] OBS | OK | GBBS726CEV | 4.26s
+[OBS] Matched product found -> Product: GBBSJ11DEP | Price: €549.00
+[662/1030] OBS | OK | GBBSJ11DEP | 6.76s
+[OBS] Matched product found -> Product: GBBSJ1CCEP | Price:  
+[663/1030] OBS | OK | GBBSJ1CCEP | 6.37s
+[OBS] No matching product found for GBBSJ1CCPY
+[664/1030] OBS | OK | GBBSJ1CCPY | 6.80s
+[OBS] Matched product found -> Product: GBBSJ1CCSW | Price: €599.00
+[665/1030] OBS | OK | GBBSJ1CCSW | 6.34s
+[OBS] Matched product found -> Product: GBBW322AEV | Price: €1,249.00
+[666/1030] OBS | OK | GBBW322AEV | 6.88s
+[OBS] Matched product found -> Product: GBG5160CEV | Price: €944.01
+[667/1030] OBS | OK | GBG5160CEV | 12.98s
+[OBS] Matched product found -> Product: GC3R709S1 | Price: €1,188.99
+[668/1030] OBS | OK | GC3R709S1 | 6.71s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 44 =====
+
+Running site: BK
+ Cookies accepted
+[BK] Matched product found -> Product: GD3R509S0 | Price: 649,-
+[669/1030] BK | OK | GD3R509S0 | 5.38s
+[BK] Matched product found -> Product: GFM61MCCSF | Price: 649,-
+[670/1030] BK | OK | GFM61MCCSF | 3.55s
+[BK] Matched product found -> Product: GLM71MCCSF | Price: 749,-
+[671/1030] BK | OK | GLM71MCCSF | 2.54s
+[BK] Matched product found -> Product: GMG860EPBE | Price: 1699,-
+[672/1030] BK | OK | GMG860EPBE | 3.23s
+[BK] Matched product found -> Product: GMG960EVEE | Price: 1899,-
+[673/1030] BK | OK | GMG960EVEE | 3.53s
+[BK] Matched product found -> Product: GSGV80EPLD | Price: 1519,-
+[674/1030] BK | OK | GSGV80EPLD | 3.20s
+[BK] Matched product found -> Product: GSLC40EPPE | Price: 1149,-
+[675/1030] BK | OK | GSLC40EPPE | 4.40s
+[BK] Matched product found -> Product: GSLC40PYPE | Price: 1099,-
+[676/1030] BK | OK | GSLC40PYPE | 4.49s
+[BK] Matched product found -> Product: GSLC41EPPE | Price: 1149,-
+[677/1030] BK | OK | GSLC41EPPE | 2.77s
+[BK] Matched product found -> Product: GSLC41PYPE | Price: 1099,-
+[678/1030] BK | OK | GSLC41PYPE | 11.05s
+[BK] Matched product found -> Product: GSLE81PYBC | Price: 1399,-
+[679/1030] BK | OK | GSLE81PYBC | 3.36s
+[BK] No results found for GSLE81PYBD
+[680/1030] BK | OK | GSLE81PYBD | 9.85s
+[BK] No results found for GSLE91EVAB
+[681/1030] BK | OK | GSLE91EVAB | 3.59s
+[BK] Matched product found -> Product: GSLE91EVAC | Price: 1599,-
+[682/1030] BK | OK | GSLE91EVAC | 9.79s
+[BK] Matched product found -> Product: GSXE81EVBD | Price: 1599,-
+[683/1030] BK | OK | GSXE81EVBD | 3.57s
+[BK] Matched product found -> Product: GSXE90EVDD | Price: 1699,-
+[684/1030] BK | OK | GSXE90EVDD | 2.96s
+[BK] Matched product found -> Product: GSXE91EVAD | Price: 1599,-
+[685/1030] BK | OK | GSXE91EVAD | 3.96s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 45 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] Matched product found -> Product: GC3R709S1 | Price: 499
+[686/1030] BOL | OK | GC3R709S1 | 10.14s
+[BOL] No matching product found for GD3R509S0
+[687/1030] BOL | OK | GD3R509S0 | 3.95s
+[BOL] Matched product found -> Product: GFM61MCCSF | Price: 769
+[688/1030] BOL | OK | GFM61MCCSF | 4.49s
+[BOL] Matched product found -> Product: GLM71MCCSF | Price: 695
+[689/1030] BOL | OK | GLM71MCCSF | 3.35s
+[BOL] Matched product found -> Product: GMG860EPBE | Price: 1775
+[690/1030] BOL | OK | GMG860EPBE | 4.15s
+[BOL] Matched product found -> Product: GMG960EVEE | Price: 2075
+[691/1030] BOL | OK | GMG960EVEE | 4.56s
+[BOL] Matched product found -> Product: GSGV80EPLD | Price: 1649
+[692/1030] BOL | OK | GSGV80EPLD | 4.00s
+[BOL] Matched product found -> Product: GSLC40EPPE | Price: 1149
+[693/1030] BOL | OK | GSLC40EPPE | 4.98s
+[BOL] Matched product found -> Product: GSLC40PYPE | Price: 1149
+[694/1030] BOL | OK | GSLC40PYPE | 5.01s
+[BOL] Matched product found -> Product: GSLC41EPPE | Price: 1149
+[695/1030] BOL | OK | GSLC41EPPE | 3.73s
+[BOL] Matched product found -> Product: GSLC41PYPE | Price: 1049
+[696/1030] BOL | OK | GSLC41PYPE | 4.32s
+[BOL] Matched product found -> Product: GSLE81PYBC | Price: 1349
+[697/1030] BOL | OK | GSLE81PYBC | 4.22s
+[BOL] No matching product found for GSLE81PYBD
+[698/1030] BOL | OK | GSLE81PYBD | 4.51s
+[BOL] Matched product found -> Product: GSLE91EVAB | Price: 1749
+[699/1030] BOL | OK | GSLE91EVAB | 8.62s
+[BOL] Matched product found -> Product: GSLE91EVAC | Price: 1649
+[700/1030] BOL | OK | GSLE91EVAC | 3.57s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 46 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for GFM61MCCSF
+[701/1030] CoolBlue | OK | GFM61MCCSF | 8.27s
+[CoolBlue] No results for GLM71MCCSF
+[702/1030] CoolBlue | OK | GLM71MCCSF | 4.20s
+[CoolBlue] No results for GMG860EPBE
+[703/1030] CoolBlue | OK | GMG860EPBE | 4.96s
+[CoolBlue] Matched product found -> Product: GMG960EVEE | Price: 1999
+[704/1030] CoolBlue | OK | GMG960EVEE | 19.42s
+[CoolBlue] Matched product found -> Product: GSGV80EPLD | Price: 1389
+[705/1030] CoolBlue | OK | GSGV80EPLD | 5.01s
+[CoolBlue] No matching product found for GSLC40EPPE
+[706/1030] CoolBlue | OK | GSLC40EPPE | 9.38s
+[CoolBlue] Matched product found -> Product: GSLC40PYPE | Price: 1099
+[707/1030] CoolBlue | OK | GSLC40PYPE | 8.13s
+[CoolBlue] Matched product found -> Product: GSLC41EPPE | Price: 1149
+[708/1030] CoolBlue | OK | GSLC41EPPE | 9.41s
+[CoolBlue] Matched product found -> Product: GSLC41PYPE | Price: 1099
+[709/1030] CoolBlue | OK | GSLC41PYPE | 9.70s
+[CoolBlue] Matched product found -> Product: GSLE81PYBC | Price: 1429
+[710/1030] CoolBlue | OK | GSLE81PYBC | 12.29s
+[CoolBlue] No matching product found for GSLE81PYBD
+[711/1030] CoolBlue | OK | GSLE81PYBD | 13.36s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 47 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: M7 | Price: € 199,90
+[712/1030] MediaMarkt | OK | M7 | 12.44s
+[MediaMarkt] Matched product found -> Product: MJ3965ACS | Price: € 299,–
+[713/1030] MediaMarkt | OK | MJ3965ACS | 16.91s
+[MediaMarkt] Matched product found -> Product: MJ3965BIB | Price: € 279,–
+[714/1030] MediaMarkt | OK | MJ3965BIB | 12.30s
+[MediaMarkt] No results for MR25GB
+[715/1030] MediaMarkt | OK | MR25GB | 9.03s
+[MediaMarkt] No results for MS2082H
+[716/1030] MediaMarkt | OK | MS2082H | 11.27s
+[MediaMarkt] Matched product found -> Product: OLED42C54LA | Price: € 1049,–
+[717/1030] MediaMarkt | OK | OLED42C54LA | 8.21s
+[MediaMarkt] No results for OLED42C68LA
+[718/1030] MediaMarkt | OK | OLED42C68LA | 6.79s
+[MediaMarkt] Matched product found -> Product: OLED48B56LA | Price: € 788,–
+[719/1030] MediaMarkt | OK | OLED48B56LA | 6.76s
+[MediaMarkt] No matching product found for OLED48B68LA
+[720/1030] MediaMarkt | OK | OLED48B68LA | 7.75s
+[MediaMarkt] Matched product found -> Product: OLED48C54LA | Price: € 988,–
+[721/1030] MediaMarkt | OK | OLED48C54LA | 17.15s
+[MediaMarkt] No results for OLED48C68LA
+[722/1030] MediaMarkt | OK | OLED48C68LA | 7.27s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 48 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: GD3R509S0 | Price: €724.00
+[723/1030] OBS | OK | GD3R509S0 | 20.52s
+[OBS] Matched product found -> Product: GFM61MCCSF | Price:  
+[724/1030] OBS | OK | GFM61MCCSF | 7.52s
+[OBS] Matched product found -> Product: GLM71MCCSF | Price:  
+[725/1030] OBS | OK | GLM71MCCSF | 6.59s
+[OBS] Matched product found -> Product: GMG860EPBE | Price: €1,772.00
+[726/1030] OBS | OK | GMG860EPBE | 6.11s
+[OBS] Matched product found -> Product: GMG960EVEE | Price: €1,999.00
+[727/1030] OBS | OK | GMG960EVEE | 6.14s
+[OBS] Matched product found -> Product: GSGV80EPLD | Price: €1,568.99
+[728/1030] OBS | OK | GSGV80EPLD | 6.92s
+[OBS] Matched product found -> Product: GSLC40EPPE | Price: €1,149.00
+[729/1030] OBS | OK | GSLC40EPPE | 6.32s
+[OBS] Matched product found -> Product: GSLC40PYPE | Price: €1,098.99
+[730/1030] OBS | OK | GSLC40PYPE | 12.41s
+[OBS] Matched product found -> Product: GSLC41EPPE | Price: €1,179.00
+[731/1030] OBS | OK | GSLC41EPPE | 12.32s
+[OBS] Matched product found -> Product: GSLC41PYPE | Price: €1,098.99
+[732/1030] OBS | OK | GSLC41PYPE | 5.81s
+[OBS] Matched product found -> Product: GSLE81PYBC | Price: €1,359.00
+[733/1030] OBS | OK | GSLE81PYBC | 6.69s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 49 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for GSXV80PZLE
+[734/1030] BK | OK | GSXV80PZLE | 14.20s
+[BK] Matched product found -> Product: H7 | Price: 1996,-
+[735/1030] BK | OK | H7 | 4.60s
+[BK] Matched product found -> Product: HPWD116A | Price: 1399,-
+[736/1030] BK | OK | HPWD116A | 2.92s
+[BK] No results found for HS25XA
+[737/1030] BK | OK | HS25XA | 11.47s
+[BK] No results found for LC0R2N2
+[738/1030] BK | OK | LC0R2N2 | 2.51s
+[BK] Matched product found -> Product: M5 | Price: 599,-
+[739/1030] BK | OK | M5 | 10.73s
+[BK] Matched product found -> Product: M7 | Price: 2336,-
+[740/1030] BK | OK | M7 | 4.85s
+[BK] Matched product found -> Product: MJ3965ACS | Price: 249,-
+[741/1030] BK | OK | MJ3965ACS | 4.90s
+[BK] No results found for MJ3965BIB
+[742/1030] BK | OK | MJ3965BIB | 4.19s
+[BK] No results found for MR25GB
+[743/1030] BK | OK | MR25GB | 4.26s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 50 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] Matched product found -> Product: GSXE81EVBD | Price: 1649
+[744/1030] BOL | OK | GSXE81EVBD | 9.47s
+[BOL] Matched product found -> Product: GSXE90EVDD | Price: 1775
+[745/1030] BOL | OK | GSXE90EVDD | 3.53s
+[BOL] Matched product found -> Product: GSXE91EVAD | Price: 1799
+[746/1030] BOL | OK | GSXE91EVAD | 4.45s
+[BOL] No matching product found for GSXV80PZLE
+[747/1030] BOL | OK | GSXV80PZLE | 12.79s
+[BOL] Matched product found -> Product: H7 | Price: 48
+[748/1030] BOL | OK | H7 | 12.05s
+[BOL] No matching product found for HPWD116A
+[749/1030] BOL | OK | HPWD116A | 3.18s
+[BOL] No matching product found for HS25XA
+[750/1030] BOL | OK | HS25XA | 4.51s
+[BOL] Matched product found -> Product: LC0R2N2 | Price: 999
+[751/1030] BOL | OK | LC0R2N2 | 4.97s
+[BOL] Matched product found -> Product: M5 | Price: 1447
+[752/1030] BOL | OK | M5 | 4.57s
+[BOL] Matched product found -> Product: M7 | Price: 87
+[753/1030] BOL | OK | M7 | 4.55s
+[BOL] Matched product found -> Product: MJ3965ACS | Price: 299
+[754/1030] BOL | OK | MJ3965ACS | 3.52s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 51 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] Matched product found -> Product: GSLE91EVAB | Price: 1599
+[755/1030] CoolBlue | OK | GSLE91EVAB | 16.86s
+[CoolBlue] Matched product found -> Product: GSLE91EVAC | Price: 1499
+[756/1030] CoolBlue | OK | GSLE91EVAC | 18.00s
+[CoolBlue] No results for GSXE81EVBD
+[757/1030] CoolBlue | OK | GSXE81EVBD | 4.22s
+[CoolBlue] Matched product found -> Product: GSXE90EVDD | Price: 1999
+[758/1030] CoolBlue | OK | GSXE90EVDD | 5.17s
+[CoolBlue] No results for GSXE91EVAD
+[759/1030] CoolBlue | OK | GSXE91EVAD | 3.86s
+[CoolBlue] Matched product found -> Product: GSXV80PZLE | Price: 1299
+[760/1030] CoolBlue | OK | GSXV80PZLE | 13.53s
+[CoolBlue] Matched product found -> Product: H7 | Price: 100
+[761/1030] CoolBlue | OK | H7 | 9.11s
+[CoolBlue] Matched product found -> Product: HPWD116A | Price: 1399
+[762/1030] CoolBlue | OK | HPWD116A | 4.07s
+[CoolBlue] No results for HS25XA
+[763/1030] CoolBlue | OK | HS25XA | 4.43s
+[CoolBlue] No results for LC0R2N2
+[764/1030] CoolBlue | OK | LC0R2N2 | 3.52s
+[CoolBlue] Matched product found -> Product: M5 | Price: 1429
+[765/1030] CoolBlue | OK | M5 | 16.94s
+[CoolBlue] Matched product found -> Product: M7 | Price: 260
+[766/1030] CoolBlue | OK | M7 | 11.87s
+[CoolBlue] No results for MJ3965ACS
+[767/1030] CoolBlue | OK | MJ3965ACS | 4.95s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 52 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for OLED48G56LS
+[768/1030] MediaMarkt | OK | OLED48G56LS | 17.67s
+[MediaMarkt] No matching product found for OLED48G69LS
+[769/1030] MediaMarkt | OK | OLED48G69LS | 7.50s
+[MediaMarkt] Matched product found -> Product: OLED55B56LA | Price: € 999,–
+[770/1030] MediaMarkt | OK | OLED55B56LA | 8.64s
+[MediaMarkt] No matching product found for OLED55B68LA
+[771/1030] MediaMarkt | OK | OLED55B68LA | 5.77s
+[MediaMarkt] Matched product found -> Product: OLED55C54LA | Price: € 1818,–
+[772/1030] MediaMarkt | OK | OLED55C54LA | 7.52s
+[MediaMarkt] No results for OLED55C68LA
+[773/1030] MediaMarkt | OK | OLED55C68LA | 7.10s
+[MediaMarkt] No results for OLED55G55LW
+[774/1030] MediaMarkt | OK | OLED55G55LW | 10.68s
+[MediaMarkt] Matched product found -> Product: OLED55G56LS | Price: € 1759,–
+[775/1030] MediaMarkt | OK | OLED55G56LS | 10.47s
+[MediaMarkt] No results for OLED55G68LW
+[776/1030] MediaMarkt | OK | OLED55G68LW | 6.93s
+[MediaMarkt] No matching product found for OLED55G69LS
+[777/1030] MediaMarkt | OK | OLED55G69LS | 7.12s
+[MediaMarkt] Matched product found -> Product: OLED65B56LA | Price: € 1499,–
+[778/1030] MediaMarkt | OK | OLED65B56LA | 9.90s
+[MediaMarkt] No matching product found for OLED65B68LA
+[779/1030] MediaMarkt | OK | OLED65B68LA | 8.37s
+[MediaMarkt] Matched product found -> Product: OLED65C54LA | Price: € 2163,–
+[780/1030] MediaMarkt | OK | OLED65C54LA | 27.85s
+[MediaMarkt] No results for OLED65C68LA
+[781/1030] MediaMarkt | OK | OLED65C68LA | 15.91s
+[MediaMarkt] Matched product found -> Product: OLED65G55LW | Price: € 1655,78
+[782/1030] MediaMarkt | OK | OLED65G55LW | 16.50s
+[MediaMarkt] Matched product found -> Product: OLED65G56LS | Price: € 2249,–
+[783/1030] MediaMarkt | OK | OLED65G56LS | 8.13s
+[MediaMarkt] No results for OLED65G68LW
+[784/1030] MediaMarkt | OK | OLED65G68LW | 6.82s
+[MediaMarkt] No matching product found for OLED65G69LS
+[785/1030] MediaMarkt | OK | OLED65G69LS | 15.99s
+[MediaMarkt] Matched product found -> Product: OLED77B56LA | Price: € 2159,–
+[786/1030] MediaMarkt | OK | OLED77B56LA | 23.57s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 53 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: GSLE81PYBD | Price: €1,599.00
+[787/1030] OBS | OK | GSLE81PYBD | 17.69s
+[OBS] Matched product found -> Product: GSLE91EVAB | Price: €1,599.00
+[788/1030] OBS | OK | GSLE91EVAB | 6.48s
+[OBS] Matched product found -> Product: GSLE91EVAC | Price: €1,599.00
+[789/1030] OBS | OK | GSLE91EVAC | 4.92s
+[OBS] Matched product found -> Product: GSXE81EVBD | Price: €1,799.00
+[790/1030] OBS | OK | GSXE81EVBD | 6.09s
+[OBS] Matched product found -> Product: GSXE90EVDD | Price: €1,999.00
+[791/1030] OBS | OK | GSXE90EVDD | 6.12s
+[OBS] Matched product found -> Product: GSXE91EVAD | Price:  
+[792/1030] OBS | OK | GSXE91EVAD | 6.37s
+[OBS] Matched product found -> Product: GSXV80PZLE | Price:  
+[793/1030] OBS | OK | GSXV80PZLE | 6.21s
+[OBS] Matched product found -> Product: H7 | Price: €998.94
+[794/1030] OBS | OK | H7 | 7.21s
+[OBS] Matched product found -> Product: HPWD116A | Price: €1,549.01
+[795/1030] OBS | OK | HPWD116A | 4.79s
+[OBS] Matched product found -> Product: HS25XA | Price: €49.01
+[796/1030] OBS | OK | HS25XA | 13.45s
+[OBS] Matched product found -> Product: LC0R2N2 | Price: €1,098.99
+[797/1030] OBS | OK | LC0R2N2 | 6.36s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 54 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for MS2082H
+[798/1030] BK | OK | MS2082H | 7.52s
+[BK] No results found for OLED42C54LA
+[799/1030] BK | OK | OLED42C54LA | 4.55s
+[BK] No results found for OLED42C68LA
+[800/1030] BK | OK | OLED42C68LA | 3.95s
+[BK] No results found for OLED48B56LA
+[801/1030] BK | OK | OLED48B56LA | 2.88s
+[BK] No results found for OLED48B68LA
+[802/1030] BK | OK | OLED48B68LA | 2.75s
+[BK] No results found for OLED48C54LA
+[803/1030] BK | OK | OLED48C54LA | 3.30s
+[BK] No results found for OLED48C68LA
+[804/1030] BK | OK | OLED48C68LA | 2.75s
+[BK] No results found for OLED48G56LS
+[805/1030] BK | OK | OLED48G56LS | 3.84s
+[BK] No results found for OLED48G69LS
+[806/1030] BK | OK | OLED48G69LS | 10.20s
+[BK] No results found for OLED55B56LA
+[807/1030] BK | OK | OLED55B56LA | 3.17s
+[BK] No results found for OLED55B68LA
+[808/1030] BK | OK | OLED55B68LA | 3.43s
+[BK] No results found for OLED55C54LA
+[809/1030] BK | OK | OLED55C54LA | 4.21s
+[BK] No results found for OLED55C68LA
+[810/1030] BK | OK | OLED55C68LA | 2.48s
+[BK] No results found for OLED55G55LW
+[811/1030] BK | OK | OLED55G55LW | 3.74s
+[BK] No results found for OLED55G56LS
+[812/1030] BK | OK | OLED55G56LS | 10.70s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 55 =====
+
+Running site: BOL
+ Cookies accepted
+[BOL] Matched product found -> Product: MJ3965BIB | Price: 349
+[813/1030] BOL | OK | MJ3965BIB | 10.40s
+[BOL] No matching product found for MR25GB
+[814/1030] BOL | OK | MR25GB | 3.45s
+[BOL] Matched product found -> Product: MS2082H | Price: 81
+[815/1030] BOL | OK | MS2082H | 3.21s
+[BOL] Matched product found -> Product: OLED42C54LA | Price: 848
+[816/1030] BOL | OK | OLED42C54LA | 3.85s
+[BOL] No matching product found for OLED42C68LA
+[817/1030] BOL | OK | OLED42C68LA | 3.74s
+[BOL] Matched product found -> Product: OLED48B56LA | Price: 665
+[818/1030] BOL | OK | OLED48B56LA | 4.71s
+[BOL] No matching product found for OLED48B68LA
+[819/1030] BOL | OK | OLED48B68LA | 3.28s
+[BOL] No matching product found for OLED48C54LA
+[820/1030] BOL | OK | OLED48C54LA | 11.39s
+[BOL] No matching product found for OLED48C68LA
+[821/1030] BOL | OK | OLED48C68LA | 4.20s
+[BOL] Matched product found -> Product: OLED48G56LS | Price: 939
+[822/1030] BOL | OK | OLED48G56LS | 3.80s
+[BOL] Matched product found -> Product: OLED48G69LS | Price: 1699
+[823/1030] BOL | OK | OLED48G69LS | 14.03s
+[BOL] Matched product found -> Product: OLED55B56LA | Price: 849
+[824/1030] BOL | OK | OLED55B56LA | 4.32s
+[BOL] No matching product found for OLED55B68LA
+[825/1030] BOL | OK | OLED55B68LA | 5.11s
+[BOL] Matched product found -> Product: OLED55C54LA | Price: 1144
+[826/1030] BOL | OK | OLED55C54LA | 4.78s
+[BOL] No matching product found for OLED55C68LA
+[827/1030] BOL | OK | OLED55C68LA | 12.89s
+[BOL] No matching product found for OLED55G55LW
+[828/1030] BOL | OK | OLED55G55LW | 10.57s
+[BOL] Matched product found -> Product: OLED55G56LS | Price: 1399
+[829/1030] BOL | OK | OLED55G56LS | 4.01s
+[BOL] No matching product found for OLED55G68LW
+[830/1030] BOL | OK | OLED55G68LW | 3.59s
+[BOL] No matching product found for OLED55G69LS
+[831/1030] BOL | OK | OLED55G69LS | 8.89s
+[BOL] Matched product found -> Product: OLED65B56LA | Price: 1099
+[832/1030] BOL | OK | OLED65B56LA | 3.60s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 56 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for MJ3965BIB
+[833/1030] CoolBlue | OK | MJ3965BIB | 9.32s
+[CoolBlue] No results for MR25GB
+[834/1030] CoolBlue | OK | MR25GB | 4.57s
+[CoolBlue] No results for MS2082H
+[835/1030] CoolBlue | OK | MS2082H | 3.58s
+[CoolBlue] No results for OLED42C54LA
+[836/1030] CoolBlue | OK | OLED42C54LA | 5.25s
+[CoolBlue] No matching product found for OLED42C68LA
+[837/1030] CoolBlue | OK | OLED42C68LA | 9.35s
+[CoolBlue] No results for OLED48B56LA
+[838/1030] CoolBlue | OK | OLED48B56LA | 4.07s
+[CoolBlue] No matching product found for OLED48B68LA
+[839/1030] CoolBlue | OK | OLED48B68LA | 4.05s
+[CoolBlue] No results for OLED48C54LA
+[840/1030] CoolBlue | OK | OLED48C54LA | 3.94s
+[CoolBlue] No matching product found for OLED48C68LA
+[841/1030] CoolBlue | OK | OLED48C68LA | 3.80s
+[CoolBlue] No results for OLED48G56LS
+[842/1030] CoolBlue | OK | OLED48G56LS | 4.61s
+[CoolBlue] No matching product found for OLED48G69LS
+[843/1030] CoolBlue | OK | OLED48G69LS | 11.72s
+[CoolBlue] No results for OLED55B56LA
+[844/1030] CoolBlue | OK | OLED55B56LA | 4.82s
+[CoolBlue] No matching product found for OLED55B68LA
+[845/1030] CoolBlue | OK | OLED55B68LA | 5.13s
+[CoolBlue] No results for OLED55C54LA
+[846/1030] CoolBlue | OK | OLED55C54LA | 3.33s
+[CoolBlue] No matching product found for OLED55C68LA
+[847/1030] CoolBlue | OK | OLED55C68LA | 9.43s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 57 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No matching product found for OLED77B68LA
+[848/1030] MediaMarkt | OK | OLED77B68LA | 11.41s
+[MediaMarkt] Matched product found -> Product: OLED77C54LA | Price: € 2399,–
+[849/1030] MediaMarkt | OK | OLED77C54LA | 7.17s
+[MediaMarkt] No results for OLED77C68LA
+[850/1030] MediaMarkt | OK | OLED77C68LA | 7.40s
+[MediaMarkt] Matched product found -> Product: OLED77G55LW | Price: € 2616,97
+[851/1030] MediaMarkt | OK | OLED77G55LW | 6.22s
+[MediaMarkt] No results for OLED77G68LW
+[852/1030] MediaMarkt | OK | OLED77G68LW | 7.41s
+[MediaMarkt] Matched product found -> Product: OLED83B56LA | Price: € 3299,–
+[853/1030] MediaMarkt | OK | OLED83B56LA | 6.32s
+[MediaMarkt] Matched product found -> Product: OLED83C54LA | Price: € 3199,–
+[854/1030] MediaMarkt | OK | OLED83C54LA | 8.63s
+[MediaMarkt] Matched product found -> Product: OLED83G55LW | Price: € 4399,–
+[855/1030] MediaMarkt | OK | OLED83G55LW | 13.99s
+[MediaMarkt] No results for OLED83G68LW
+[856/1030] MediaMarkt | OK | OLED83G68LW | 7.86s
+[MediaMarkt] No results for PU615U
+[857/1030] MediaMarkt | OK | PU615U | 7.04s
+[MediaMarkt] Matched product found -> Product: RH18U8AVCW | Price: € 1104,–
+[858/1030] MediaMarkt | OK | RH18U8AVCW | 13.97s
+[MediaMarkt] Matched product found -> Product: RH80V9AV4N | Price: € 899,–
+[859/1030] MediaMarkt | OK | RH80V9AV4N | 7.40s
+[MediaMarkt] Matched product found -> Product: RH90V5AV6N | Price: € 883,14
+[860/1030] MediaMarkt | OK | RH90V5AV6N | 9.53s
+[MediaMarkt] Matched product found -> Product: RH90V9AV3N | Price: € 934,–
+[861/1030] MediaMarkt | OK | RH90V9AV3N | 8.71s
+[MediaMarkt] Matched product found -> Product: RH90V9ZVEN | Price: € 799,–
+[862/1030] MediaMarkt | OK | RH90V9ZVEN | 7.72s
+[MediaMarkt] Matched product found -> Product: RHX5009THB | Price: € 799,–
+[863/1030] MediaMarkt | OK | RHX5009THB | 6.75s
+[MediaMarkt] No results for RHX5009TWB
+[864/1030] MediaMarkt | OK | RHX5009TWB | 7.29s
+[MediaMarkt] Matched product found -> Product: RHX5010THB | Price: € 849,–
+[865/1030] MediaMarkt | OK | RHX5010THB | 13.12s
+[MediaMarkt] Matched product found -> Product: RT10X8B | Price: € 949,–
+[866/1030] MediaMarkt | OK | RT10X8B | 7.40s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 58 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: M5 | Price: €249.01
+[867/1030] OBS | OK | M5 | 13.73s
+[OBS] Matched product found -> Product: M7 | Price: €399.00
+[868/1030] OBS | OK | M7 | 5.97s
+[OBS] Matched product found -> Product: MJ3965ACS | Price: €299.00
+[869/1030] OBS | OK | MJ3965ACS | 5.00s
+[OBS] Matched product found -> Product: MJ3965BIB | Price: €233.00
+[870/1030] OBS | OK | MJ3965BIB | 7.31s
+[OBS] Matched product found -> Product: MR25GB | Price: €50.00
+[871/1030] OBS | OK | MR25GB | 6.29s
+[OBS] Matched product found -> Product: MS2082H | Price: €99.00
+[872/1030] OBS | OK | MS2082H | 6.78s
+[OBS] Matched product found -> Product: OLED42C54LA | Price: €898.99
+[873/1030] OBS | OK | OLED42C54LA | 6.09s
+[OBS] Matched product found -> Product: OLED42C68LA | Price: €1,398.99
+[874/1030] OBS | OK | OLED42C68LA | 5.87s
+[OBS] Matched product found -> Product: OLED48B56LA | Price: €698.99
+[875/1030] OBS | OK | OLED48B56LA | 5.86s
+[OBS] Matched product found -> Product: OLED48B68LA | Price: €1,199.00
+[876/1030] OBS | OK | OLED48B68LA | 7.06s
+[OBS] Matched product found -> Product: OLED48C54LA | Price: €987.99
+[877/1030] OBS | OK | OLED48C54LA | 6.30s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 59 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for OLED55G68LW
+[878/1030] BK | OK | OLED55G68LW | 7.99s
+[BK] No results found for OLED55G69LS
+[879/1030] BK | OK | OLED55G69LS | 2.61s
+[BK] No results found for OLED65B56LA
+[880/1030] BK | OK | OLED65B56LA | 2.53s
+[BK] No results found for OLED65B68LA
+[881/1030] BK | OK | OLED65B68LA | 2.62s
+[BK] No results found for OLED65C54LA
+[882/1030] BK | OK | OLED65C54LA | 2.88s
+[BK] No results found for OLED65C68LA
+[883/1030] BK | OK | OLED65C68LA | 4.32s
+[BK] No results found for OLED65G55LW
+[884/1030] BK | OK | OLED65G55LW | 3.47s
+[BK] No results found for OLED65G56LS
+[885/1030] BK | OK | OLED65G56LS | 4.11s
+[BK] No results found for OLED65G68LW
+[886/1030] BK | OK | OLED65G68LW | 2.73s
+[BK] No results found for OLED65G69LS
+[887/1030] BK | OK | OLED65G69LS | 2.71s
+[BK] No results found for OLED77B56LA
+[888/1030] BK | OK | OLED77B56LA | 4.16s
+[BK] No results found for OLED77B68LA
+[889/1030] BK | OK | OLED77B68LA | 2.70s
+[BK] No results found for OLED77C54LA
+[890/1030] BK | OK | OLED77C54LA | 9.60s
+[BK] No results found for OLED77C68LA
+[891/1030] BK | OK | OLED77C68LA | 4.02s
+[BK] No results found for OLED77G55LW
+[892/1030] BK | OK | OLED77G55LW | 4.27s
+[BK] No results found for OLED77G68LW
+[893/1030] BK | OK | OLED77G68LW | 3.38s
+[BK] No results found for OLED83B56LA
+[894/1030] BK | OK | OLED83B56LA | 3.46s
+[BK] No results found for OLED83C54LA
+[895/1030] BK | OK | OLED83C54LA | 8.56s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 60 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] No matching product found for OLED65B68LA
+[896/1030] BOL | OK | OLED65B68LA | 12.45s
+[BOL] Matched product found -> Product: OLED65C54LA | Price: 1531
+[897/1030] BOL | OK | OLED65C54LA | 11.65s
+[BOL] No matching product found for OLED65C68LA
+[898/1030] BOL | OK | OLED65C68LA | 4.38s
+[BOL] No matching product found for OLED65G55LW
+[899/1030] BOL | OK | OLED65G55LW | 4.16s
+[BOL] Matched product found -> Product: OLED65G56LS | Price: 1699
+[900/1030] BOL | OK | OLED65G56LS | 3.41s
+[BOL] No matching product found for OLED65G68LW
+[901/1030] BOL | OK | OLED65G68LW | 4.49s
+[BOL] No matching product found for OLED65G69LS
+[902/1030] BOL | OK | OLED65G69LS | 10.77s
+[BOL] No matching product found for OLED77B56LA
+[903/1030] BOL | OK | OLED77B56LA | 3.75s
+[BOL] No matching product found for OLED77B68LA
+[904/1030] BOL | OK | OLED77B68LA | 3.84s
+[BOL] No matching product found for OLED77C54LA
+[905/1030] BOL | OK | OLED77C54LA | 12.54s
+[BOL] No matching product found for OLED77C68LA
+[906/1030] BOL | OK | OLED77C68LA | 4.21s
+[BOL] No matching product found for OLED77G55LW
+[907/1030] BOL | OK | OLED77G55LW | 4.49s
+[BOL] No matching product found for OLED77G68LW
+[908/1030] BOL | OK | OLED77G68LW | 4.42s
+[BOL] No matching product found for OLED83B56LA
+[909/1030] BOL | OK | OLED83B56LA | 3.61s
+[BOL] No matching product found for OLED83C54LA
+[910/1030] BOL | OK | OLED83C54LA | 11.48s
+[BOL] No matching product found for OLED83G55LW
+[911/1030] BOL | OK | OLED83G55LW | 4.30s
+[BOL] No matching product found for OLED83G68LW
+[912/1030] BOL | OK | OLED83G68LW | 5.32s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 61 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for OLED55G55LW
+[913/1030] CoolBlue | OK | OLED55G55LW | 13.56s
+[CoolBlue] No results for OLED55G56LS
+[914/1030] CoolBlue | OK | OLED55G56LS | 3.28s
+[CoolBlue] No matching product found for OLED55G68LW
+[915/1030] CoolBlue | OK | OLED55G68LW | 3.89s
+[CoolBlue] No results for OLED55G69LS
+[916/1030] CoolBlue | OK | OLED55G69LS | 3.38s
+[CoolBlue] No results for OLED65B56LA
+[917/1030] CoolBlue | OK | OLED65B56LA | 3.18s
+[CoolBlue] No matching product found for OLED65B68LA
+[918/1030] CoolBlue | OK | OLED65B68LA | 4.21s
+[CoolBlue] No results for OLED65C54LA
+[919/1030] CoolBlue | OK | OLED65C54LA | 4.09s
+[CoolBlue] No matching product found for OLED65C68LA
+[920/1030] CoolBlue | OK | OLED65C68LA | 4.59s
+[CoolBlue] No results for OLED65G55LW
+[921/1030] CoolBlue | OK | OLED65G55LW | 5.13s
+[CoolBlue] No results for OLED65G56LS
+[922/1030] CoolBlue | OK | OLED65G56LS | 3.97s
+[CoolBlue] No matching product found for OLED65G68LW
+[923/1030] CoolBlue | OK | OLED65G68LW | 10.60s
+[CoolBlue] No results for OLED65G69LS
+[924/1030] CoolBlue | OK | OLED65G69LS | 3.52s
+[CoolBlue] No results for OLED77B56LA
+[925/1030] CoolBlue | OK | OLED77B56LA | 3.44s
+[CoolBlue] No matching product found for OLED77B68LA
+[926/1030] CoolBlue | OK | OLED77B68LA | 15.09s
+[CoolBlue] No results for OLED77C54LA
+[927/1030] CoolBlue | OK | OLED77C54LA | 11.24s
+[CoolBlue] No matching product found for OLED77C68LA
+[928/1030] CoolBlue | OK | OLED77C68LA | 10.98s
+[CoolBlue] No results for OLED77G55LW
+[929/1030] CoolBlue | OK | OLED77G55LW | 4.52s
+[CoolBlue] No matching product found for OLED77G68LW
+[930/1030] CoolBlue | OK | OLED77G68LW | 11.10s
+[CoolBlue] No results for OLED83B56LA
+[931/1030] CoolBlue | OK | OLED83B56LA | 4.41s
+[CoolBlue] No results for OLED83C54LA
+[932/1030] CoolBlue | OK | OLED83C54LA | 9.85s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 62 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: RT90X8 | Price: € 899,–
+[933/1030] MediaMarkt | OK | RT90X8 | 20.06s
+[MediaMarkt] Matched product found -> Product: RT90X8YB | Price: € 899,–
+[934/1030] MediaMarkt | OK | RT90X8YB | 9.93s
+[MediaMarkt] Matched product found -> Product: W4X1085NWB | Price: € 529,–
+[935/1030] MediaMarkt | OK | W4X1085NWB | 8.74s
+[MediaMarkt] Matched product found -> Product: W7 | Price: € 599,–
+[936/1030] MediaMarkt | OK | W7 | 7.84s
+[MediaMarkt] Matched product found -> Product: WS25XA | Price: € 69,99
+[937/1030] MediaMarkt | OK | WS25XA | 8.80s
+Completion status: [False, True, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 63 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: OLED48C68LA | Price: €1,499.00
+[938/1030] OBS | OK | OLED48C68LA | 14.53s
+[OBS] Matched product found -> Product: OLED48G56LS | Price: €1,199.00
+[939/1030] OBS | OK | OLED48G56LS | 11.35s
+[OBS] Matched product found -> Product: OLED48G69LS | Price: €1,699.00
+[940/1030] OBS | OK | OLED48G69LS | 5.32s
+[OBS] Matched product found -> Product: OLED55B56LA | Price: €799.00
+[941/1030] OBS | OK | OLED55B56LA | 13.08s
+[OBS] Matched product found -> Product: OLED55B68LA | Price: €1,299.00
+[942/1030] OBS | OK | OLED55B68LA | 6.56s
+[OBS] Matched product found -> Product: OLED55C54LA | Price: €1,098.99
+[943/1030] OBS | OK | OLED55C54LA | 5.60s
+[OBS] Matched product found -> Product: OLED55C68LA | Price: €1,899.00
+[944/1030] OBS | OK | OLED55C68LA | 7.90s
+[OBS] Matched product found -> Product: OLED55G55LW | Price: €1,548.99
+[945/1030] OBS | OK | OLED55G55LW | 5.00s
+[OBS] Matched product found -> Product: OLED55G56LS | Price: €1,548.99
+[946/1030] OBS | OK | OLED55G56LS | 7.10s
+[OBS] Matched product found -> Product: OLED55G68LW | Price: €2,499.00
+[947/1030] OBS | OK | OLED55G68LW | 14.41s
+[OBS] Matched product found -> Product: OLED55G69LS | Price: €2,499.00
+[948/1030] OBS | OK | OLED55G69LS | 6.46s
+[OBS] Matched product found -> Product: OLED65B56LA | Price: €1,098.99
+[949/1030] OBS | OK | OLED65B56LA | 5.42s
+[OBS] Matched product found -> Product: OLED65B68LA | Price: €1,998.99
+[950/1030] OBS | OK | OLED65B68LA | 6.88s
+[OBS] Matched product found -> Product: OLED65C54LA | Price: €1,443.99
+[951/1030] OBS | OK | OLED65C54LA | 6.46s
+[OBS] Matched product found -> Product: OLED65C68LA | Price: €2,499.00
+[952/1030] OBS | OK | OLED65C68LA | 11.93s
+[OBS] Matched product found -> Product: OLED65G55LW | Price: €1,948.99
+[953/1030] OBS | OK | OLED65G55LW | 7.01s
+[OBS] Matched product found -> Product: OLED65G56LS | Price: €1,998.99
+[954/1030] OBS | OK | OLED65G56LS | 12.99s
+[OBS] Matched product found -> Product: OLED65G68LW | Price: €2,999.00
+[955/1030] OBS | OK | OLED65G68LW | 5.81s
+[OBS] Matched product found -> Product: OLED65G69LS | Price: €2,999.00
+[956/1030] OBS | OK | OLED65G69LS | 7.20s
+Completion status: [False, True, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 64 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for OLED83G55LW
+[957/1030] BK | OK | OLED83G55LW | 12.67s
+[BK] No results found for OLED83G68LW
+[958/1030] BK | OK | OLED83G68LW | 3.08s
+[BK] No results found for PU615U
+[959/1030] BK | OK | PU615U | 10.36s
+[BK] No results found for RH18U8AVCW
+[960/1030] BK | OK | RH18U8AVCW | 3.74s
+[BK] Matched product found -> Product: RH80V9AV4N | Price: 699,-
+[961/1030] BK | OK | RH80V9AV4N | 3.30s
+[BK] No results found for RH90V5AV6N
+[962/1030] BK | OK | RH90V5AV6N | 3.42s
+[BK] Matched product found -> Product: RH90V9AV3N | Price: 799,-
+[963/1030] BK | OK | RH90V9AV3N | 4.33s
+[BK] Matched product found -> Product: RH90V9ZVEN | Price: 749,-
+[964/1030] BK | OK | RH90V9ZVEN | 2.99s
+[BK] No results found for RHX5009THB
+[965/1030] BK | OK | RHX5009THB | 3.23s
+[BK] Matched product found -> Product: RHX5009TWB | Price: 649,-
+[966/1030] BK | OK | RHX5009TWB | 2.76s
+[BK] No results found for RHX5010THB
+[967/1030] BK | OK | RHX5010THB | 4.42s
+[BK] No results found for RT10X8B
+[968/1030] BK | OK | RT10X8B | 2.43s
+[BK] Matched product found -> Product: RT90X8 | Price: 849,-
+[969/1030] BK | OK | RT90X8 | 2.73s
+[BK] Matched product found -> Product: RT90X8YB | Price: 849,-
+[970/1030] BK | OK | RT90X8YB | 3.18s
+Completion status: [False, True, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 65 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: PU615U | Price: 1153
+[971/1030] BOL | OK | PU615U | 11.96s
+[BOL] Matched product found -> Product: RH18U8AVCW | Price: 1104
+[972/1030] BOL | OK | RH18U8AVCW | 4.58s
+[BOL] Matched product found -> Product: RH80V9AV4N | Price: 749
+[973/1030] BOL | OK | RH80V9AV4N | 5.03s
+[BOL] No matching product found for RH90V5AV6N
+[974/1030] BOL | OK | RH90V5AV6N | 13.12s
+[BOL] Matched product found -> Product: RH90V9AV3N | Price: 849
+[975/1030] BOL | OK | RH90V9AV3N | 10.20s
+[BOL] Matched product found -> Product: RH90V9ZVEN | Price: 799
+[976/1030] BOL | OK | RH90V9ZVEN | 3.84s
+[BOL] No matching product found for RHX5009THB
+[977/1030] BOL | OK | RHX5009THB | 3.31s
+[BOL] Matched product found -> Product: RHX5009TWB | Price: 699
+[978/1030] BOL | OK | RHX5009TWB | 3.85s
+[BOL] No matching product found for RHX5010THB
+[979/1030] BOL | OK | RHX5010THB | 3.90s
+[BOL] No matching product found for RT10X8B
+[980/1030] BOL | OK | RT10X8B | 3.20s
+[BOL] Matched product found -> Product: RT90X8 | Price: 839
+[981/1030] BOL | OK | RT90X8 | 4.86s
+[BOL] No matching product found for RT90X8YB
+[982/1030] BOL | OK | RT90X8YB | 3.30s
+Completion status: [False, True, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 66 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for OLED83G55LW
+[983/1030] CoolBlue | OK | OLED83G55LW | 10.83s
+[CoolBlue] No matching product found for OLED83G68LW
+[984/1030] CoolBlue | OK | OLED83G68LW | 11.97s
+[CoolBlue] No results for PU615U
+[985/1030] CoolBlue | OK | PU615U | 4.08s
+[CoolBlue] No results for RH18U8AVCW
+[986/1030] CoolBlue | OK | RH18U8AVCW | 8.28s
+[CoolBlue] No results for RH80V9AV4N
+[987/1030] CoolBlue | OK | RH80V9AV4N | 4.38s
+[CoolBlue] No results for RH90V5AV6N
+[988/1030] CoolBlue | OK | RH90V5AV6N | 4.65s
+[CoolBlue] No results for RH90V9AV3N
+[989/1030] CoolBlue | OK | RH90V9AV3N | 4.76s
+[CoolBlue] No results for RH90V9ZVEN
+[990/1030] CoolBlue | OK | RH90V9ZVEN | 4.40s
+[CoolBlue] No results for RHX5009THB
+[991/1030] CoolBlue | OK | RHX5009THB | 3.50s
+[CoolBlue] No results for RHX5009TWB
+[992/1030] CoolBlue | OK | RHX5009TWB | 3.57s
+[CoolBlue] No results for RHX5010THB
+[993/1030] CoolBlue | OK | RHX5010THB | 3.58s
+[CoolBlue] No results for RT10X8B
+[994/1030] CoolBlue | OK | RT10X8B | 4.36s
+[CoolBlue] No results for RT90X8
+[995/1030] CoolBlue | OK | RT90X8 | 3.25s
+[CoolBlue] No results for RT90X8YB
+[996/1030] CoolBlue | OK | RT90X8YB | 3.70s
+[CoolBlue] Matched product found -> Product: W4X1085NWB | Price: 554
+[997/1030] CoolBlue | OK | W4X1085NWB | 5.39s
+[CoolBlue] No results for W7
+[998/1030] CoolBlue | OK | W7 | 4.29s
+[CoolBlue] No results for WS25XA
+[999/1030] CoolBlue | OK | WS25XA | 3.82s
+Completion status: [True, True, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 67 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: OLED77B56LA | Price: €1,499.00
+[1000/1030] OBS | OK | OLED77B56LA | 13.87s
+[OBS] Matched product found -> Product: OLED77B68LA | Price:  
+[1001/1030] OBS | OK | OLED77B68LA | 11.48s
+[OBS] Matched product found -> Product: OLED77C54LA | Price: €2,198.99
+[1002/1030] OBS | OK | OLED77C54LA | 6.22s
+[OBS] Matched product found -> Product: OLED77C68LA | Price: €3,498.99
+[1003/1030] OBS | OK | OLED77C68LA | 6.94s
+[OBS] Matched product found -> Product: OLED77G55LW | Price: €2,999.00
+[1004/1030] OBS | OK | OLED77G55LW | 7.24s
+[OBS] Matched product found -> Product: OLED77G68LW | Price: €4,499.00
+[1005/1030] OBS | OK | OLED77G68LW | 8.49s
+[OBS] Matched product found -> Product: OLED83B56LA | Price: €2,198.99
+[1006/1030] OBS | OK | OLED83B56LA | 12.31s
+[OBS] Matched product found -> Product: OLED83C54LA | Price: €3,199.00
+[1007/1030] OBS | OK | OLED83C54LA | 6.19s
+[OBS] Matched product found -> Product: OLED83G55LW | Price:  
+[1008/1030] OBS | OK | OLED83G55LW | 7.43s
+[OBS] Matched product found -> Product: OLED83G68LW | Price: €5,498.99
+[1009/1030] OBS | OK | OLED83G68LW | 16.25s
+[OBS] Matched product found -> Product: PU615U | Price: €1,199.00
+[1010/1030] OBS | OK | PU615U | 12.84s
+[OBS] Matched product found -> Product: RH18U8AVCW | Price: €1,299.00
+[1011/1030] OBS | OK | RH18U8AVCW | 7.87s
+[OBS] Matched product found -> Product: RH80V9AV4N | Price: €809.01
+[1012/1030] OBS | OK | RH80V9AV4N | 6.55s
+[OBS] Matched product found -> Product: RH90V5AV6N | Price: €699.00
+[1013/1030] OBS | OK | RH90V5AV6N | 9.02s
+[OBS] Matched product found -> Product: RH90V9AV3N | Price: €699.00
+[1014/1030] OBS | OK | RH90V9AV3N | 7.70s
+Completion status: [True, True, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 68 =====
+
+Running site: BK
+ Cookies accepted
+[BK] Matched product found -> Product: W4X1085NWB | Price: 529,-
+[1015/1030] BK | OK | W4X1085NWB | 8.69s
+[BK] Matched product found -> Product: W7 | Price: 729,-
+[1016/1030] BK | OK | W7 | 10.67s
+[BK] No results found for WS25XA
+[1017/1030] BK | OK | WS25XA | 2.69s
+Completion status: [True, True, False, True, False]
+Cooldown: 15s
+
+
+===== SESSION 69 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: W4X1085NWB | Price: 579
+[1018/1030] BOL | OK | W4X1085NWB | 11.48s
+[BOL] Matched product found -> Product: W7 | Price: 00
+[1019/1030] BOL | OK | W7 | 3.80s
+[BOL] No matching product found for WS25XA
+[1020/1030] BOL | OK | WS25XA | 5.23s
+Completion status: [True, True, False, True, True]
+Cooldown: 11s
+
+
+===== SESSION 70 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: RH90V9ZVEN | Price: €859.00
+[1021/1030] OBS | OK | RH90V9ZVEN | 13.01s
+[OBS] Matched product found -> Product: RHX5009THB | Price: €799.00
+[1022/1030] OBS | OK | RHX5009THB | 5.87s
+[OBS] Matched product found -> Product: RHX5009TWB | Price: €699.00
+[1023/1030] OBS | OK | RHX5009TWB | 6.29s
+[OBS] Matched product found -> Product: RHX5010THB | Price: €849.00
+[1024/1030] OBS | OK | RHX5010THB | 7.36s
+[OBS] Matched product found -> Product: RT10X8B | Price: €949.00
+[1025/1030] OBS | OK | RT10X8B | 5.16s
+[OBS] Matched product found -> Product: RT90X8 | Price: €1,339.00
+[1026/1030] OBS | OK | RT90X8 | 10.94s
+[OBS] Matched product found -> Product: RT90X8YB | Price: €899.01
+[1027/1030] OBS | OK | RT90X8YB | 12.89s
+[OBS] Matched product found -> Product: W4X1085NWB | Price: €529.00
+[1028/1030] OBS | OK | W4X1085NWB | 6.23s
+[OBS] Matched product found -> Product: W7 | Price: €599.00
+[1029/1030] OBS | OK | W7 | 6.17s
+[OBS] Matched product found -> Product: WS25XA | Price: €39.00
+[1030/1030] OBS | OK | WS25XA | 5.88s
+Completion status: [True, True, True, True, True]
+All scraping Completed.
+
+Saved results: D:\0_YG Project\0_Python Practice\Scraper\dist\result\Price Tracker_2026-06-29_v1.xlsx
+
+ Scraping completed.
+
+
+ Total execution time: 2:36:30
+

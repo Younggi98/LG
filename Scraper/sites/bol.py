@@ -26,7 +26,7 @@ class site_bol(BaseSite):
     def accept_cookies(self, driver):
         try:
             driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
-            print("✅ Cookies accepted")
+            print(" Cookies accepted")
             random_wait(1,2)
         except:
             print("No cookie popup found")
@@ -78,37 +78,37 @@ class site_bol(BaseSite):
         try:
             search_url = f"https://www.bol.com/nl/nl/s/?searchtext={model}"
 
-            if random.random() < 0.01:
-                driver.get(self.base_url)
+            # if random.random() < 0.01:
+            #     driver.get(self.base_url)
 
-                # handle cookies only when needed
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    random_wait(2, 4)
-                    self.accept_settings(driver)
-                    self.initialized = True
+            #     # handle cookies only when needed
+            #     if not self.initialized:
+            #         random_wait(2, 3)
+            #         self.accept_cookies(driver)
+            #         random_wait(2, 4)
+            #         self.accept_settings(driver)
+            #         self.initialized = True
 
-                random_wait(2, 4)
+            #     random_wait(2, 4)
 
-                # optional scroll
-                if random.random() < 0.3:
-                    random_scroll(driver)
+            #     # optional scroll
+            #     if random.random() < 0.3:
+            #         random_scroll(driver)
 
-                # perform real typing search
-                self.search_model(driver, model)
-            else:
+            #     # perform real typing search
+            #     self.search_model(driver, model)
+            # else:
                 # --- direct URL search (fast + stable) ---
-                driver.get(search_url)
-
-                # cookies still needed occasionally
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    self.accept_settings(driver)
-                    self.initialized = True
-                if random.random() < 0.2:
-                    random_scroll(driver)
+                
+            driver.get(search_url)
+            # cookies still needed occasionally
+            if not self.initialized:
+                random_wait(2, 3)
+                self.accept_cookies(driver)
+                self.accept_settings(driver)
+                self.initialized = True
+            if random.random() < 0.2:
+                random_scroll(driver)
 
             random_wait(2, 4)
             

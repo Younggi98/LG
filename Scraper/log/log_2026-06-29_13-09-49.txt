@@ -1,0 +1,235 @@
+ Logging to file: d:\0_YG Project\0_Python Practice\Scraper\log\log_2026-06-29_13-09-49.txt
+
+Starting scraping...
+
+Progress will be shown live in this console window.
+
+
+===== SESSION 1 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for GBBSJ11DEP
+[1/25] CoolBlue | OK | GBBSJ11DEP | 18.89s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 2 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for GBBSJ11DEP
+[2/25] MediaMarkt | OK | GBBSJ11DEP | 12.51s
+Completion status: [False, False, False, False, False]
+Cooldown: 10s
+
+
+===== SESSION 3 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: GBBSJ11DEP | Price: €549.00
+[3/25] OBS | OK | GBBSJ11DEP | 23.45s
+Completion status: [False, False, False, False, False]
+Cooldown: 8s
+
+
+===== SESSION 4 =====
+
+Running site: BK
+ Cookies accepted
+[BK] Matched product found -> Product: GBBSJ11DEP | Price: 549,74
+[4/25] BK | OK | GBBSJ11DEP | 6.14s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 5 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: GBBSJ11DEP | Price: 519
+[5/25] BOL | OK | GBBSJ11DEP | 12.36s
+[BOL] No matching product found for F4WX809Y
+[6/25] BOL | OK | F4WX809Y | 3.63s
+Completion status: [False, False, False, False, False]
+Cooldown: 14s
+
+
+===== SESSION 6 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for F4WX809Y
+[7/25] CoolBlue | OK | F4WX809Y | 10.71s
+Completion status: [False, False, False, False, False]
+Cooldown: 12s
+
+
+===== SESSION 7 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for F4WX809Y
+[8/25] MediaMarkt | OK | F4WX809Y | 11.22s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 8 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: F4WX809Y | Price: €1,339.00
+[9/25] OBS | OK | F4WX809Y | 15.16s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 9 =====
+
+Running site: BK
+ Cookies accepted
+[BK] Matched product found -> Product: F4WX809Y | Price: 799,-
+[10/25] BK | OK | F4WX809Y | 7.80s
+[BK] Matched product found -> Product: W4X1095NWB | Price: 555,-
+[11/25] BK | OK | W4X1095NWB | 3.23s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 10 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] Matched product found -> Product: W4X1095NWB | Price: 528
+[12/25] BOL | OK | W4X1095NWB | 12.25s
+Completion status: [False, False, False, False, False]
+Cooldown: 15s
+
+
+===== SESSION 11 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] Matched product found -> Product: W4X1095NWB | Price: 589
+[13/25] CoolBlue | OK | W4X1095NWB | 12.13s
+Completion status: [False, False, False, False, False]
+Cooldown: 13s
+
+
+===== SESSION 12 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] No results for W4X1095NWB
+[14/25] MediaMarkt | OK | W4X1095NWB | 13.44s
+[MediaMarkt] Matched product found -> Product: RHX5009THB | Price: € 799,–
+[15/25] MediaMarkt | OK | RHX5009THB | 16.15s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 13 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] Matched product found -> Product: W4X1095NWB | Price: €579.00
+[16/25] OBS | OK | W4X1095NWB | 11.41s
+[OBS] Matched product found -> Product: RHX5009THB | Price: €699.00
+[17/25] OBS | OK | RHX5009THB | 6.56s
+Completion status: [False, False, False, False, False]
+Cooldown: 11s
+
+
+===== SESSION 14 =====
+
+Running site: BK
+ Cookies accepted
+[BK] No results found for RHX5009THB
+[18/25] BK | OK | RHX5009THB | 12.51s
+[BK] No results found for MJ3965BPS
+[19/25] BK | OK | MJ3965BPS | 10.53s
+Completion status: [False, False, False, True, False]
+Cooldown: 10s
+
+
+===== SESSION 15 =====
+
+Running site: BOL
+ Cookies accepted
+No popup found
+[BOL] Failed: RHX5009THB - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff62b873fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff62b874000+14980]
+	chromedriver!(No symbol) [0x7ff62b3b793d]
+	chromedriver!(No symbol) [0x7ff62b411aad]
+	chromedriver!(No symbol) [0x7ff62b411dac]
+	chromedriver!(No symbol) [0x7ff62b4627d7]
+	chromedriver!(No symbol) [0x7ff62b45f39b]
+	chromedriver!(No symbol) [0x7ff62b40401c]
+	chromedriver!(No symbol) [0x7ff62b404f43]
+	chromedriver!GetHandleVerifier [0x7ff62be57591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff62be51902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff62be77115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff62b891dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff62b89a82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff62b87d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff62b87d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff62b861447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffa1edde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffa1fb2c53c+2c]
+
+[BOL] Retrying once...
+[BOL] No matching product found for RHX5009THB
+[TIMEOUT] RHX5009THB → retry 1/2
+[BOL] No matching product found for RHX5009THB
+[20/25] BOL | OK | RHX5009THB | 46.34s
+[BOL] Matched product found -> Product: MJ3965BPS | Price: 212
+[21/25] BOL | OK | MJ3965BPS | 14.14s
+Completion status: [False, False, False, True, True]
+Cooldown: 10s
+
+
+===== SESSION 16 =====
+
+Running site: CoolBlue
+ Cookies accepted
+[CoolBlue] No results for RHX5009THB
+[22/25] CoolBlue | OK | RHX5009THB | 8.83s
+[CoolBlue] No results for MJ3965BPS
+[23/25] CoolBlue | OK | MJ3965BPS | 4.13s
+Completion status: [True, False, False, True, True]
+Cooldown: 7s
+
+
+===== SESSION 17 =====
+
+Running site: MediaMarkt
+ Cookies accepted
+[MediaMarkt] Matched product found -> Product: MJ3965BPS | Price: € 350,96
+[24/25] MediaMarkt | OK | MJ3965BPS | 11.00s
+Completion status: [True, True, False, True, True]
+Cooldown: 15s
+
+
+===== SESSION 18 =====
+
+Running site: OBS
+ Cookies accepted
+[OBS] No matching product found for MJ3965BPS
+[25/25] OBS | OK | MJ3965BPS | 11.89s
+Completion status: [True, True, True, True, True]
+✅ All scraping finished early.
+
+Saved results: d:\0_YG Project\0_Python Practice\Scraper\result\HS Price Tracker_2026-06-29_v2.xlsx
+
+ Scraping completed.
+
+
+ Total execution time: 0:09:52
+

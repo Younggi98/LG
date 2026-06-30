@@ -26,7 +26,7 @@ class site_obs(BaseSite):
     def accept_cookies (self, driver):
         try:
             driver.find_element(By.XPATH, "//button[.='Alles accepteren']").click()
-            print("✅ Cookies accepted")
+            print(" Cookies accepted")
             
         except:
             print("No cookie popup found")
@@ -77,34 +77,32 @@ class site_obs(BaseSite):
         try:
             search_product_url = f"https://www.lg.com/nl/search/?search={model}&tab=product"
 
-            if random.random() < 0.01:
-                driver.get(self.search_url)
+            # if random.random() < 0.01:
+            #     driver.get(self.search_url)
 
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    self.initialized = True
+            #     if not self.initialized:
+            #         random_wait(2, 3)
+            #         self.accept_cookies(driver)
+            #         self.initialized = True
 
+            #     random_wait(3,4)
+
+            #     # ✅ optional scroll
+            #     if random.random() < 0.2:
+            #         random_scroll(driver)
+
+            #     # ✅ search
+            #     self.search_model(driver, model)
+            # else:
+            driver.get(search_product_url)
+            if not self.initialized:
+                random_wait(2, 3)
+                self.accept_cookies(driver)
                 random_wait(3,4)
+                self.initialized = True
 
-                # ✅ optional scroll
-                if random.random() < 0.2:
-                    random_scroll(driver)
-
-                # ✅ search
-                self.search_model(driver, model)
-            else:
-                driver.get(search_product_url)
-
-
-                if not self.initialized:
-                    random_wait(2, 3)
-                    self.accept_cookies(driver)
-                    random_wait(3,4)
-                    self.initialized = True
-
-                if random.random() < 0.2:
-                    random_scroll(driver)
+            if random.random() < 0.2:
+                random_scroll(driver)
             
             random_wait(2,4)
 
